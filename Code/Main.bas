@@ -164,15 +164,15 @@ Public Sub Main()
         .Range("A:C").RemoveDuplicates Columns:=Array(1, 2, 3), Header:=xlYes
         
         ' If an employee has the security role listed in Row 1 then show an X.
-        .Range("G2:M2000") _
-            .Formula = "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,G$1)>0,""X"","""")"
+        .Range("G2:M2000").Formula = _
+            "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,G$1)>0,""X"","""")"
         ' If an employee has a security role beginning with the text in Row 1 (minus the trailng "_X", show an X.
-        .Range("N2:P2000") _
-            .Formula = "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,LEFT(N$1,LEN(N$1) - 2) & ""*"")>0,""X"","""")"
+        .Range("N2:P2000").Formula = _
+            "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,LEFT(N$1,LEN(N$1) - 2) & ""*"")>0,""X"","""")"
         
         ' If the employee has any approver roles, show X
-        .Range("F2:F2000") _
-            .Formula = "=IF(COUNTIF($G2:$P2,""X"") > 0,""X"", """")"
+        .Range("F2:F2000").Formula = _
+            "=IF(COUNTIF($G2:$P2,""X"") > 0,""X"", """")"
         
         ' Replace formulas with plain text.
         ' We definitely do not want thousands of calculations happening needlessly after the initial run.
@@ -183,8 +183,8 @@ Public Sub Main()
         ' Issues should be indicated textually and NOT only using conditional formatting
         ' Color-based indicators are sometimes inaccessible to those with colorblindness.
         ' Conditional formatting using color is acceptable in addition to non-color visual indicators.
-        .Range("Q2:Q2000") _
-            .Formula = "=IF(AND($C2 =""I"", $F2 = ""X""), ""Inactive Employee with Approval Roles!"", """")"
+        .Range("Q2:Q2000").Formula = _
+            "=IF(AND($C2 =""I"", $F2 = ""X""), ""Inactive Employee with Approval Roles!"", """")"
         
         
     End With
