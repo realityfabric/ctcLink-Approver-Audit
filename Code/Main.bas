@@ -179,7 +179,8 @@ Public Sub Main()
             "=IF(COUNTIFS(Departments!H:H,$A2) > 0,""X"","""")"
 
         ' If the employee is an expense approver, show X
-        ' TODO
+        .Range("E2:E2000").Formula = _
+            "=IF(COUNTIFS('Expense Approvers'!C:C,$A2) > 0, ""X"","""")"
 
         ' Replace formulas with plain text.
         ' We definitely do not want thousands of calculations happening needlessly after the initial run.
@@ -192,7 +193,6 @@ Public Sub Main()
         ' Conditional formatting using color is acceptable in addition to non-color visual indicators.
         .Range("Q2:Q2000").Formula = _
             "=IF(AND($C2 =""I"", $F2 = ""X""), ""Inactive Employee with Approval Roles!"", """")"
-        
         
     End With
     
