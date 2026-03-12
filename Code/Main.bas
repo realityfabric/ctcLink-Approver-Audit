@@ -135,6 +135,8 @@ Public Sub Main()
             "EmplID", _
             "Name", _
             "HR Status", _
+            "Department Manager", _
+            "Travel Approver", _
             "PU/AP Approver", _
             "ZZ Purchasing Approval", _
             "ZZ Requisition Approval", _
@@ -150,27 +152,27 @@ Public Sub Main()
         
         ' Apply the headers to Row 1, then make it pretty.
         .Range("A1").Resize(ColumnSize:=UBound(headerArray) + 1).Value2 = headerArray
-        .Range("C1:N1").Orientation = xlDownward
-        .Range("C1:N1").VerticalAlignment = xlVAlignCenter
+        .Range("C1:P1").Orientation = xlDownward
+        .Range("C1:P1").VerticalAlignment = xlVAlignCenter
         
         ' Copy EmplIDs and Names, then HR Status, then make it pretty.
         wsSecurityRoles.Range("C3:D20000").Copy .Range("A2")
         wsSecurityRoles.Range("K3:K20000").Copy .Range("C2")
-        .Range("A:O").Columns.AutoFit
+        .Range("A:Q").Columns.AutoFit
         
         ' Remove duplicate EmplID, Name, HR Status combos.
         .Range("A:C").RemoveDuplicates Columns:=Array(1, 2, 3), Header:=xlYes
         
         ' If an employee has the security role listed in Row 1 then show an X.
-        .Range("E2:K2000") _
-            .Formula = "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,E$1)>0,""X"","""")"
+        .Range("G2:M2000") _
+            .Formula = "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,G$1)>0,""X"","""")"
         ' If an employee has a security role beginning with the text in Row 1 (minus the trailng "_X", show an X.
-        .Range("L2:N2000") _
-            .Formula = "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,LEFT(H$1,LEN(H$1) - 2) & ""*"")>0,""X"","""")"
+        .Range("N2:P2000") _
+            .Formula = "=IF(COUNTIFS('User Roles'!$C:$C,$A2,'User Roles'!$G:$G,LEFT(N$1,LEN(N$1) - 2) & ""*"")>0,""X"","""")"
         
         ' If the employee has any approver roles, show X
-        .Range("D2:D2000") _
-            .Formula = "=IF(COUNTIF($E2:$N2,""X"") > 0,""X"", """")"
+        .Range("F2:F2000") _
+            .Formula = "=IF(COUNTIF($G2:$P2,""X"") > 0,""X"", """")"
         
         ' Replace formulas with plain text.
         ' We definitely do not want thousands of calculations happening needlessly after the initial run.
@@ -181,8 +183,8 @@ Public Sub Main()
         ' Issues should be indicated textually and NOT only using conditional formatting
         ' Color-based indicators are sometimes inaccessible to those with colorblindness.
         ' Conditional formatting using color is acceptable in addition to non-color visual indicators.
-        .Range("O2:O2000") _
-            .Formula = "=IF(AND($C2 =""I"", $D2 = ""X""), ""Inactive Employee with Approval Roles!"", """")"
+        .Range("Q2:Q2000") _
+            .Formula = "=IF(AND($C2 =""I"", $F2 = ""X""), ""Inactive Employee with Approval Roles!"", """")"
         
         
     End With
