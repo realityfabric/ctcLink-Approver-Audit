@@ -175,7 +175,8 @@ Public Sub Main()
             "=IF(COUNTIF($G2:$P2,""X"") > 0,""X"", """")"
 
         ' If the employee is a department manager, show X
-        ' TODO
+        .Range("D2:D2000").Formula = _
+            "=IF(COUNTIFS(Departments!H:H,$A2) > 0,""X"","""")"
 
         ' If the employee is an expense approver, show X
         ' TODO
