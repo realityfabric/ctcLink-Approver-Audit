@@ -173,7 +173,13 @@ Public Sub Main()
         ' If the employee has any approver roles, show X
         .Range("F2:F2000").Formula = _
             "=IF(COUNTIF($G2:$P2,""X"") > 0,""X"", """")"
-        
+
+        ' If the employee is a department manager, show X
+        ' TODO
+
+        ' If the employee is an expense approver, show X
+        ' TODO
+
         ' Replace formulas with plain text.
         ' We definitely do not want thousands of calculations happening needlessly after the initial run.
         .UsedRange.Value2 = .UsedRange.Value2
