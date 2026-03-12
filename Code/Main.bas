@@ -186,14 +186,28 @@ Public Sub Main()
         ' We definitely do not want thousands of calculations happening needlessly after the initial run.
         .UsedRange.Value2 = .UsedRange.Value2
         
-        ' Issue Detection, this should not be replaced with plain text
-        ' The end-user should be able to read the formula to determine what the issue criteria is
+        ' Issue Detection
         ' Issues should be indicated textually and NOT only using conditional formatting
         ' Color-based indicators are sometimes inaccessible to those with colorblindness.
         ' Conditional formatting using color is acceptable in addition to non-color visual indicators.
-        .Range("Q2:Q2000").Formula = _
+        
+        ' Is the employee inactive with approval roles?
+        .Range("R2:R2000").Formula = _
             "=IF(AND($C2 =""I"", $F2 = ""X""), ""Inactive Employee with Approval Roles!"", """")"
         
+        ' Is the employee inactive and a Department Manager?
+        .Range("S2:S2000").Formula = _
+            "=IF(AND($C2 =""I"", $D2 = ""X""), ""Inactive Employee is Department Manager!"", """")"
+        
+        ' Is the employee inactive and an Expense Approver?
+        .Range("T2:T2000").Formula = _
+            "=IF(AND($C2 =""I"", $E2 = ""X""), ""Inactive Employee is Expense Approver!"", """")"
+        
+        ' Combine issue checks into a single cell, convert to plain text
+        '   then delete extraneous
+        .Range("Q2:Q2000").Formula = "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2))"
+        .Range("Q2:Q2000").Value2 = .Range("Q2:Q2000").Value2
+        .Range("R:T").Columns.Delete
     End With
     
 End Sub
