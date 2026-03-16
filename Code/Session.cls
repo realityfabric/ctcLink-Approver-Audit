@@ -11,12 +11,25 @@ Attribute VB_Exposed = False
 Option Explicit
 
 Private Type TSession
+   FormClosedWithoutRunning As Boolean
    fUserRoles As String ' QFS_SEC_USER_ROLES_BY_UNIT
    fDepartments As String ' ALL_DEPTS_BY_SETID
    fExpenseApprovers As String ' QFS_SEC_OPR_EXP_APPRVR
    fApprovalSetup As String ' QFS_SEC_EOAW_APPROVAL_SETUP
 End Type
 Private this As TSession
+
+Private Sub Class_Initialize()
+    this.FormClosedWithoutRunning = True
+End Sub
+
+Public Property Let FormClosedWithoutRunning(ByVal Value As Boolean)
+    this.FormClosedWithoutRunning = Value
+End Property
+
+Public Property Get FormClosedWithoutRunning() As Boolean
+    FormClosedWithoutRunning = this.FormClosedWithoutRunning
+End Property
 
 Public Property Let fUserRoles(ByVal Value As String)
     this.fUserRoles = Value

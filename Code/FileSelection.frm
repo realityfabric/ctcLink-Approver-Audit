@@ -82,6 +82,7 @@ Private Sub BtnStart_Click()
         Main.Sesh.fDepartments = Me.TextBoxDepartments.Value
         Main.Sesh.fExpenseApprovers = Me.TextBoxExpenseApprovers.Value
         Main.Sesh.fUserRoles = Me.TextBoxSecurityRoles.Value
+        Main.Sesh.FormClosedWithoutRunning = False
         Me.Hide
     Else
         MsgBox "Please ensure that all files have been selected." _

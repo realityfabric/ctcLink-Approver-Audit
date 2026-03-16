@@ -44,7 +44,10 @@ Public Sub Main()
     Dim wsSecurityRoles As Worksheet
     Dim wsApproverRolesOverview As Worksheet
     
+    ' Show file selection form
     FileSelection.Show
+    ' if file selection form was closed without clicking the button to run this application then terminate
+    If Sesh.FormClosedWithoutRunning Then Exit Sub
     
     Set wbOutput = Workbooks.Add
     With wbOutput
