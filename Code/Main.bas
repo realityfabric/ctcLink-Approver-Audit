@@ -206,11 +206,15 @@ Public Sub Main()
         .Range("T2:T2000").Formula = _
             "=IF(AND($C2 =""I"", $E2 = ""X""), ""Inactive Employee is Expense Approver!"", """")"
         
+        ' Is the employee inactive and has AWE routing roles?
+        .Range("U2:U2000").Formula = _
+            "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
+        
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
-        .Range("Q2:Q2000").Formula = "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2))"
+        .Range("Q2:Q2000").Formula = "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2))"
         .Range("Q2:Q2000").Value2 = .Range("Q2:Q2000").Value2
-        .Range("R:T").Columns.Delete
+        .Range("R:U").Columns.Delete
     End With
     
 End Sub
