@@ -210,6 +210,8 @@ Public Sub Main()
         ' Is the employee inactive and has AWE routing roles?
         .Range("U2:U2000").Formula = _
             "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
+        
+        ' Department Manager not assigned to Expense Approvals for relevant departments
 
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
@@ -219,3 +221,26 @@ Public Sub Main()
     End With
     
 End Sub
+
+Private Function AddExpenseApprovalsToCollection(ByVal wsExpenseApprovals As Worksheet) As Collection
+    Dim EACollection As Collection
+    Dim EA As ExpenseApproval
+    Dim rg As Range
+    Dim RowIndex As Long
+    Dim RowCount As Long
+    Set EACollection = New Collection
+    
+    Set rg = wsExpenseApprovals.UsedRange
+    RowCount = rg.Rows
+    
+    RowIndex = 3
+    Do While RowIndex < RowCount
+        EA.ReadExpenseApprovalFromWorksheet wsExpenseApproval, RowIndex
+        EACollection.Add EA
+        Set EA = Nothing
+
+        RowIndex = RowIndex + 1
+    Loop
+
+    AddExpenseApprovalsToCollection = EACollection
+End Function
