@@ -100,3 +100,8 @@ Public Sub ReadExpenseApprovalFromWorksheet(ByVal ws As Worksheet, ByVal Row As 
     LastName = DataArray(1, 7)
     FirstName = DataArray(1, 8)
 End Sub
+
+Public Function DepartmentInRange(ByVal DeptID As String) As Boolean
+    DepartmentInRange = DeptID >= this.FromChartfield And DeptID <= this.ToChartfield
+End Function
+

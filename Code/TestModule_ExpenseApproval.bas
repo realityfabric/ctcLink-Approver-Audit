@@ -24,10 +24,10 @@ End Sub
 Private Sub ModuleCleanup()
     'this method runs once per module.
     Dim DisplayAlerts As Boolean
-    
+
     Set Assert = Nothing
     Set Fakes = Nothing
-    
+
     ' Save Application.DisplayAlerts value, set to False, delete the test sheet,
     '  then set Application.DisplayAlerts back to its previous value.
     DisplayAlerts = Application.DisplayAlerts
@@ -49,7 +49,7 @@ Private Sub TestInitialize()
             "Last Name", _
             "First Name" _
         )
-        
+
         .Range("A2:H2").Value2 = Array( _
             "WA190", _
             "EXAPPROVER", _
@@ -73,25 +73,181 @@ End Sub
 '@TestMethod("Uncategorized")
 Private Sub TestMethod_ReadExpenseApprovalFromWorksheet_NoFail()
     On Error GoTo TestFail
-    
+
     'Arrange:
     '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
-    
+
     'Act:
     EA.ReadExpenseApprovalFromWorksheet TestWorksheet, 2
-    
+
     'Assert:
     Assert.Succeed
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
     On Error Resume Next
-    
+
     Exit Sub
 TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DeptID_IsInRange_OneDeptID()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+
+    EA.FromChartfield = "00000"
+    EA.ToChartfield = "00000"
+
+    'Act:
+    'Assert:
+    Assert.IsTrue EA.DepartmentInRange("00000")
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DeptID_IsNotInRange_1DeptID()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+
+    EA.FromChartfield = "00000"
+    EA.ToChartfield = "00000"
+
+    'Act:
+    'Assert:
+    Assert.IsFalse EA.DepartmentInRange("00001")
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DeptID_IsInRange_2DeptID()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+
+    EA.FromChartfield = "00000"
+    EA.ToChartfield = "00001"
+
+    'Act:
+    'Assert:
+    Assert.IsTrue EA.DepartmentInRange("00000")
+    Assert.IsTrue EA.DepartmentInRange("00001")
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DeptID_IsNotInRange_2DeptID()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+
+    EA.FromChartfield = "00000"
+    EA.ToChartfield = "00001"
+
+    'Act:
+    'Assert:
+    Assert.IsFalse EA.DepartmentInRange("00002")
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DeptID_IsInRange_AlphaNumeric()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+
+    EA.FromChartfield = "ABC00"
+    EA.ToChartfield = "ABC99"
+
+    'Act:
+    'Assert:
+    Assert.IsTrue EA.DepartmentInRange("ABC00")
+    Assert.IsTrue EA.DepartmentInRange("ABC99")
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DeptID_IsInRange_AlphaNumeric_NotFromOrTo()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+
+    EA.FromChartfield = "ABC00"
+    EA.ToChartfield = "ABC99"
+
+    'Act:
+    'Assert:
+    Assert.IsTrue EA.DepartmentInRange("ABC25")
+    Assert.IsTrue EA.DepartmentInRange("ABC50")
+    Assert.IsTrue EA.DepartmentInRange("ABC75")
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
 
