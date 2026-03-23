@@ -37,6 +37,7 @@ Public Sub Main()
     Dim wbExpenseApprovers As Workbook
     Dim wbSecurityRoles As Workbook
     
+    '@Ignore UseMeaningfulName
     Dim ws As Worksheet
     Dim wsApprovalSetup As Worksheet
     Dim wsDepartments As Worksheet
@@ -209,7 +210,7 @@ Public Sub Main()
         ' Is the employee inactive and has AWE routing roles?
         .Range("U2:U2000").Formula = _
             "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
-        
+
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
         .Range("Q2:Q2000").Formula = "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2))"

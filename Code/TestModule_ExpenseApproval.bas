@@ -70,11 +70,12 @@ Private Sub TestCleanup()
     End With
 End Sub
 
-'@TestMethod("Doesn't Crash")
-Private Sub TestMethod_ReadExpenseApprovalFromWorksheet_NoCrash()
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadExpenseApprovalFromWorksheet_NoFail()
     On Error GoTo TestFail
     
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
     
@@ -93,3 +94,4 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+

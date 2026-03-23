@@ -86,6 +86,7 @@ Public Property Get FirstName() As String
     FirstName = this.FirstName
 End Property
 
+'@Ignore UseMeaningfulName
 Public Sub ReadExpenseApprovalFromWorksheet(ByVal ws As Worksheet, ByVal Row As Long)
     Dim DataArray As Variant
     DataArray = ws.Range("A" & Row & ":H" & Row).Value2
