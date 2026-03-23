@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} FileSelection 
    Caption         =   "FileSelection"
-   ClientHeight    =   5055
-   ClientLeft      =   105
-   ClientTop       =   450
-   ClientWidth     =   9990.001
+   ClientHeight    =   3216
+   ClientLeft      =   -84
+   ClientTop       =   -312
+   ClientWidth     =   7944
    OleObjectBlob   =   "FileSelection.frx":0000
    StartUpPosition =   1  'CenterOwner
 End
@@ -15,6 +15,45 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 '@Folder("Forms")
 Option Explicit
+
+Private Sub UserForm_Initialize()
+    With Me
+        .BackColor = &H8000000F
+        .BorderColor = &H80000012
+        .BorderStyle = fmBorderStyleNone
+        .Caption = "File Selection"
+        .Cycle = fmCycleAllForms
+        .DrawBuffer = 32000
+        .Enabled = True
+        .Font.Name = "Tahoma"
+        .ForeColor = &H80000012
+        .Height = 280.8
+        .HelpContextID = 0
+        .KeepScrollBarsVisible = fmScrollBarsBoth
+        .Left = -8.4
+        '.MouseIcon = (None)
+        .MousePointer = fmMousePointerDefault
+        '.Picture = (None)
+        .PictureAlignment = fmPictureAlignmentCenter
+        .PictureSizeMode = fmPictureSizeModeClip
+        .PictureTiling = False
+        .RightToLeft = False
+        .ScrollBars = fmScrollBarsNone
+        .ScrollHeight = 0
+        .ScrollLeft = 0
+        .ScrollTop = 0
+        .ScrollWidth = 0
+        '.ShowModal = True ' .ShowModal isn't a method or property
+        .SpecialEffect = fmSpecialEffectFlat
+        .StartUpPosition = 1 ' CenterOwner
+        '.Tag = [blank]
+        .Top = -33.6
+        '.WhatsThisButton = False ' Restricted, can't use in VB
+        '.WhatsThisHelp = False ' Restricted, can't use in VB
+        .Width = 507.6
+        .Zoom = 100
+    End With
+End Sub
 
 Private Sub BtnSelectApprovalSetup_Click()
     '@Ignore UseMeaningfulName
@@ -89,3 +128,6 @@ Private Sub BtnStart_Click()
         , vbExclamation
     End If
 End Sub
+
+
+
