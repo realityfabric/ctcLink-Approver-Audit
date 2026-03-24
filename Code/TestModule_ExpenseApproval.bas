@@ -70,7 +70,7 @@ Private Sub TestCleanup()
     End With
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("No Fail")
 Private Sub TestMethod_ReadExpenseApprovalFromWorksheet_NoFail()
     On Error GoTo TestFail
 
@@ -96,7 +96,7 @@ TestFail:
 End Sub
 
 
-'@TestMethod("Uncategorized")
+'@TestMethod("Compare")
 Private Sub TestMethod_DeptID_IsInRange_OneDeptID()
     On Error GoTo TestFail
 
@@ -122,7 +122,7 @@ TestFail:
     Resume TestExit
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("Compare")
 Private Sub TestMethod_DeptID_IsNotInRange_1DeptID()
     On Error GoTo TestFail
 
@@ -148,7 +148,7 @@ TestFail:
     Resume TestExit
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("Compare")
 Private Sub TestMethod_DeptID_IsInRange_2DeptID()
     On Error GoTo TestFail
 
@@ -175,7 +175,7 @@ TestFail:
     Resume TestExit
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("Compare")
 Private Sub TestMethod_DeptID_IsNotInRange_2DeptID()
     On Error GoTo TestFail
 
@@ -201,7 +201,7 @@ TestFail:
     Resume TestExit
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("Compare")
 Private Sub TestMethod_DeptID_IsInRange_AlphaNumeric()
     On Error GoTo TestFail
 
@@ -228,7 +228,7 @@ TestFail:
     Resume TestExit
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("Compare")
 Private Sub TestMethod_DeptID_IsInRange_AlphaNumeric_NotFromOrTo()
     On Error GoTo TestFail
 
