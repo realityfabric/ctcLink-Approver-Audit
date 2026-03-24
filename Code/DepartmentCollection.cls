@@ -57,7 +57,7 @@ Public Function Filter(Optional ByVal EmplID As String = vbNullString) As Depart
     Set FilteredDepartmentCollection = New DepartmentCollection
 
     For Each Dept In this.Departments
-        If (EmplID = vbNullString Or Dept.EmplID = EmplID) Then
+        If (EmplID = vbNullString Or Dept.ManagerID = EmplID) Then
             FilteredDepartmentCollection.Add Dept
         End If
     Next Dept
