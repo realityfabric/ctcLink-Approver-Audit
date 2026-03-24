@@ -7,7 +7,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
-'@Folder("ApproverValidation")
+'@Folder("T&E")
 Option Explicit
 
 Private Type TExpenseApproval
@@ -104,4 +104,5 @@ End Sub
 Public Function DepartmentInRange(ByVal DeptID As String) As Boolean
     DepartmentInRange = DeptID >= this.FromChartfield And DeptID <= this.ToChartfield
 End Function
+
 
