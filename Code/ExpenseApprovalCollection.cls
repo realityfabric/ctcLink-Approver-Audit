@@ -74,7 +74,7 @@ Public Function Filter(Optional ByVal ApproverType As String = vbNullString, _
                        Optional ByVal DeptID As String = vbNullString, _
                        Optional ByVal EmplID As String = vbNullString, _
                        Optional ByVal FirstName As String = vbNullString, _
-                       Optional ByVal LastName As String = vbNullString)
+                       Optional ByVal LastName As String = vbNullString) As ExpenseApprovalCollection
     Dim FilteredEAC As ExpenseApprovalCollection
     '@Ignore UseMeaningfulName
     Dim EA As Variant ' ExpenseApproval, but used in For Each loop
