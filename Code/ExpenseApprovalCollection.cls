@@ -69,3 +69,34 @@ Public Sub CreateExpenseApprovalCollectionFromWorksheet(ByVal wsExpenseApprovals
     Loop
 End Sub
 
+Public Function Filter(Optional ByVal ApproverType As String = vbNullString, _
+                       Optional ByVal BusinessUnit As String = vbNullString, _
+                       Optional ByVal DeptID As String = vbNullString, _
+                       Optional ByVal EmplID As String = vbNullString, _
+                       Optional ByVal FirstName As String = vbNullString, _
+                       Optional ByVal LastName As String = vbNullString)
+    Dim FilteredEAC As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EA As Variant ' ExpenseApproval, but used in For Each loop
+    Set FilteredEAC = New ExpenseApprovalCollection
+    
+    ' If the ExpenseApproval matches all of the non null criteria
+    '   then add it to the filtered list
+    '   If all criteria are null strings then all of the EAs will
+    '   be added to the filtered EAC
+    For Each EA In this.ExpenseApprovals
+        If (ApproverType = vbNullString Or EA.ApproverType = ApproverType) And _
+           (BusinessUnit = vbNullString Or EA.BusinessUnit = BusinessUnit) And _
+           (DeptID = vbNullString Or EA.DepartmentInRange(DeptID)) And _
+           (EmplID = vbNullString Or EA.EmplID = EmplID) And _
+           (FirstName = vbNullString Or EA.FirstName = FirstName) And _
+           (LastName = vbNullString Or EA.LastName = LastName) _
+           Then
+            FilteredEAC.Add EA
+        End If
+    Next EA
+    
+    Set Filter = FilteredEAC
+End Function
+
+
