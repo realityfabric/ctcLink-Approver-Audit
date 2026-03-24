@@ -60,7 +60,10 @@ Public Sub Main()
     Dim wsExpenseApprovers As Worksheet
     Dim wsSecurityRoles As Worksheet
     Dim wsApproverRolesOverview As Worksheet
-    
+
+    Dim ExpenseApprovals As ExpenseApprovalCollection
+    Set ExpenseApprovals = New ExpenseApprovalCollection
+
     ' Show file selection form
     FileSelection.Show
     ' if file selection form was closed without clicking the button to run this application then terminate
@@ -228,6 +231,8 @@ Public Sub Main()
             "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
         
         ' Department Manager not assigned to Expense Approvals for relevant departments
+        ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovals
+        ' TODO compare ExpenseApprovals to Department Managers
 
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
