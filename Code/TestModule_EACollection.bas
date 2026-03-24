@@ -143,3 +143,99 @@ TestFail:
     Resume TestExit
 End Sub
 
+
+'@TestMethod("Filter")
+Private Sub TestMethod_FilterByEmplID_CorrectCount()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim EAC As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EACFiltered As ExpenseApprovalCollection
+    Set EAC = New ExpenseApprovalCollection
+    EAC.Add EA1
+    EAC.Add EA2
+    EAC.Add EA3
+    EAC.Add EA4
+    EAC.Add EA5
+    
+    'Act:
+    Set EACFiltered = EAC.Filter(EmplID:="1")
+    
+    'Assert:
+    Assert.IsTrue EACFiltered.Count = 1
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Filter")
+Private Sub TestMethod_FilterByEmplID_CorrectEmplID()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim EAC As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EACFiltered As ExpenseApprovalCollection
+    Set EAC = New ExpenseApprovalCollection
+    EAC.Add EA1
+    EAC.Add EA2
+    EAC.Add EA3
+    EAC.Add EA4
+    EAC.Add EA5
+    
+    'Act:
+    Set EACFiltered = EAC.Filter(EmplID:="1")
+    
+    'Assert:
+    Assert.IsTrue EACFiltered.Item(1).EmplID = "1"
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Filter")
+Private Sub TestMethod_FilterNone_CorrectCount()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim EAC As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EACFiltered As ExpenseApprovalCollection
+    Set EAC = New ExpenseApprovalCollection
+    EAC.Add EA1
+    EAC.Add EA2
+    EAC.Add EA3
+    EAC.Add EA4
+    EAC.Add EA5
+    
+    'Act:
+    Set EACFiltered = EAC.Filter()
+    
+    'Assert:
+    Assert.IsTrue EAC.Count = EACFiltered.Count
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
