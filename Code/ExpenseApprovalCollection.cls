@@ -35,3 +35,24 @@ Public Sub Remove(ByVal Index As Variant)
     this.ExpenseApprovals.Remove Index
 End Sub
 
+Public Sub CreateExpenseApprovalCollectionFromWorksheet(ByVal wsExpenseApprovals As Worksheet)
+    '@Ignore UseMeaningfulName
+    Dim EA As ExpenseApproval
+    '@Ignore UseMeaningfulName
+    Dim rg As Range
+    Dim RowIndex As Long
+    Dim RowCount As Long
+    
+    Set rg = wsExpenseApprovals.UsedRange
+    RowCount = rg.Rows
+    
+    RowIndex = 3
+    Do While RowIndex <= RowCount
+        EA.ReadExpenseApprovalFromWorksheet wsExpenseApprovals, RowIndex
+        this.Add EA
+        Set EA = Nothing
+
+        RowIndex = RowIndex + 1
+    Loop
+End Sub
+
