@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} FileSelection 
    Caption         =   "FileSelection"
-   ClientHeight    =   3216
-   ClientLeft      =   -84
-   ClientTop       =   -312
-   ClientWidth     =   7944
+   ClientHeight    =   2052
+   ClientLeft      =   -132
+   ClientTop       =   -492
+   ClientWidth     =   5076
    OleObjectBlob   =   "FileSelection.frx":0000
    StartUpPosition =   1  'CenterOwner
 End
@@ -13,6 +13,22 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+' Audit security roles and configurations for Approvals in ctcLink.
+'    Copyright (C) 2026 Jessica Fairchild aka Jessica Jones-Copeland
+'
+'    This program is free software: you can redistribute it and/or modify
+'    it under the terms of the GNU General Public License as published by
+'    the Free Software Foundation, either version 3 of the License, or
+'    (at your option) any later version.
+'
+'    This program is distributed in the hope that it will be useful,
+'    but WITHOUT ANY WARRANTY; without even the implied warranty of
+'    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+'    GNU General Public License for more details.
+'
+'    You should have received a copy of the GNU General Public License
+'    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 '@Folder("Forms")
 Option Explicit
 
