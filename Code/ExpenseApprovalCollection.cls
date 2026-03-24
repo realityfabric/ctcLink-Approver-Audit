@@ -28,7 +28,7 @@ Public Function Count() As Long
 End Function
 
 Public Function Item(ByVal Index As Variant) As ExpenseApproval
-    Item = this.ExpenseApprovals.Item(Index)
+    Set Item = this.ExpenseApprovals.Item(Index)
 End Function
 
 Public Sub Remove(ByVal Index As Variant)
