@@ -39,14 +39,10 @@ End Sub
 Public Sub CreateExpenseApprovalCollectionFromWorksheet(ByVal wsExpenseApprovals As Worksheet)
     '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
-    '@Ignore UseMeaningfulName
-    Dim rg As Range
     Dim RowIndex As Long
     Dim RowCount As Long
     
-    Set rg = wsExpenseApprovals.UsedRange
-    RowCount = rg.Rows
-    
+    RowCount = wsExpenseApprovals.UsedRange.Rows.Count
     RowIndex = 3
     Do While RowIndex <= RowCount
         EA.ReadExpenseApprovalFromWorksheet wsExpenseApprovals, RowIndex
