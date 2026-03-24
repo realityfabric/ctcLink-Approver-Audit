@@ -231,7 +231,7 @@ Public Sub Main()
             "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
         
         ' Department Manager not assigned to Expense Approvals for relevant departments
-        ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovals
+        ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovers
         ' TODO compare ExpenseApprovals to Department Managers
 
         ' Combine issue checks into a single cell, convert to plain text

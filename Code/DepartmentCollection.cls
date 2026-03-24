@@ -32,7 +32,7 @@ End Type
 Private this As TDepartmentCollection
 
 Private Sub Class_Initialize()
-    Set Departments = New Collection
+    Set this.Departments = New Collection
 End Sub
 
 Public Sub Add(ByVal Item As Department)
@@ -48,5 +48,5 @@ Public Function Count() As Long
 End Function
 
 Public Function Item(ByVal Index As Variant) As Department
-    Item = this.Departments.Item(Index)
+    Set Item = this.Departments.Item(Index)
 End Function
