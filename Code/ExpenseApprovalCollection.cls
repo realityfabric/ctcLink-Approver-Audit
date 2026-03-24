@@ -14,6 +14,10 @@ Private Type TExpenseApprovalCollection
 End Type
 Private this As TExpenseApprovalCollection
 
+Private Sub Class_Initialize()
+    Set this.ExpenseApprovals = New Collection
+End Sub
+
 ' TODO: Implement Key, Before, After
 Public Sub Add(ByVal NewItem As ExpenseApproval)
     this.ExpenseApprovals.Add NewItem
@@ -30,3 +34,4 @@ End Function
 Public Sub Remove(ByVal Index As Variant)
     this.ExpenseApprovals.Remove Index
 End Sub
+
