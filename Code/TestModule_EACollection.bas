@@ -40,7 +40,7 @@ Private Sub TestInitialize()
     
     EA1.ApproverType = "EXAPPROVER"
     EA1.BusinessUnit = "WA190"
-    EA1.DeptDesc = ""
+    EA1.DeptDesc = vbNullString
     EA1.EmplID = "1"
     EA1.FirstName = "Karl"
     EA1.LastName = "Marx"
@@ -49,7 +49,7 @@ Private Sub TestInitialize()
     
     EA2.ApproverType = "EXAPPROVER"
     EA2.BusinessUnit = "WA190"
-    EA2.DeptDesc = ""
+    EA2.DeptDesc = vbNullString
     EA2.EmplID = "2"
     EA2.FirstName = "Adam"
     EA2.LastName = "Smith"
@@ -58,7 +58,7 @@ Private Sub TestInitialize()
     
     EA3.ApproverType = "EXAPPROVER"
     EA3.BusinessUnit = "WA190"
-    EA3.DeptDesc = ""
+    EA3.DeptDesc = vbNullString
     EA3.EmplID = "3"
     EA4.FirstName = "John"
     EA5.LastName = "Keynes"
@@ -67,7 +67,7 @@ Private Sub TestInitialize()
     
     EA4.ApproverType = "EXAPPROVER"
     EA4.BusinessUnit = "WA190"
-    EA4.DeptDesc = ""
+    EA4.DeptDesc = vbNullString
     EA4.EmplID = "4"
     EA4.FirstName = "Ludwig"
     EA4.LastName = "Mises"
@@ -76,7 +76,7 @@ Private Sub TestInitialize()
     
     EA5.ApproverType = "EXAPPROVER"
     EA5.BusinessUnit = "WA190"
-    EA5.DeptDesc = ""
+    EA5.DeptDesc = vbNullString
     EA5.EmplID = "5"
     EA5.FirstName = "John"
     EA5.LastName = "Mill"
@@ -121,5 +121,4 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
-
 
