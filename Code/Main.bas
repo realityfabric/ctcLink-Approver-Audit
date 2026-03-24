@@ -222,7 +222,7 @@ Public Sub Main()
     
 End Sub
 
-Private Function AddExpenseApprovalsToCollection(ByVal wsExpenseApprovals As Worksheet) As Collection
+Private Function CreateExpenseApprovalCollection(ByVal wsExpenseApprovals As Worksheet) As Collection
     Dim EACollection As Collection
     Dim EA As ExpenseApproval
     Dim rg As Range
@@ -242,5 +242,5 @@ Private Function AddExpenseApprovalsToCollection(ByVal wsExpenseApprovals As Wor
         RowIndex = RowIndex + 1
     Loop
 
-    AddExpenseApprovalsToCollection = EACollection
+    CreateExpenseApprovalCollection = EACollection
 End Function
