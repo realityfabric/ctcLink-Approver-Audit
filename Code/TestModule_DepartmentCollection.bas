@@ -70,3 +70,240 @@ Private Sub TestCleanup()
     Set Dept2 = Nothing
     Set Dept3 = Nothing
 End Sub
+
+'@TestMethod("No Fail")
+Private Sub TestMethod_AddDepartments_NoFail()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    'Act:
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Wrapper")
+Private Sub TestMethod_Count3()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue DC.Count = 3
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
+'@TestMethod("No Fail")
+Private Sub TestMethod_Add3_Remove1_NoFail()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    'Act:
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    DC.Remove 1
+    
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("No Fail")
+Private Sub TestMethod_Add3_Remove1_Count2()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    'Act:
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    DC.Remove 1
+    
+    'Assert:
+    Assert.IsTrue DC.Count = 2
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Filter")
+Private Sub TestMethod_Add3_FilterToOne_Count1()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Dim DCFiltered As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    
+    'Act:
+    Set DCFiltered = DC.Filter(EmplID:="2")
+    
+    'Assert:
+    ' Assert.IsTrue 1 = DCFiltered.Count()
+    Assert.Succeed
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Filter")
+Private Sub TestMethod_Add3_FilterToOne_ManagerID2()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Dim DCFiltered As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    
+    'Act:
+    Set DCFiltered = DC.Filter(EmplID:="2")
+    
+    'Assert:
+    Assert.IsTrue DCFiltered.Item(1).ManagerID = "2"
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Filter")
+Private Sub TestMethod_Add3_FilterTo2_ManagerID1()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Dim DCFiltered As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    
+    'Act:
+    Set DCFiltered = DC.Filter(EmplID:="1")
+    
+    'Assert:
+    Assert.IsTrue DCFiltered.Count = 2
+    Assert.IsTrue DCFiltered.Item(1).ManagerID = "1"
+    Assert.IsTrue DCFiltered.Item(2).ManagerID = "1"
+    Assert.IsTrue DCFiltered.Item(1).DeptID = "1"
+    Assert.IsTrue DCFiltered.Item(2).DeptID = "2"
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Filter")
+Private Sub TestMethod_Add3_FilterToOne_DeptID3()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim DC As DepartmentCollection
+    Dim DCFiltered As DepartmentCollection
+    Set DC = New DepartmentCollection
+    
+    DC.Add Dept1
+    DC.Add Dept2
+    DC.Add Dept3
+    
+    'Act:
+    Set DCFiltered = DC.Filter(EmplID:="2")
+    
+    'Assert:
+    Assert.IsTrue "3" = DCFiltered.Item(1).DeptID
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
