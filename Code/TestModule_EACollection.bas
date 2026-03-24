@@ -9,11 +9,17 @@ Option Private Module
 Private Assert As Object
 Private Fakes As Object
 
+'@Ignore UseMeaningfulName
 Private EA1 As ExpenseApproval
+'@Ignore UseMeaningfulName
 Private EA2 As ExpenseApproval
+'@Ignore UseMeaningfulName
 Private EA3 As ExpenseApproval
+'@Ignore UseMeaningfulName
 Private EA4 As ExpenseApproval
+'@Ignore UseMeaningfulName
 Private EA5 As ExpenseApproval
+'@Ignore UseMeaningfulName
 
 '@ModuleInitialize
 Private Sub ModuleInitialize()
