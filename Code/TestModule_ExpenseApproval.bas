@@ -101,6 +101,7 @@ Private Sub TestMethod_DeptID_IsInRange_OneDeptID()
     On Error GoTo TestFail
 
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
 
@@ -126,6 +127,7 @@ Private Sub TestMethod_DeptID_IsNotInRange_1DeptID()
     On Error GoTo TestFail
 
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
 
@@ -151,6 +153,7 @@ Private Sub TestMethod_DeptID_IsInRange_2DeptID()
     On Error GoTo TestFail
 
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
 
@@ -177,6 +180,7 @@ Private Sub TestMethod_DeptID_IsNotInRange_2DeptID()
     On Error GoTo TestFail
 
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
 
@@ -202,6 +206,7 @@ Private Sub TestMethod_DeptID_IsInRange_AlphaNumeric()
     On Error GoTo TestFail
 
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
 
@@ -228,6 +233,7 @@ Private Sub TestMethod_DeptID_IsInRange_AlphaNumeric_NotFromOrTo()
     On Error GoTo TestFail
 
     'Arrange:
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EA = New ExpenseApproval
 
