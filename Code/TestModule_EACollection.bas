@@ -94,3 +94,32 @@ Private Sub TestCleanup()
     Set EA5 = Nothing
 End Sub
 
+'@TestMethod("No Fail")
+Private Sub TestMethod_EACAdd_NoFail()
+    On Error GoTo TestFail
+
+    'Arrange:
+    Dim EAC As ExpenseApprovalCollection
+    Set EAC = New ExpenseApprovalCollection
+
+    'Act:
+    EAC.Add EA1
+    EAC.Add EA2
+    EAC.Add EA3
+    EAC.Add EA4
+    EAC.Add EA5
+
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
