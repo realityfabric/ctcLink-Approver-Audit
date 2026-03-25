@@ -57,7 +57,7 @@ Public Property Get ManagerID() As String
     ManagerID = this.ManagerID
 End Property
 
-Public Sub ReadDepartmentFromWorksheet(ByVal ws As Worksheet, ByVal Row As Long)
+Public Sub ReadFromWorksheet(ByVal ws As Worksheet, ByVal Row As Long)
     Dim DataArray As Variant
     DataArray = ws.Range("A" & Row & ":H" & Row).Value2
     this.DeptID = DataArray(1, 2)

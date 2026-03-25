@@ -73,7 +73,7 @@ Public Sub ReadFromWorksheet(ByVal ws As Worksheet)
     RowIndex = 3
     Do While RowIndex <= ws.Rows.Count
         Set Dept = New Department
-        Dept.ReadDepartmentFromWorksheet ws, RowIndex
+        Dept.ReadFromWorksheet ws, RowIndex
         Add Dept
         Set Dept = Nothing
         RowIndex = RowIndex + 1
