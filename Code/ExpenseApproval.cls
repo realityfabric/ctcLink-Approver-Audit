@@ -121,4 +121,11 @@ Public Function DepartmentInRange(ByVal DeptID As String) As Boolean
     DepartmentInRange = DeptID >= this.FromChartfield And DeptID <= this.ToChartfield
 End Function
 
+'@Description "Compare a Department instance to this and determine if the approvers are not the same."
+Public Function DepartmentManagerMismatch(ByVal Dept As Department) As Boolean
+    DepartmentManagerMismatch = _
+        "EXAPPROVER" = this.ApproverType And _
+        DepartmentInRange(Dept.DeptID) And _
+        Dept.ManagerID <> this.EmplID
+End Function
 
