@@ -64,3 +64,18 @@ Public Function Filter(Optional ByVal EmplID As String = vbNullString) As Depart
 
     Set Filter = FilteredDepartmentCollection
 End Function
+
+' TODO: Rename
+Public Sub ReadFromWorksheet(ByVal ws As Worksheet)
+    Dim RowIndex As Long
+    Dim Dept As Department
+
+    RowIndex = 3
+    Do While RowIndex <= ws.Rows.Count
+        Set Dept = New Department
+        Dept.ReadDepartmentFromWorksheet ws, RowIndex
+        Add Dept
+        Set Dept = Nothing
+        RowIndex = RowIndex + 1
+    Loop
+End Sub
