@@ -66,8 +66,7 @@ Public Function Filter(Optional ByVal EmplID As String = vbNullString) As Depart
 End Function
 
 '@Description "Add Department instances to this object from a worksheet containing the ALL_DEPTS_BY_SETID query."
-Public Sub ReadFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet)
-    ' TODO: Rename Sub
+Public Sub AddDepartmentsFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet)
     Dim RowIndex As Long
     Dim Dept As Department
 
