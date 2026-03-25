@@ -206,8 +206,7 @@ Private Sub TestMethod_Add3_FilterToOne_Count1()
     Set DCFiltered = DC.Filter(EmplID:="2")
     
     'Assert:
-    ' Assert.IsTrue 1 = DCFiltered.Count()
-    Assert.Succeed
+    Assert.IsTrue 1 = DCFiltered.Count()
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
     On Error Resume Next
