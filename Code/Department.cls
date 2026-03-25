@@ -119,3 +119,7 @@ Attribute DepartmentHasVPApproverInCollection.VB_Description = "Check if a Depar
 
     DepartmentHasVPApproverInCollection = flag
 End Function
+
+Public Function HasManager() As Boolean
+    HasManager = Len(ManagerID) > 0
+End Function
