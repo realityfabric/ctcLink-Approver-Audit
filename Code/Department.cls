@@ -99,6 +99,7 @@ End Function
 '@Description "Check if a Department has at least one VPAPPROVER"
 '@Ignore ProcedureNotUsed
 Public Function DepartmentHasVPApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
+Attribute DepartmentHasVPApproverInCollection.VB_Description = "Check if a Department has at least one VPAPPROVER"
     Dim flag As Boolean
     Dim Index As Long
     Index = 1
@@ -118,4 +119,3 @@ Public Function DepartmentHasVPApproverInCollection(ByVal ExpenseApprovers As Ex
 
     DepartmentHasVPApproverInCollection = flag
 End Function
-

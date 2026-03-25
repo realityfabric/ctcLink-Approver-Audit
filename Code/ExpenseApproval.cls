@@ -141,9 +141,9 @@ End Function
 '@Description "Compare a Department instance to this and determine if the approvers are not the same."
 '@Ignore ProcedureNotUsed
 Public Function DepartmentManagerMismatch(ByVal Dept As Department) As Boolean
+Attribute DepartmentManagerMismatch.VB_Description = "Compare a Department instance to this and determine if the approvers are not the same."
     DepartmentManagerMismatch = _
         "EXAPPROVER" = this.ApproverType And _
         DepartmentInRange(Dept.DeptID) And _
         Dept.ManagerID <> this.EmplID
 End Function
-

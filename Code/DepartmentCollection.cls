@@ -67,6 +67,7 @@ End Function
 
 '@Description "Add Department instances to this object from a worksheet containing the ALL_DEPTS_BY_SETID query."
 Public Sub AddDepartmentsFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet)
+Attribute AddDepartmentsFromWorksheet.VB_Description = "Add Department instances to this object from a worksheet containing the ALL_DEPTS_BY_SETID query."
     Dim RowIndex As Long
     Dim Dept As Department
 
@@ -79,4 +80,3 @@ Public Sub AddDepartmentsFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet)
         RowIndex = RowIndex + 1
     Loop
 End Sub
-
