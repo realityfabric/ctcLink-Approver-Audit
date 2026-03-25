@@ -35,7 +35,7 @@ Private this As TDepartment
 
 '@Ignore ProcedureNotUsed
 Public Property Let DeptID(ByVal Value As String)
-    this.DeptID = Value
+    this.DeptID = Trim(Value)
 End Property
 
 '@Ignore ProcedureNotUsed
@@ -45,7 +45,7 @@ End Property
 
 '@Ignore ProcedureNotUsed
 Public Property Let Description(ByVal Value As String)
-    this.Description = Value
+    this.Description = Trim(Value)
 End Property
 
 '@Ignore ProcedureNotUsed
@@ -55,7 +55,7 @@ End Property
 
 '@Ignore ProcedureNotUsed
 Public Property Let ManagerID(ByVal Value As String)
-    this.ManagerID = Value
+    this.ManagerID = Trim(Value)
 End Property
 
 '@Ignore ProcedureNotUsed
