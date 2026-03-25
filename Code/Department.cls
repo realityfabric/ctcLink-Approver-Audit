@@ -57,9 +57,11 @@ Public Property Get ManagerID() As String
     ManagerID = this.ManagerID
 End Property
 
-Public Sub ReadFromWorksheet(ByVal ws As Worksheet, ByVal Row As Long)
+'@Description "Set this object's fields based on a row from a worksheet containing the ALL_DEPTS_BY_SETID query."
+Public Sub ReadFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet, ByVal Row As Long)
+Attribute ReadFromWorksheet.VB_Description = "Set this object's fields based on a row from a worksheet containing the ALL_DEPTS_BY_SETID query."
     Dim DataArray As Variant
-    DataArray = ws.Range("A" & Row & ":H" & Row).Value2
+    DataArray = ws_ALL_DEPTS_BY_SETID.Range("A" & Row & ":H" & Row).Value2
     this.DeptID = DataArray(1, 2)
     this.Description = DataArray(1, 5)
     this.ManagerID = DataArray(1, 8)

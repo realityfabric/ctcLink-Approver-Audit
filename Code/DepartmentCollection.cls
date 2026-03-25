@@ -65,15 +65,16 @@ Public Function Filter(Optional ByVal EmplID As String = vbNullString) As Depart
     Set Filter = FilteredDepartmentCollection
 End Function
 
-' TODO: Rename
-Public Sub ReadFromWorksheet(ByVal ws As Worksheet)
+'@Description "Add Department instances to this object from a worksheet containing the ALL_DEPTS_BY_SETID query."
+Public Sub ReadFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet)
+    ' TODO: Rename Sub
     Dim RowIndex As Long
     Dim Dept As Department
 
     RowIndex = 3
-    Do While RowIndex <= ws.Rows.Count
+    Do While RowIndex <= ws_ALL_DEPTS_BY_SETID.Rows.Count
         Set Dept = New Department
-        Dept.ReadFromWorksheet ws, RowIndex
+        Dept.ReadFromWorksheet ws_ALL_DEPTS_BY_SETID, RowIndex
         Add Dept
         Set Dept = Nothing
         RowIndex = RowIndex + 1
