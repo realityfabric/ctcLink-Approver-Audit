@@ -33,31 +33,38 @@ Private Type TDepartment
 End Type
 Private this As TDepartment
 
+'@Ignore ProcedureNotUsed
 Public Property Let DeptID(ByVal Value As String)
     this.DeptID = Value
 End Property
 
+'@Ignore ProcedureNotUsed
 Public Property Get DeptID() As String
     DeptID = this.DeptID
 End Property
 
+'@Ignore ProcedureNotUsed
 Public Property Let Description(ByVal Value As String)
     this.Description = Value
 End Property
 
+'@Ignore ProcedureNotUsed
 Public Property Get Description() As String
     Description = this.Description
 End Property
 
+'@Ignore ProcedureNotUsed
 Public Property Let ManagerID(ByVal Value As String)
     this.ManagerID = Value
 End Property
 
+'@Ignore ProcedureNotUsed
 Public Property Get ManagerID() As String
     ManagerID = this.ManagerID
 End Property
 
 '@Description "Set this object's fields based on a row from a worksheet containing the ALL_DEPTS_BY_SETID query."
+'@Ignore ProcedureNotUsed
 Public Sub ReadFromWorksheet(ByVal ws_ALL_DEPTS_BY_SETID As Worksheet, ByVal Row As Long)
 Attribute ReadFromWorksheet.VB_Description = "Set this object's fields based on a row from a worksheet containing the ALL_DEPTS_BY_SETID query."
     Dim DataArray As Variant
@@ -68,6 +75,7 @@ Attribute ReadFromWorksheet.VB_Description = "Set this object's fields based on 
 End Sub
 
 '@Description "Check if a Department has at least one EXAPPROVER.
+'@Ignore ProcedureNotUsed
 Public Function DepartmentHasEXApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
     Dim flag As Boolean
     Dim Index As Long
@@ -89,6 +97,7 @@ Public Function DepartmentHasEXApproverInCollection(ByVal ExpenseApprovers As Ex
 End Function
 
 '@Description "Check if a Department has at least one VPAPPROVER"
+'@Ignore ProcedureNotUsed
 Public Function DepartmentHasVPApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
     Dim flag As Boolean
     Dim Index As Long
@@ -109,5 +118,4 @@ Public Function DepartmentHasVPApproverInCollection(ByVal ExpenseApprovers As Ex
 
     DepartmentHasVPApproverInCollection = flag
 End Function
-
 

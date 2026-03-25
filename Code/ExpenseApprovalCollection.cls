@@ -36,18 +36,22 @@ Private Sub Class_Initialize()
 End Sub
 
 ' TODO: Implement Key, Before, After
+'@Ignore ProcedureNotUsed
 Public Sub Add(ByVal NewItem As ExpenseApproval)
     this.ExpenseApprovals.Add NewItem
 End Sub
 
+'@Ignore ProcedureNotUsed
 Public Function Count() As Long
     Count = this.ExpenseApprovals.Count
 End Function
 
+'@Ignore ProcedureNotUsed
 Public Function Item(ByVal Index As Variant) As ExpenseApproval
     Set Item = this.ExpenseApprovals.Item(Index)
 End Function
 
+'@Ignore ProcedureNotUsed
 Public Sub Remove(ByVal Index As Variant)
     this.ExpenseApprovals.Remove Index
 End Sub
@@ -69,6 +73,7 @@ Public Sub CreateExpenseApprovalCollectionFromWorksheet(ByVal wsExpenseApprovals
     Loop
 End Sub
 
+'@Ignore ProcedureNotUsed
 Public Function Filter(Optional ByVal ApproverType As String = vbNullString, _
                        Optional ByVal BusinessUnit As String = vbNullString, _
                        Optional ByVal DeptID As String = vbNullString, _
