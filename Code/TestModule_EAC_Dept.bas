@@ -50,11 +50,13 @@ Private Sub TestCleanup()
 End Sub
 
 '@TestMethod("Integration")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_Range1()
     On Error GoTo TestFail
     
     'Arrange:
     Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
     Dim EA1 As ExpenseApproval
     Dim Dept As Department
     Set ExpenseApprovers = New ExpenseApprovalCollection
@@ -88,6 +90,7 @@ Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_FromChartfield(
     
     'Arrange:
     Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
     Dim EA1 As ExpenseApproval
     Dim Dept As Department
     Set ExpenseApprovers = New ExpenseApprovalCollection
@@ -121,6 +124,7 @@ Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_ToChartfield()
     
     'Arrange:
     Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
     Dim EA1 As ExpenseApproval
     Dim Dept As Department
     Set ExpenseApprovers = New ExpenseApprovalCollection
@@ -150,12 +154,14 @@ End Sub
 
 
 '@TestMethod("Integration")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_DepartmentHasVPApprover_OneEA_Range1()
     On Error GoTo TestFail
     
     'Arrange:
     Debug.Print "Arrange"
     Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
     Dim EA1 As ExpenseApproval
     Dim Dept As Department
     Set ExpenseApprovers = New ExpenseApprovalCollection

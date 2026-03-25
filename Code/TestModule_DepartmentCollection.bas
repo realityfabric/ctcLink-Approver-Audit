@@ -24,8 +24,11 @@ Option Private Module
 Private Assert As Object
 Private Fakes As Object
 
+'@Ignore UseMeaningfulName
 Private Dept1 As Department
+'@Ignore UseMeaningfulName
 Private Dept2 As Department
+'@Ignore UseMeaningfulName
 Private Dept3 As Department
 
 '@ModuleInitialize
@@ -99,6 +102,7 @@ TestFail:
 End Sub
 
 '@TestMethod("Wrapper")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_Count3()
     On Error GoTo TestFail
     
@@ -155,6 +159,7 @@ TestFail:
 End Sub
 
 '@TestMethod("No Fail")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_Add3_Remove1_Count2()
     On Error GoTo TestFail
     
@@ -183,6 +188,7 @@ TestFail:
 End Sub
 
 '@TestMethod("Filter")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_Add3_FilterToOne_Count1()
     On Error GoTo TestFail
     
@@ -213,6 +219,7 @@ TestFail:
 End Sub
 
 '@TestMethod("Filter")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_Add3_FilterToOne_ManagerID2()
     On Error GoTo TestFail
     
@@ -243,6 +250,7 @@ TestFail:
 End Sub
 
 '@TestMethod("Filter")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_Add3_FilterTo2_ManagerID1()
     On Error GoTo TestFail
     
@@ -277,6 +285,7 @@ TestFail:
 End Sub
 
 '@TestMethod("Filter")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_Add3_FilterToOne_DeptID3()
     On Error GoTo TestFail
     
