@@ -66,3 +66,48 @@ Attribute ReadFromWorksheet.VB_Description = "Set this object's fields based on 
     this.Description = DataArray(1, 5)
     this.ManagerID = DataArray(1, 8)
 End Sub
+
+'@Description "Check if a Department has at least one EXAPPROVER.
+Public Function DepartmentHasEXApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
+    Dim flag As Boolean
+    Dim Index As Long
+    Index = 1
+
+    ' Default to false
+    flag = False
+    Do While Index <= ExpenseApprovers.Count
+        With ExpenseApprovers.Item(Index)
+            If "EXAPPROVER" = .ApproverType And _
+                .DepartmentInRange(DeptID) Then
+                flag = True
+            End If
+        End With
+        Index = Index + 1
+    Loop
+
+    DepartmentHasEXApproverInCollection = flag
+End Function
+
+'@Description "Check if a Department has at least one VPAPPROVER"
+Public Function DepartmentHasVPApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
+    Dim flag As Boolean
+    Dim Index As Long
+    Index = 1
+
+    'Default to false
+    flag = False
+
+    Do While Index <= ExpenseApprovers.Count
+        With ExpenseApprovers.Item(Index)
+            If "VPAPPROVER" = .ApproverType And _
+                .DepartmentInRange(DeptID) Then
+                flag = True
+            End If
+        End With
+        Index = Index + 1
+    Loop
+
+    DepartmentHasVPApproverInCollection = flag
+End Function
+
+
