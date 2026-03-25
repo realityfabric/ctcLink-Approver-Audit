@@ -72,15 +72,6 @@ Public Sub Main()
     Set wbOutput = Workbooks.Add
     With wbOutput
         .SaveAs Filename:="ApproverValidation_" & GetTimestampStr()
-        
-        ' assign original sheet1 to a variable
-        ' Set wsRepOut = .Sheets.Item(1)
-        ' wsRepOut.Name = "Rep Output"
-        
-        ' create non-rep sheet
-        ' wsRepOut.Copy After:=.Sheets.Item(.Sheets.Count)
-        ' Set wsNonRepOut = .Sheets.Item(.Sheets.Count)
-        ' wsNonRepOut.Name = "NonRep Output"
     End With
     
     ' Copy Approval Setup into Output Workbook
