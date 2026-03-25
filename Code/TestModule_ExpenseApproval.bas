@@ -16,8 +16,7 @@ Attribute VB_Name = "TestModule_ExpenseApproval"
 '    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 '@TestModule
-'@Folder("Tests")
-
+'@Folder("Tests.T&E")
 
 Option Explicit
 Option Private Module
