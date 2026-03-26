@@ -80,3 +80,25 @@ Attribute AddDepartmentsFromWorksheet.VB_Description = "Add Department instances
         RowIndex = RowIndex + 1
     Loop
 End Sub
+
+'@Description "Return a DepartmentCollection with Departments not matching EXAPPROVERS
+Public Function DepartmentsWithExpenseApproverMismatch(ByVal ExpenseApprovals As ExpenseApprovalCollection) As DepartmentCollection
+    Dim Departments As DepartmentCollection
+    Dim Dept As Variant ' Department, used in For Each loop
+    Dim Index As Long
+    Set Departments = New DepartmentCollection
+    
+    For Each Dept In this.Departments
+        With ExpenseApprovals.Filter(ApproverType:="EXAPPROVER")
+            Index = 1
+            Do While Index <= .Count
+                If .Item(Index).DepartmentManagerMismatch(Dept) Then
+                    Departments.Add Dept
+                End If
+                Index = Index + 1
+            Loop
+        End With
+    Next Dept
+    
+    Set DepartmentsWithExpenseApproverMismatch = Departments
+End Function
