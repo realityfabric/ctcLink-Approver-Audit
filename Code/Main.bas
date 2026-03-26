@@ -221,10 +221,6 @@ Public Sub Main()
         .Range("U2:U2000").Formula = _
             "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
 
-        ' Department Manager not assigned to Expense Approvals for relevant departments
-        ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovers
-        ' TODO compare ExpenseApprovals to Department Managers
-
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
         .Range("Q2:Q2000").Formula = "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2))"
@@ -232,5 +228,11 @@ Public Sub Main()
         .Range("R:U").Columns.Delete
     End With
     
+    ' TODO: Create new sheet for Department overview
+
+    ' Department Manager not assigned to Expense Approvals for relevant departments
+    ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovers
+    ' TODO compare ExpenseApprovals to Department Managers
+
 End Sub
 
