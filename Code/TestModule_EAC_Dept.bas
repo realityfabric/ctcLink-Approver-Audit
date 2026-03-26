@@ -159,7 +159,6 @@ Private Sub TestMethod_DepartmentHasVPApprover_OneEA_Range1()
     On Error GoTo TestFail
     
     'Arrange:
-    Debug.Print "Arrange"
     Dim ExpenseApprovers As ExpenseApprovalCollection
     '@Ignore UseMeaningfulName
     Dim EA1 As ExpenseApproval
@@ -176,9 +175,7 @@ Private Sub TestMethod_DepartmentHasVPApprover_OneEA_Range1()
     ExpenseApprovers.Add EA1
     
     'Act:
-    Debug.Print "Act"
     'Assert:
-    Debug.Print "Assert"
     Assert.IsTrue Dept.DepartmentHasVPApproverInCollection(ExpenseApprovers)
 
 TestExit:
