@@ -65,8 +65,9 @@ Public Sub CreateExpenseApprovalCollectionFromWorksheet(ByVal wsExpenseApprovals
     RowCount = wsExpenseApprovals.UsedRange.Rows.Count
     RowIndex = 3
     Do While RowIndex <= RowCount
+        Set EA = New ExpenseApproval
         EA.ReadExpenseApprovalFromWorksheet wsExpenseApprovals, RowIndex
-        this.Add EA
+        Add EA
         Set EA = Nothing
 
         RowIndex = RowIndex + 1
