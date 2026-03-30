@@ -22,7 +22,6 @@ Option Explicit
 Option Private Module
 
 Private Assert As Object
-Private Fakes As Object
 
 Private TestWorksheet As Worksheet
 
@@ -30,7 +29,6 @@ Private TestWorksheet As Worksheet
 Private Sub ModuleInitialize()
     'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
-    Set Fakes = CreateObject("Rubberduck.FakesProvider")
 
     Set TestWorksheet = ThisWorkbook.Sheets.Add
 End Sub
@@ -41,7 +39,6 @@ Private Sub ModuleCleanup()
     Dim DisplayAlerts As Boolean
 
     Set Assert = Nothing
-    Set Fakes = Nothing
 
     ' Save Application.DisplayAlerts value, set to False, delete the test sheet,
     '  then set Application.DisplayAlerts back to its previous value.

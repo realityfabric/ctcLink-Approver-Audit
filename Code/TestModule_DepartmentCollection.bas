@@ -22,7 +22,6 @@ Option Explicit
 Option Private Module
 
 Private Assert As Object
-Private Fakes As Object
 
 '@Ignore UseMeaningfulName
 Private Dept1 As Department
@@ -35,14 +34,12 @@ Private Dept3 As Department
 Private Sub ModuleInitialize()
     'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
-    Set Fakes = CreateObject("Rubberduck.FakesProvider")
 End Sub
 
 '@ModuleCleanup
 Private Sub ModuleCleanup()
     'this method runs once per module.
     Set Assert = Nothing
-    Set Fakes = Nothing
 End Sub
 
 '@TestInitialize
@@ -313,5 +310,3 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
-
-
