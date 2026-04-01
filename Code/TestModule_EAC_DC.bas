@@ -79,3 +79,76 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+'@TestMethod("No Fail")
+Private Sub TestMethod_OneDepartment_NoExpenseApprovals_NoFail()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim Dept As Department
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    Set Dept = New Department
+    
+    Dept.DeptID = "1"
+    Dept.Description = "Test"
+    Dept.ManagerID = "1"
+    
+    Departments.Add Dept
+    
+    'Act:
+    Departments.DepartmentsWithExpenseApproverMismatch ExpenseApprovers
+    
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_OneDepartment_NoExpenseApprovals_ZeroCount()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim MismatchedDepartments As DepartmentCollection
+    Dim Dept As Department
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    Set Dept = New Department
+    
+    Dept.DeptID = "1"
+    Dept.Description = "Test"
+    Dept.ManagerID = "1"
+    
+    Departments.Add Dept
+    
+    'Act:
+    Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
+    
+    'Assert:
+    Assert.IsTrue MismatchedDepartments.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
