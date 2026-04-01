@@ -151,4 +151,529 @@ TestFail:
     Resume TestExit
 End Sub
 
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_NoDepartments_NoExpenseApprovers()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim MismatchedDepartments As DepartmentCollection
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    
+    'Act:
+    Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
+    
+    'Assert:
+    Assert.IsTrue MismatchedDepartments.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_NoDepartments_OneExpenseApprovers()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim MismatchedDepartments As DepartmentCollection
+    Dim ExAppr As ExpenseApproval
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    Set ExAppr = New ExpenseApproval
+    
+    ExAppr.ApproverType = "EXAPPROVER"
+    ExAppr.EmplID = "1"
+    ExAppr.FromChartfield = "1"
+    ExAppr.ToChartfield = "2"
+    
+    'Act:
+    Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
+    
+    'Assert:
+    Assert.IsTrue MismatchedDepartments.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_TenDepts_TenExpenseApprovers_NoMismatch()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim MismatchedDepartments As DepartmentCollection
+    Dim D0 As Department
+    Dim D1 As Department
+    Dim D2 As Department
+    Dim D3 As Department
+    Dim D4 As Department
+    Dim D5 As Department
+    Dim D6 As Department
+    Dim D7 As Department
+    Dim D8 As Department
+    Dim D9 As Department
+    Dim EA0 As ExpenseApproval
+    Dim EA1 As ExpenseApproval
+    Dim EA2 As ExpenseApproval
+    Dim EA3 As ExpenseApproval
+    Dim EA4 As ExpenseApproval
+    Dim EA5 As ExpenseApproval
+    Dim EA6 As ExpenseApproval
+    Dim EA7 As ExpenseApproval
+    Dim EA8 As ExpenseApproval
+    Dim EA9 As ExpenseApproval
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    
+    Set D0 = New Department
+    Set D1 = New Department
+    Set D2 = New Department
+    Set D3 = New Department
+    Set D4 = New Department
+    Set D5 = New Department
+    Set D6 = New Department
+    Set D7 = New Department
+    Set D8 = New Department
+    Set D9 = New Department
+    Set EA0 = New ExpenseApproval
+    Set EA1 = New ExpenseApproval
+    Set EA2 = New ExpenseApproval
+    Set EA3 = New ExpenseApproval
+    Set EA4 = New ExpenseApproval
+    Set EA5 = New ExpenseApproval
+    Set EA6 = New ExpenseApproval
+    Set EA7 = New ExpenseApproval
+    Set EA8 = New ExpenseApproval
+    Set EA9 = New ExpenseApproval
+    
+    D0.DeptID = "0"
+    D1.DeptID = "1"
+    D2.DeptID = "2"
+    D3.DeptID = "3"
+    D4.DeptID = "4"
+    D5.DeptID = "5"
+    D6.DeptID = "6"
+    D7.DeptID = "7"
+    D8.DeptID = "8"
+    D9.DeptID = "9"
+    D0.ManagerID = "0"
+    D1.ManagerID = "1"
+    D2.ManagerID = "2"
+    D3.ManagerID = "3"
+    D4.ManagerID = "4"
+    D5.ManagerID = "5"
+    D6.ManagerID = "6"
+    D7.ManagerID = "7"
+    D8.ManagerID = "8"
+    D9.ManagerID = "9"
+    
+    EA0.ApproverType = "EXAPPROVER"
+    EA1.ApproverType = "EXAPPROVER"
+    EA2.ApproverType = "EXAPPROVER"
+    EA3.ApproverType = "EXAPPROVER"
+    EA4.ApproverType = "EXAPPROVER"
+    EA5.ApproverType = "EXAPPROVER"
+    EA6.ApproverType = "EXAPPROVER"
+    EA7.ApproverType = "EXAPPROVER"
+    EA8.ApproverType = "EXAPPROVER"
+    EA9.ApproverType = "EXAPPROVER"
+    
+    EA0.FromChartfield = "0"
+    EA0.ToChartfield = "0"
+    EA0.EmplID = "0"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "1"
+    EA1.EmplID = "1"
+    EA2.FromChartfield = "2"
+    EA2.ToChartfield = "2"
+    EA2.EmplID = "2"
+    EA3.FromChartfield = "3"
+    EA3.ToChartfield = "3"
+    EA3.EmplID = "3"
+    EA4.FromChartfield = "4"
+    EA4.ToChartfield = "4"
+    EA4.EmplID = "4"
+    EA5.FromChartfield = "5"
+    EA5.ToChartfield = "5"
+    EA5.EmplID = "5"
+    EA6.FromChartfield = "6"
+    EA6.ToChartfield = "6"
+    EA6.EmplID = "6"
+    EA7.FromChartfield = "7"
+    EA7.ToChartfield = "7"
+    EA7.EmplID = "7"
+    EA8.FromChartfield = "8"
+    EA8.ToChartfield = "8"
+    EA8.EmplID = "8"
+    EA9.FromChartfield = "9"
+    EA9.ToChartfield = "9"
+    EA9.EmplID = "9"
+    
+    Departments.Add D0
+    Departments.Add D1
+    Departments.Add D2
+    Departments.Add D3
+    Departments.Add D4
+    Departments.Add D5
+    Departments.Add D6
+    Departments.Add D7
+    Departments.Add D8
+    Departments.Add D9
+    
+    ExpenseApprovers.Add EA0
+    ExpenseApprovers.Add EA1
+    ExpenseApprovers.Add EA2
+    ExpenseApprovers.Add EA3
+    ExpenseApprovers.Add EA4
+    ExpenseApprovers.Add EA5
+    ExpenseApprovers.Add EA6
+    ExpenseApprovers.Add EA7
+    ExpenseApprovers.Add EA8
+    ExpenseApprovers.Add EA9
+    
+    'Act:
+    Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
+    
+    'Assert:
+    Assert.IsTrue MismatchedDepartments.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("No Fail")
+Private Sub TestMethod_TenDepts_TenExpenseApprovers_NoFail()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim MismatchedDepartments As DepartmentCollection
+    Dim D0 As Department
+    Dim D1 As Department
+    Dim D2 As Department
+    Dim D3 As Department
+    Dim D4 As Department
+    Dim D5 As Department
+    Dim D6 As Department
+    Dim D7 As Department
+    Dim D8 As Department
+    Dim D9 As Department
+    Dim EA0 As ExpenseApproval
+    Dim EA1 As ExpenseApproval
+    Dim EA2 As ExpenseApproval
+    Dim EA3 As ExpenseApproval
+    Dim EA4 As ExpenseApproval
+    Dim EA5 As ExpenseApproval
+    Dim EA6 As ExpenseApproval
+    Dim EA7 As ExpenseApproval
+    Dim EA8 As ExpenseApproval
+    Dim EA9 As ExpenseApproval
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    
+    Set D0 = New Department
+    Set D1 = New Department
+    Set D2 = New Department
+    Set D3 = New Department
+    Set D4 = New Department
+    Set D5 = New Department
+    Set D6 = New Department
+    Set D7 = New Department
+    Set D8 = New Department
+    Set D9 = New Department
+    Set EA0 = New ExpenseApproval
+    Set EA1 = New ExpenseApproval
+    Set EA2 = New ExpenseApproval
+    Set EA3 = New ExpenseApproval
+    Set EA4 = New ExpenseApproval
+    Set EA5 = New ExpenseApproval
+    Set EA6 = New ExpenseApproval
+    Set EA7 = New ExpenseApproval
+    Set EA8 = New ExpenseApproval
+    Set EA9 = New ExpenseApproval
+    
+    D0.DeptID = "0"
+    D1.DeptID = "1"
+    D2.DeptID = "2"
+    D3.DeptID = "3"
+    D4.DeptID = "4"
+    D5.DeptID = "5"
+    D6.DeptID = "6"
+    D7.DeptID = "7"
+    D8.DeptID = "8"
+    D9.DeptID = "9"
+    D0.ManagerID = "0"
+    D1.ManagerID = "1"
+    D2.ManagerID = "2"
+    D3.ManagerID = "3"
+    D4.ManagerID = "4"
+    D5.ManagerID = "5"
+    D6.ManagerID = "6"
+    D7.ManagerID = "7"
+    D8.ManagerID = "8"
+    D9.ManagerID = "9"
+    
+    EA0.ApproverType = "EXAPPROVER"
+    EA1.ApproverType = "EXAPPROVER"
+    EA2.ApproverType = "EXAPPROVER"
+    EA3.ApproverType = "EXAPPROVER"
+    EA4.ApproverType = "EXAPPROVER"
+    EA5.ApproverType = "EXAPPROVER"
+    EA6.ApproverType = "EXAPPROVER"
+    EA7.ApproverType = "EXAPPROVER"
+    EA8.ApproverType = "EXAPPROVER"
+    EA9.ApproverType = "EXAPPROVER"
+    
+    EA0.FromChartfield = "0"
+    EA0.ToChartfield = "0"
+    EA0.EmplID = "0"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "1"
+    EA1.EmplID = "1"
+    EA2.FromChartfield = "2"
+    EA2.ToChartfield = "2"
+    EA2.EmplID = "2"
+    EA3.FromChartfield = "3"
+    EA3.ToChartfield = "3"
+    EA3.EmplID = "3"
+    EA4.FromChartfield = "4"
+    EA4.ToChartfield = "4"
+    EA4.EmplID = "4"
+    EA5.FromChartfield = "5"
+    EA5.ToChartfield = "5"
+    EA5.EmplID = "5"
+    EA6.FromChartfield = "6"
+    EA6.ToChartfield = "6"
+    EA6.EmplID = "6"
+    EA7.FromChartfield = "7"
+    EA7.ToChartfield = "7"
+    EA7.EmplID = "7"
+    EA8.FromChartfield = "8"
+    EA8.ToChartfield = "8"
+    EA8.EmplID = "8"
+    EA9.FromChartfield = "9"
+    EA9.ToChartfield = "9"
+    EA9.EmplID = "9"
+    
+    Departments.Add D0
+    Departments.Add D1
+    Departments.Add D2
+    Departments.Add D3
+    Departments.Add D4
+    Departments.Add D5
+    Departments.Add D6
+    Departments.Add D7
+    Departments.Add D8
+    Departments.Add D9
+    
+    ExpenseApprovers.Add EA0
+    ExpenseApprovers.Add EA1
+    ExpenseApprovers.Add EA2
+    ExpenseApprovers.Add EA3
+    ExpenseApprovers.Add EA4
+    ExpenseApprovers.Add EA5
+    ExpenseApprovers.Add EA6
+    ExpenseApprovers.Add EA7
+    ExpenseApprovers.Add EA8
+    ExpenseApprovers.Add EA9
+    
+    'Act:
+    Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
+    
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("No Fail")
+Private Sub TestMethod_TenDepts_TenExpenseApprovers_OneMismatch()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
+    Dim MismatchedDepartments As DepartmentCollection
+    Dim D0 As Department
+    Dim D1 As Department
+    Dim D2 As Department
+    Dim D3 As Department
+    Dim D4 As Department
+    Dim D5 As Department
+    Dim D6 As Department
+    Dim D7 As Department
+    Dim D8 As Department
+    Dim D9 As Department
+    Dim EA0 As ExpenseApproval
+    Dim EA1 As ExpenseApproval
+    Dim EA2 As ExpenseApproval
+    Dim EA3 As ExpenseApproval
+    Dim EA4 As ExpenseApproval
+    Dim EA5 As ExpenseApproval
+    Dim EA6 As ExpenseApproval
+    Dim EA7 As ExpenseApproval
+    Dim EA8 As ExpenseApproval
+    Dim EA9 As ExpenseApproval
+    
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
+    
+    Set D0 = New Department
+    Set D1 = New Department
+    Set D2 = New Department
+    Set D3 = New Department
+    Set D4 = New Department
+    Set D5 = New Department
+    Set D6 = New Department
+    Set D7 = New Department
+    Set D8 = New Department
+    Set D9 = New Department
+    Set EA0 = New ExpenseApproval
+    Set EA1 = New ExpenseApproval
+    Set EA2 = New ExpenseApproval
+    Set EA3 = New ExpenseApproval
+    Set EA4 = New ExpenseApproval
+    Set EA5 = New ExpenseApproval
+    Set EA6 = New ExpenseApproval
+    Set EA7 = New ExpenseApproval
+    Set EA8 = New ExpenseApproval
+    Set EA9 = New ExpenseApproval
+    
+    D0.DeptID = "0"
+    D1.DeptID = "1"
+    D2.DeptID = "2"
+    D3.DeptID = "3"
+    D4.DeptID = "4"
+    D5.DeptID = "5"
+    D6.DeptID = "6"
+    D7.DeptID = "7"
+    D8.DeptID = "8"
+    D9.DeptID = "9"
+    D0.ManagerID = "0"
+    D1.ManagerID = "1"
+    D2.ManagerID = "2"
+    D3.ManagerID = "3"
+    D4.ManagerID = "4"
+    D5.ManagerID = "5"
+    D6.ManagerID = "6"
+    D7.ManagerID = "7"
+    D8.ManagerID = "8"
+    D9.ManagerID = "99"
+    
+    EA0.ApproverType = "EXAPPROVER"
+    EA1.ApproverType = "EXAPPROVER"
+    EA2.ApproverType = "EXAPPROVER"
+    EA3.ApproverType = "EXAPPROVER"
+    EA4.ApproverType = "EXAPPROVER"
+    EA5.ApproverType = "EXAPPROVER"
+    EA6.ApproverType = "EXAPPROVER"
+    EA7.ApproverType = "EXAPPROVER"
+    EA8.ApproverType = "EXAPPROVER"
+    EA9.ApproverType = "EXAPPROVER"
+    
+    EA0.FromChartfield = "0"
+    EA0.ToChartfield = "0"
+    EA0.EmplID = "0"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "1"
+    EA1.EmplID = "1"
+    EA2.FromChartfield = "2"
+    EA2.ToChartfield = "2"
+    EA2.EmplID = "2"
+    EA3.FromChartfield = "3"
+    EA3.ToChartfield = "3"
+    EA3.EmplID = "3"
+    EA4.FromChartfield = "4"
+    EA4.ToChartfield = "4"
+    EA4.EmplID = "4"
+    EA5.FromChartfield = "5"
+    EA5.ToChartfield = "5"
+    EA5.EmplID = "5"
+    EA6.FromChartfield = "6"
+    EA6.ToChartfield = "6"
+    EA6.EmplID = "6"
+    EA7.FromChartfield = "7"
+    EA7.ToChartfield = "7"
+    EA7.EmplID = "7"
+    EA8.FromChartfield = "8"
+    EA8.ToChartfield = "8"
+    EA8.EmplID = "8"
+    EA9.FromChartfield = "9"
+    EA9.ToChartfield = "9"
+    EA9.EmplID = "9"
+    
+    Departments.Add D0
+    Departments.Add D1
+    Departments.Add D2
+    Departments.Add D3
+    Departments.Add D4
+    Departments.Add D5
+    Departments.Add D6
+    Departments.Add D7
+    Departments.Add D8
+    Departments.Add D9
+    
+    ExpenseApprovers.Add EA0
+    ExpenseApprovers.Add EA1
+    ExpenseApprovers.Add EA2
+    ExpenseApprovers.Add EA3
+    ExpenseApprovers.Add EA4
+    ExpenseApprovers.Add EA5
+    ExpenseApprovers.Add EA6
+    ExpenseApprovers.Add EA7
+    ExpenseApprovers.Add EA8
+    ExpenseApprovers.Add EA9
+    
+    'Act:
+    Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
+    
+    'Assert:
+    Assert.IsTrue MismatchedDepartments.Count = 1
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
 
