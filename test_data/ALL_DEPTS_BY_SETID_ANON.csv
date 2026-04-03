@@ -1,0 +1,788 @@
+﻿Active and Inactive Depts, 773,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetID,Dept,Eff Date,Status,Descr,Short Desc,Descr,New ID,New Name,Co,Location SetID,Location,Tax Loc,Mgr Posn,Yr End Dt,Budget Lvl,GL-Expense,EEO4 Fcn,Ind Sector,Accnt_ins,SI_accdnt#,Hazard,Estab ID,RSK CD,Descr,Sub-Agency,PAR Line 2,PAR Line 3,PAR Line 4,PAR Line 5,PAR2 Descr,PAR3 Descr,PAR4 Descr,PAR5 Descr,Class Unit,Org. Unit,Work Sector,Agency Code,Indus Committee,NACE,FTE Edit,Can Grant,Use TL Distrib?,Use Budgets?,Use Encumb?,Use Distrib?,Budget Dept,Dist Optn,Stats Can Dept,Faculty Code,Acct Owner,Country Group,Bud. Only,RTBL Data,Sync ID,Sync Date Time
+WA190,00100,1901-01-01 00:00,A,Rev Open,Rev Open,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31814,2023-04-29 09:47
+WA190,00101,1901-01-01 00:00,A,840 Closed,840 Closed,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31815,2023-04-29 09:47
+WA190,00102,1901-01-01 00:00,A,BAC M-Host,BAC M-Host,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31816,2023-04-29 09:47
+WA190,00103,1901-01-01 00:00,A,CS - Inv,CS - Inv,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31817,2023-04-29 09:47
+WA190,00104,1901-01-01 00:00,A,US-Inv,US-Inv,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31818,2023-04-29 09:47
+WA190,00105,2023-07-01 00:00,A,Unclaimed Property,Dorm Check,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31819,2023-11-02 09:41
+WA190,00106,2021-04-17 00:00,A,WACTC-Event Reimb.,WACTC,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31820,2025-04-17 08:17
+WA190,00107,2022-07-01 00:00,A,Item Process Pending,InProcess,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24517,2022-10-27 07:27
+WA190,00108,2023-07-01 00:00,A,Fin Aid Awd Recovery,FinAid Rec,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31822,2023-10-11 09:48
+WA190,00109,2023-07-01 00:00,A,BLC Ancillary,BLC SBCTC,"State Baccalaureate Leadership Council 
+Steven L. Danver, - current council chair
+
+dept is set up to host accounting for SBCTC council organization",0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37945,2023-10-13 13:29
+WA190,00110,2025-01-02 00:00,A,146 Recruitment Hosted Events,146-RecEvt,Recruitment hosted events  - to be used for any event/activity expense that will be reimbursed by a third party to the college.  This is to pay for initial planning of sponsored events with external partnerships.,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38061,2025-03-03 11:31
+WA190,00111,2023-07-03 00:00,A,Liability/Depreciation,Deprec'n,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38104,2025-07-06 14:27
+WA190,00120,2026-02-01 00:00,A,ASCBC Hosted Events,522 Events,ASCBC Hosted Events - clearing account for ASCBC community events or conferences.  Where ASCBC funds can not be used.  Account to be managed by Rosario as the current Director for ASCBC.  Each event will need to have a Program set up to ensure reconciliation is completed.,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,40191,2026-02-25 11:43
+WA190,00199,1901-01-01 00:00,A,Cash Ctrl,Cash Ctrl,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31823,2023-04-29 09:47
+WA190,00201,1901-01-01 00:00,A,COMPREHENSIVE FEE,COMP FEE,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31824,2023-04-29 09:47
+WA190,00202,1901-01-01 00:00,A,LAB FEES,LAB FEES,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31825,2023-04-29 09:47
+WA190,00203,1901-01-01 00:00,A,ASSESSMENT TEST FEE,TEST FEES,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31826,2023-04-29 09:47
+WA190,00204,1901-01-01 00:00,A,MISCELLANEOUS FEES,MISC. FEES,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31827,2023-04-29 09:47
+WA190,00205,1901-01-01 00:00,A,RECORDS FEES,DOC FEES,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31828,2023-04-29 09:47
+WA190,00206,2023-08-15 00:00,A,LIBRARY FINES,LIB FINE,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31829,2023-08-15 16:15
+WA190,00207,1901-01-01 00:00,A,FYI WORKSHOP FEE,FYI WK FEE,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31830,2023-04-29 09:47
+WA190,00208,1901-01-01 00:00,A,CASH OVER/SHORT,OVER/SHORT,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31831,2023-04-29 09:47
+WA190,00301,1901-01-01 00:00,A,KEY DEPOSITS,KEY DEP,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31832,2023-04-29 09:47
+WA190,00302,1901-01-01 00:00,A,PROPERTY RENTAL,FAC RENTAL,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31833,2023-04-29 09:47
+WA190,00303,1901-01-01 00:00,A,SALE OF SURPLUS PROP,SUR+ SALES,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31834,2023-04-29 09:47
+WA190,00399,1901-01-02 00:00,A,FEE 148 REVENUE,148- REV,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31835,2024-09-17 16:25
+WA190,10000,1901-01-01 00:00,A,General CBC,GEN CBC OR,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31836,2023-04-29 09:47
+WA190,10100,1901-01-01 00:00,A,ORGANIZATION STUDY,ORG STUDY,,9922,Alexander Lukashenko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31837,2023-04-29 09:47
+WA190,10200,1901-01-01 00:00,A,INSTITUTIONAL ACCRED,ACCRED,,9938,Philippe King,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31838,2023-04-29 09:47
+WA190,10201,2022-07-01 00:00,A,INSTITUTIONAL SUPPORT,CBCSUPPT,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25336,2023-02-06 17:41
+WA190,10202,2025-07-01 00:00,A,Title V Institutional,Title V,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38242,2025-10-28 10:08
+WA190,10203,2025-07-01 00:00,A,Strategic Planning Dept,Plan Dept,,9284,Taye Selassie,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38958,2025-10-08 13:16
+WA190,10300,2023-07-03 00:00,A,Office of DEI,SI PRIOR,,1002,Daniel Noboa,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31839,2023-12-22 11:19
+WA190,10301,2023-01-01 00:00,A,EQUITY & ACCESS-5194,EQTYA-5194,,1002,Daniel Noboa,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22438,2023-03-16 12:54
+WA190,10302,2023-01-01 00:00,A,DIVERSITY SB 5227,DIVERSITY,,1002,Daniel Noboa,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24823,2023-03-16 12:55
+WA190,10303,2025-07-01 00:00,A,LEADERSHIP DEV PROGRAM,LEADDEV PG,,0280,Jigme Wangchuck,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23611,2025-10-28 11:57
+WA190,10304,2023-06-01 00:00,A,9AP- Inst. DEI Support,24J-9AP DE,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38897,2024-06-30 13:35
+WA190,10400,1901-01-01 00:00,A,BOARD OF TRUSTEES,BOT,,0478,Luiz Silva,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31842,2023-04-29 09:47
+WA190,10401,1901-01-01 00:00,A,PRESIDENT,PRESIDENT,,0478,Luiz Silva,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31843,2023-04-29 09:47
+WA190,10500,1901-01-01 00:00,A,FUND DEVELOPMENT,FUND DEVEL,,1000,Faustin-Archange Touadera,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31844,2023-04-29 09:47
+WA190,10501,1901-01-01 00:00,A,FDN REIMBURSABLES,FDN REIMBU,,1000,Faustin-Archange Touadera,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31845,2023-04-29 09:47
+WA190,10600,2024-03-01 00:00,A,AVP Marketing & Outreach,AVP Market,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31846,2024-03-19 10:50
+WA190,10601,2022-06-24 00:00,A,MARKETING AND PR,MKTG & PR,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22626,2022-06-27 07:49
+WA190,10602,2022-06-24 00:00,A,PUBLIC INFORMATION,PUBLIC INF,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22627,2022-06-27 07:49
+WA190,10603,2022-06-24 00:00,A,GRAPHICS & PRINTING,GRAPH & PR,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22625,2022-06-27 07:48
+WA190,10604,2022-06-24 00:00,A,GRADUATION EXPENSE,GRAD PLANG,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22587,2022-06-27 07:50
+WA190,20001,2026-02-05 00:00,A,VP LEGAL AFFAIRS,VP-LEGAL,,3630,Frank-Walter Steinmeier,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31851,2026-02-05 13:51
+WA190,20100,2026-02-05 00:00,A,HUMAN RESOURCES,HR DEPT,,3630,Frank-Walter Steinmeier,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31852,2026-02-05 13:51
+WA190,20101,2023-02-21 00:00,A,TITLE IV PROGRAMS,TITLE IV P,,0322,Luis Abinader,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23440,2023-02-22 07:31
+WA190,20200,2026-02-20 00:00,A,HR COLLEGE SUPPORT,HR Supprt,,3630,Frank-Walter Steinmeier,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31854,2026-02-20 09:16
+WA190,20201,2026-02-05 00:00,A,HR-Other,HR-Other,,3630,Frank-Walter Steinmeier,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31855,2026-02-05 13:52
+WA190,20240,2023-01-02 00:00,A,ED TECHNOLOGY,ED TECH,,9558,Ilham Aliyev,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25647,2023-03-14 15:23
+WA190,20302,2022-12-18 00:00,A,Climate Solutions Allocation,ClimSolAll,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25054,2023-01-18 06:30
+WA190,21010,1901-01-01 00:00,A,PR- PS0-P1,PR- PS0-P1,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31857,2023-04-29 09:47
+WA190,29999,1901-01-01 00:00,A,PAYROLL SUSPENSE,PAYROLL SU,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31858,2023-04-29 09:47
+WA190,30001,1901-01-01 00:00,A,VP ADMIN/FINANCE,VP Admin,,0588,Hun Sen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31859,2023-04-29 09:47
+WA190,30002,2022-07-01 00:00,A,Tuition Loss Ops Rev,149-RevOps,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24730,2022-11-17 11:59
+WA190,30100,1901-01-01 00:00,A,AVP ADMIN SERVICES,AVP ADMIN,,0588,Hun Sen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31860,2023-04-29 09:47
+WA190,30101,2025-07-01 00:00,A,FUND RESERVE,Fund Rsrv,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31861,2026-01-22 15:22
+WA190,30102,2024-07-01 00:00,A,CBC PROJECTS,PRJ CTC,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31862,2024-10-28 15:24
+WA190,30103,1901-01-01 00:00,A,ADMIN CAMPUS EXPENSE,Gen Admin,,0588,Hun Sen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31863,2023-04-29 09:47
+WA190,30104,2022-06-01 00:00,A,DEBT SERVICE/LIAB,Debt Serv,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22184,2022-06-02 11:12
+WA190,30105,2025-09-19 00:00,A,EMERGENCY OPERATIONS,ER Ops,,6146,Frederik King,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31865,2025-09-12 09:40
+WA190,30110,1901-01-01 00:00,A,BUDGET SERVICES,BUDGET SER,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31866,2023-04-29 09:47
+WA190,30111,1901-01-01 00:00,A,BUDGET CONTROL,BUDGET CON,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31867,2023-04-29 09:47
+WA190,30112,1901-01-02 00:00,A,Admin  Student PMT Grants,146-StuGrt,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31868,2023-07-31 12:20
+WA190,30120,2024-07-01 00:00,A,GRANTS SERVICES,GRANTS SER,,9600,Adama Barrow,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31869,2025-04-15 14:21
+WA190,30130,1901-01-01 00:00,A,PURCHASING,PURCHASING,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31870,2023-04-29 09:47
+WA190,30140,2023-07-01 00:00,A,ACCOUNTING SERVICES,ACCOUNTING,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31871,2023-07-12 15:25
+WA190,30150,2023-07-01 00:00,A,INFORMATION TECH-ADMIN,IT ADMIN,,2650,Aiaias Afwerki,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31872,2023-07-11 10:53
+WA190,30151,2023-07-01 00:00,A,COMPUTER REPLACEMENT,CMP REPL'T,,2650,Aiaias Afwerki,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31873,2023-07-11 10:53
+WA190,30152,1901-01-01 00:00,A,CAMPUS TECH PROJECTS,TECH PROJ,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31874,2023-04-29 09:47
+WA190,30153,2023-07-01 00:00,A,COMMUNICATIONS SERVICES,COMM SRVS,,2650,Aiaias Afwerki,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31875,2023-07-11 10:54
+WA190,30154,2022-09-23 00:00,A,VDI MAINT & UPGRADE,VDI MAINT,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23853,2022-09-23 12:57
+WA190,30155,2023-07-01 00:00,A,CAMPUS COPY MACHINES,COPY MACH,,2650,Aiaias Afwerki,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31877,2023-07-11 10:54
+WA190,30156,2024-07-01 00:00,A,Campus Computer Lab Equipment,CCLE,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39446,2025-02-27 13:20
+WA190,30200,2022-09-23 00:00,A,TECHNOLOGY FEE,TECH FEE,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22020,2022-09-23 12:59
+WA190,30201,2022-04-01 00:00,A,UTILITIES,UTILITIES,,9584,Cynthia Pratt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22062,2022-05-24 16:27
+WA190,30202,2022-05-01 00:00,A,INSURANCE,INSURANCE,,1962,Miguel Diaz-Canel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22205,2022-06-02 12:08
+WA190,30210,2022-06-01 00:00,A,CENTRAL SERVICES,CENTRAL SE,,1962,Miguel Diaz-Canel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22182,2022-06-02 11:10
+WA190,30220,2025-09-19 00:00,A,SECURITY & SAFETY,SEC & SAFE,,6146,Frederik King,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31882,2025-09-12 09:45
+WA190,30230,1901-01-01 00:00,A,FAC PLAN & PLANT OP,FAC DEPT,,9584,Cynthia Pratt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31883,2023-04-29 09:47
+WA190,30231,2022-06-01 00:00,A,BLDG INTERIOR UPKEEP,BLDG INTER,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22186,2022-06-02 11:15
+WA190,30232,1901-01-01 00:00,A,FACILITY PLANNING,FACILITY P,,0588,Hun Sen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31885,2023-04-29 09:47
+WA190,30233,2022-01-06 00:00,A,CAMPUS OPERATIONS,CBCOPS,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25018,2023-01-06 10:29
+WA190,30240,1901-01-01 00:00,A,MAJOR REPAIRS & RENOV,MAJOR RENO,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31887,2023-04-29 09:47
+WA190,30250,1901-01-01 00:00,A,GEN REPAIRS & MAINT,GEN REPAIR,,9584,Cynthia Pratt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31888,2023-04-29 09:47
+WA190,30260,1901-01-01 00:00,A,CUSTODIAL SERVICES,CUSTODIAL,,9584,Cynthia Pratt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31889,2023-04-29 09:47
+WA190,30270,1901-01-01 00:00,A,LANDSCAPE/GROUNDS,GROUNDS,,9584,Cynthia Pratt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31890,2023-04-29 09:47
+WA190,30290,1901-01-01 00:00,A,PARKING IMPROVEMENT,PRK MAINT,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31891,2023-04-29 09:47
+WA190,30301,2023-07-01 00:00,A,Sustainability Committee,Sustain Co,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25838,2023-11-30 08:32
+WA190,33100,1901-01-01 00:00,A,RECYCLING PROGRAM,RECYCLING,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31892,2023-04-29 09:47
+WA190,33200,1901-01-01 00:00,A,FOOD SERVICE,FOOD SERV,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31893,2023-04-29 09:47
+WA190,33800,1901-01-01 00:00,A,BOOKSTORE ADMIN.,BOOKSTORE,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31894,2023-04-29 09:47
+WA190,39998,2022-07-01 00:00,A,Capital Retainage,Retainage,"This department to be used with fund 146 - to hold retainage for all capital projects that require retainage to be paid after project is completed 
+
+Collecting entries need to post to liability account 2010030
+
+Use class 196 for chart-string",0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37568,2023-06-30 08:38
+WA190,39999,2021-05-01 00:00,A,Operations Clearing,OpsClose,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22887,2022-07-14 12:39
+WA190,40001,1901-01-01 00:00,A,VP STUDENT SERVICES,VPSS,,9492,Sam Mostyn,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31895,2023-04-29 09:47
+WA190,40002,2025-07-01 00:00,A,ENROLLMENT SERVICES,ENRL SVCS,,9792,Mohammed Shahabuddin,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31896,2026-01-15 08:29
+WA190,40003,1901-01-01 00:00,A,General Stu Services,General St,,9492,Sam Mostyn,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31897,2023-04-29 09:47
+WA190,40110,2023-07-01 00:00,A,ASST DEAN STU CONDCT,STU CONDCT,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31898,2023-07-25 09:07
+WA190,40120,2024-07-01 00:00,A,RECRUITMENT,RECRUITM'T,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31899,2024-08-15 15:41
+WA190,40121,2024-07-01 00:00,A,FinAid Outreach SSHB1835,FAOutreach,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23604,2024-08-15 15:41
+WA190,40122,2024-07-02 00:00,A,Community Based FinAid w/CBO,CBFA,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25063,2024-10-02 08:40
+WA190,40130,1901-01-01 00:00,A,HAWK CENTRAL,HAWK CENTR,,9792,Mohammed Shahabuddin,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31900,2023-04-29 09:47
+WA190,40140,1901-01-01 00:00,A,STUDENT RECORDS,STU REC'DS,,9792,Mohammed Shahabuddin,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31901,2023-04-29 09:47
+WA190,40150,2026-03-01 00:00,A,ASSESSMENT CENTER,ASSESSMENT,,0678,Mary Simon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31902,2026-03-03 16:07
+WA190,40160,1901-01-01 00:00,A,ST DEV & COUNSELING,ST DEV&CNS,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31903,2023-04-29 09:47
+WA190,40161,1901-01-01 00:00,A,FYI  - First Year Introduction,FYI,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31904,2023-04-29 09:47
+WA190,40162,1901-01-01 00:00,A,HDEV,HDEV,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31905,2023-04-29 09:47
+WA190,40163,1901-01-01 00:00,A,STUDENT SUCCESS CLSS,STU SUC CL,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31906,2023-04-29 09:47
+WA190,40164,1901-01-01 00:00,A,GP-SB Aloc,GP-SB Aloc,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31907,2023-04-29 09:47
+WA190,40170,1901-01-01 00:00,A,MULTI CULTURAL,MULTI CULT,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31908,2023-04-29 09:47
+WA190,40180,2022-12-01 00:00,A,VETERANS AFFAIRS,VETERANS A,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25692,2023-03-17 10:34
+WA190,40181,1901-01-02 00:00,A,Alloc: GOLDSTAR FAMILIES,GOLDSTAR,,6276,Ismail Omar Guelleh,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31910,2024-09-17 16:23
+WA190,40182,2022-12-01 00:00,A,VA FOREVER GI BILL,VA FOREVER,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25693,2023-03-16 09:46
+WA190,40190,1901-01-01 00:00,A,CAREER CENTER,CAREER CTR,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31912,2023-04-29 09:47
+WA190,40201,2023-07-01 00:00,A,STUDENT ACTIVITIES,STU ACTV,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31913,2023-07-25 09:07
+WA190,40210,1901-01-01 00:00,A,STU REC & WELLNESS,REC & WELN,,0578,Evariste Ndayishimiye,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31914,2023-04-29 09:47
+WA190,40220,1901-01-01 00:00,A,STU FITNESS,STU FITNES,,0578,Evariste Ndayishimiye,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31915,2023-04-29 09:47
+WA190,40230,1901-01-01 00:00,A,STU RECREATION ACTIV,REC ACTV,,0578,Evariste Ndayishimiye,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31916,2023-04-29 09:47
+WA190,40240,2023-07-01 00:00,A,WF-Dev Proj Allocation,WF DevProj,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31917,2023-09-26 13:52
+WA190,40241,2023-07-01 00:00,A,DISABILITY SERVICES OFFICE,DSO,,9800,Joao Lourenco,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31918,2023-12-19 07:14
+WA190,40242,2023-07-01 00:00,A,DISABILITY ACCOMMODATIONS,DIS.ACCOM,,9800,Joao Lourenco,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31919,2023-12-19 07:15
+WA190,40243,2022-06-23 00:00,A,SEAG SB Allocation Grant,SEAG SB Al,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22600,2022-06-24 09:08
+WA190,40244,2023-01-01 00:00,A,SSEH-HOMELESS STUDENT ALLOC,SSEH - EN1,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24760,2023-03-20 16:10
+WA190,40245,2023-07-01 00:00,A,Student Needs SHB 1559,SHB 1559,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37835,2023-08-22 14:42
+WA190,40300,2023-09-01 00:00,A,RESIDENT LIFE,RES LIFE,,3924,Mswati Ngwenyama,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31921,2024-01-31 08:06
+WA190,40301,2022-06-01 00:00,A,RES HALL OPERATIONS,RES OPS,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22187,2022-06-02 11:17
+WA190,40302,1901-01-01 00:00,A,RES HALL DEPOSITS,RES DEP,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31923,2023-04-29 09:47
+WA190,40304,2022-06-23 00:00,A,STU CHILDCARE REIMB.,STU CHILDC,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22601,2022-06-24 09:09
+WA190,40400,1901-01-01 00:00,A,STU ATHLETICS PRG,ATHL PRJ,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31925,2023-04-29 09:47
+WA190,40500,1901-01-01 00:00,A,RUNNING START REV,RS PRG REV,,0588,Hun Sen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31926,2023-04-29 09:47
+WA190,40501,2022-06-01 00:00,A,RUNNING START SVCS,RS PRG OPS,,1154,Xi Jinping,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22180,2022-06-02 11:09
+WA190,40600,1901-01-01 00:00,A,FINANCIAL AID,FIN AID,,9632,Hamad bin Isa Al Khalifa,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31928,2023-04-29 09:47
+WA190,41601,2023-07-01 00:00,A,FinAid-Closed,FinAid-Clo,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31929,2023-07-12 15:26
+WA190,41602,2023-07-01 00:00,A,LAMB WESTON SSHIP,LAMB WESTO,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31930,2023-07-12 15:27
+WA190,41603,2023-07-01 00:00,A,TEACHER SHRT SCHOLAR,TEACHER SH,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31931,2023-07-12 15:27
+WA190,41604,2023-07-01 00:00,A,SEOG INITIAL AWARD,SEOG INITI,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31932,2023-07-12 15:28
+WA190,41605,2023-07-01 00:00,A,PELL GRANT,PELL GRANT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31933,2023-07-12 15:28
+WA190,41606,2023-07-01 00:00,A,LAMB WESTON SSHIP,LAMB WESTO,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31934,2023-07-12 15:28
+WA190,41607,2023-07-01 00:00,A,COLLEGE BOUND SCHOL,COL BND SC,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31935,2023-07-12 15:28
+WA190,41608,2023-07-01 00:00,A,GEAR UP FIN AID,GEARUP FIN,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31936,2023-07-12 15:29
+WA190,41609,2023-07-01 00:00,A,Undoc Stu Relief Grant,UNDOC RELF,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31937,2023-07-12 15:29
+WA190,41610,2023-07-01 00:00,A,ST NEED GRANT,ST NEED GR,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31938,2023-07-12 15:29
+WA190,41611,2023-07-01 00:00,A,PARA-EDUCATORS SSHIP,PARA-EDUCA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31939,2023-07-12 15:30
+WA190,41612,2023-07-01 00:00,A,TW SEA VETERAN,TW SEA VET,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31940,2023-07-12 15:30
+WA190,41613,2023-07-01 00:00,A,PASSPORT TO COLLEGE,PASSPORT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31941,2023-07-12 15:30
+WA190,41614,2023-07-01 00:00,A,CARES ACT,CARES ACT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31942,2023-07-12 15:30
+WA190,41615,2023-07-01 00:00,A,SCHOLARSHIP ACCOUNT,SCHOLAR AC,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31943,2023-07-12 15:31
+WA190,41616,2023-07-01 00:00,A,CBC MEMORIAL SCHOLAR,MEMORIAL S,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31944,2023-07-12 15:31
+WA190,41617,2023-07-01 00:00,A,TUITION WAIV ND,TUITION WA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31945,2023-07-12 15:31
+WA190,41618,2023-07-01 00:00,A,TW HGH SCH COMP,TW HGH SCH,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31946,2023-07-12 15:31
+WA190,41619,2023-07-01 00:00,A,FT EMPLOY #5,FT EMPLOY,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31947,2023-07-12 15:32
+WA190,41620,2023-07-01 00:00,A,TW SENIOR CIT,TW SENIOR,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31948,2023-07-12 15:32
+WA190,41623,2023-07-01 00:00,A,TW NON RES EMPL,TW NON RES,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31949,2023-07-12 15:32
+WA190,41624,2023-07-01 00:00,A,TW UNEMPLOYED,TW UNEMPLO,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31950,2023-07-12 15:33
+WA190,41625,2023-07-01 00:00,A,TW UNGR ABE,TW UNGR AB,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31951,2023-07-12 15:34
+WA190,41626,2023-07-01 00:00,A,TW APPRENTICE,TW APPRENT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31952,2023-07-12 15:34
+WA190,41627,2023-07-01 00:00,A,TW EM MED TECH,TW EM MED,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31953,2023-07-12 15:34
+WA190,41628,2023-07-01 00:00,A,TW SEN CIT COUR,TW SEN CIT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31954,2023-07-12 15:35
+WA190,41629,2023-07-01 00:00,A,TW PAR ED-O FEE,TW PAR ED-,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31955,2023-07-12 15:35
+WA190,41630,2023-07-01 00:00,A,TALENT GRANTS,TALENT GRA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31956,2023-07-12 15:35
+WA190,41631,2023-07-01 00:00,A,TW VOC >18 EXEM,TW VOC >18,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31957,2023-07-12 15:36
+WA190,41632,2023-07-01 00:00,A,INSTITUTIONAL WAIVER,INST WVR,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31958,2023-07-12 15:36
+WA190,41633,2023-07-01 00:00,A,WAVE SCHOLARSHIP,WAVE SCHOL,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31959,2023-07-12 15:36
+WA190,41634,2023-07-01 00:00,A,WAVE RECEPIENT,WAVE RECEP,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31960,2023-07-12 15:37
+WA190,41635,2023-07-01 00:00,A,STU SUPPORT SVC GRNT,STU SUPRT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31961,2023-07-12 15:37
+WA190,41636,2023-07-01 00:00,A,CBC GRANT,CBC GRANT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31962,2023-07-12 15:38
+WA190,41637,2023-07-01 00:00,A,STU SUPP SERV FA,STU SUPP S,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31963,2023-07-12 15:39
+WA190,41638,2023-07-01 00:00,A,GEO WASHINGTON FOUND,GEO WASHIN,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31964,2023-07-12 15:39
+WA190,41639,2023-07-01 00:00,A,CBC FOUNDATION SCHOL,CBC FOUNDA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31965,2023-07-12 15:39
+WA190,41640,2023-07-01 00:00,A,CBC ATHLETIC SCHOLAR,CBC ATHLET,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31966,2023-07-12 15:39
+WA190,41641,2023-07-01 00:00,A,KADLEC SCHOLARSHIP,KADLEC SCH,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31967,2023-07-12 15:40
+WA190,41642,2023-07-01 00:00,A,FDN VETERAN SCHOLAR,FDN VETERA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31968,2023-07-12 15:40
+WA190,41643,2023-07-01 00:00,A,WORKFIRST STATE,WORKFIRST,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31969,2023-07-12 15:40
+WA190,41644,2023-07-01 00:00,A,VET'S GOLDSTAR AWARD,VET'S GOLD,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31970,2023-07-12 15:40
+WA190,41645,2023-07-01 00:00,A,WORK BASED LEARNING,WORK BASED,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31971,2023-07-12 15:40
+WA190,41646,2023-07-01 00:00,A,WORKFORCE TRAINING,WORKFORCE,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31972,2023-07-12 15:40
+WA190,41647,2023-07-01 00:00,A,WORKFR FOUNDATION AW,WORKFR FOU,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31973,2023-07-12 15:41
+WA190,41648,2023-07-01 00:00,A,OPPORTUNITY GRANTS,OPPORTUNIT,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31974,2023-07-12 15:41
+WA190,41649,2023-07-01 00:00,A,GUARANT ST LOANS,GUARANT ST,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31975,2023-07-12 15:41
+WA190,41650,2023-07-01 00:00,A,FA CLEARING,FA CLEARIN,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31976,2023-07-12 15:41
+WA190,41651,2023-07-01 00:00,A,COMP COACH SCHOLAR,COMP COACH,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31977,2023-07-12 15:42
+WA190,41652,2023-07-01 00:00,A,DIRECT LOANS,DIRECT LOA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31978,2023-07-12 15:42
+WA190,41653,2022-07-01 00:00,A,EXCEPTNL FAC AWARDS,EXCEPTNL F,,0660,Josep-Lluis Serrano,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22795,2022-07-10 07:55
+WA190,41654,2023-07-01 00:00,A,3% L/T LOAN FUND,3% L/T LOA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31980,2023-07-12 15:42
+WA190,41655,2023-07-01 00:00,A,EMERGENCY LOANS,ER LOAN,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31981,2023-07-12 15:42
+WA190,41656,2023-07-01 00:00,A,3% LOAN WORK STUDY,3% LOAN WO,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31982,2023-07-12 15:42
+WA190,41657,2023-07-01 00:00,A,OFF CAMPUS STATE CWS,OFF CAMPUS,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31983,2023-07-12 15:43
+WA190,41658,2023-07-01 00:00,A,NUC ED SCHOLARSHIP,NUC ED SCH,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31984,2023-07-12 15:43
+WA190,41659,2023-07-01 00:00,A,NSF - SCHOLARSHIPS,NSF - SCHO,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31985,2023-07-12 15:43
+WA190,41660,2023-07-01 00:00,A,NW FISHERIES,NW FISHERI,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31986,2023-07-12 15:43
+WA190,41661,1901-01-01 00:00,A,FA-WA VACCINE INCT SCHL,FA-WA VACC,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31987,2023-04-29 09:47
+WA190,41662,2022-07-02 00:00,A,WA Bridge Program,Bridge Prg,,8658,Cecile La Grenade,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25377,2023-02-16 13:18
+WA190,41699,1901-01-01 00:00,A,FedWkStudy,FedWkStudy,,9632,Hamad bin Isa Al Khalifa,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31988,2023-04-29 09:47
+WA190,46143,2023-07-01 00:00,A,National Guard FinAid,NatGuardFA,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22402,2023-07-12 15:45
+WA190,50001,1901-01-01 00:00,A,VP INSTRUCTION,VP INSTRUC,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31989,2023-04-29 09:47
+WA190,50100,2024-07-01 00:00,A,INSTRUCTION SUPPORT,INST SUP,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31990,2025-04-03 08:53
+WA190,50102,2023-01-01 00:00,A,Teaching and Learning Center,TLC,,6282,Abdelmadjid Tebboune,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25652,2023-03-14 15:56
+WA190,50103,2024-06-29 00:00,A,Hospitality Center of Excel,Hosp Centr,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38957,2024-07-17 14:46
+WA190,50110,2024-04-30 00:00,A,DEI COMMITTEE,DEI COMMIT,,1002,Daniel Noboa,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31992,2024-04-30 11:39
+WA190,50120,2024-01-01 00:00,A,COURSE & CURRIC DEV,CURRIC DEV,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31993,2024-02-05 10:08
+WA190,50130,1901-01-01 00:00,A,FACULTY DEVELOPMENT,FACULTY DE,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31994,2023-04-29 09:47
+WA190,50131,2022-04-25 00:00,A,DEAN & DIR PROF DEV,DEANDIRPD,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23012,2022-07-24 21:53
+WA190,50140,2022-04-01 00:00,A,HD FACULTY COMP,HDFACPAY,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22189,2022-06-02 11:33
+WA190,50200,2022-04-25 00:00,A,DEAN-LIBRARY & SERVICES,DEANLIBSVS,,0498,Hassanal Bolkiah,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23013,2022-07-25 12:07
+WA190,50210,2024-01-01 00:00,A,LIBRARY,LIBRARY,,9842,Jeffrey Bostic,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31997,2024-04-05 07:57
+WA190,50220,2023-01-02 00:00,A,ACADEMIC SUCCESS CTR,ACD SUS CT,,0280,Jigme Wangchuck,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25649,2023-03-14 15:30
+WA190,50230,1901-01-01 00:00,A,ASSISTIVE TECHNOLOGY,ASST TECH,,0498,Hassanal Bolkiah,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,31999,2023-04-29 09:47
+WA190,50301,2022-06-23 00:00,A,WR-COORDINATOR,WR-COORDIN,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22602,2022-06-24 09:10
+WA190,50302,2022-06-23 00:00,A,WR-FIN AID WKFRC TRN,WR-FIN AID,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22603,2022-06-24 09:10
+WA190,50303,2022-06-23 00:00,A,WR-WRKFRC TRN SUPPRT,WR- TRN SU,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22604,2022-06-24 09:10
+WA190,50304,1901-01-01 00:00,A,WR-MATH SUPPORT,WR-MATH,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32003,2023-04-29 09:47
+WA190,50305,2022-06-23 00:00,A,WR-ALLIED HEALTH,WR-ALLIED,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22605,2022-06-24 09:12
+WA190,50306,2022-06-23 00:00,A,WR-INFORMATION TECH,WR-IT,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22606,2022-06-24 09:12
+WA190,50307,2022-06-23 00:00,A,WR-LIBRARY/TUTOR SVS,WR-LIBRARY,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22607,2022-06-24 09:12
+WA190,50308,2022-06-23 00:00,A,WR-VOCATIONAL ESL,WR-VOC ESL,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22608,2022-06-24 09:13
+WA190,50309,2022-06-23 00:00,A,WR-BASIC SKILLS,WR-B SKILL,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22609,2022-06-24 09:13
+WA190,50310,1901-01-01 00:00,A,WR-ACCOUNTING/BUS,WR-ACCOUNT,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32009,2023-04-29 09:47
+WA190,50311,1901-01-01 00:00,A,WR-ENGINEERING TECH,WR-ENGINEE,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32010,2023-04-29 09:47
+WA190,50312,2022-06-23 00:00,A,WR-PARA PROFESSIONAL,WR-PARA PR,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22610,2022-06-24 09:14
+WA190,50313,2022-06-23 00:00,A,WR-VOCATIONAL/TRADES,WR-VOC/TRD,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22611,2022-06-24 09:14
+WA190,50314,2022-06-23 00:00,A,WR-ED ACCESS,WR-ED ACCE,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22612,2022-06-24 09:15
+WA190,50340,2024-07-01 00:00,A,EARLY ACHIEVERS - SUPPORTS,EAS,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32014,2024-10-24 16:09
+WA190,50341,2022-07-01 00:00,A,OPPORTUNITY GRANT ALLOCATION,OPP GRNT,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22613,2022-12-20 15:59
+WA190,50342,2022-07-01 00:00,A,Health Care Opportunity Grant,Health OG,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37520,2023-06-20 10:34
+WA190,50351,2023-07-01 00:00,A,BFET Reutilized,BFET,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37921,2023-09-27 11:21
+WA190,50501,2024-06-13 00:00,A,ASSOC DEAN-BASIC SKL,D. BASIC S,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32016,2024-06-24 10:27
+WA190,50510,1901-01-01 00:00,A,SKILLS ENHANCEMENT,SKILLS ENH,,0434,Christian Schmidt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32017,2023-04-29 09:47
+WA190,50520,2024-06-13 00:00,A,BASIC ED FED PRG INC,BASIC ED F,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32018,2024-06-24 10:48
+WA190,50530,2024-06-13 00:00,A,ESL-ENG 2ND LANG,ESL-ENG 2N,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32019,2024-06-24 10:29
+WA190,50540,2024-06-13 00:00,A,LOC-LEARN OPP CTR,LOC-LEARN,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32020,2024-06-24 10:28
+WA190,50550,1901-01-01 00:00,A,IBEST Ag Expn,IBEST Ag,,0434,Christian Schmidt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32021,2023-04-29 09:47
+WA190,50560,2024-07-01 00:00,A,COLLEGE IN HIGH SCHOOL,CiHS,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39563,2025-04-23 15:05
+WA190,51101,2025-01-01 00:00,A,DEAN-ARTS/HUMANITIES,D-ARTS/HUM,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32022,2025-02-20 16:07
+WA190,51110,2025-01-01 00:00,A,ART,ART,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32023,2025-02-20 16:08
+WA190,51120,2025-01-01 00:00,A,DRAMA/THEATRE,DRAMA/THEA,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32024,2025-02-20 16:08
+WA190,51130,2025-01-01 00:00,A,MUSIC,MUSIC,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32025,2025-02-20 16:09
+WA190,51140,2025-01-01 00:00,A,ENGLISH LITERATURE,ENGLISH LI,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32026,2025-02-20 16:09
+WA190,51150,2025-01-01 00:00,A,COMM STUDIES,COMM STUDI,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32027,2025-02-20 16:09
+WA190,51160,2023-09-26 00:00,A,HISTORY,HISTORY,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32028,2023-09-26 10:31
+WA190,51170,2025-01-01 00:00,A,SIP Spanish Interpreting Prog,SIP,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38611,2025-02-25 15:35
+WA190,52101,1901-01-01 00:00,A,DEAN-MATH/SCIENCE,D-MATH/SCI,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32029,2023-04-29 09:47
+WA190,52110,1901-01-01 00:00,A,MESA/STEM,MESA/STEM,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32030,2023-04-29 09:47
+WA190,52120,1901-01-01 00:00,A,EXERCISE SCIENCE,EXERCISE S,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32031,2023-04-29 09:47
+WA190,52130,1901-01-01 00:00,A,LIFE SCIENCES,LIFE SCIEN,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32032,2023-04-29 09:47
+WA190,52140,1901-01-01 00:00,A,PHYSICAL SCIENCES,PHYSICAL S,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32033,2023-04-29 09:47
+WA190,52150,2023-09-26 00:00,A,ANTHROPOLOGY,ANTHROPOLO,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32034,2023-09-26 10:29
+WA190,52160,1901-01-01 00:00,A,AGRICULTURE,AGRICULTUR,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32035,2023-04-29 09:47
+WA190,52161,2024-04-01 00:00,A,AG RESEARCH & DEV,AG RESEARC,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32036,2024-06-06 16:06
+WA190,52170,1901-01-01 00:00,A,MATH,MATH,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32037,2023-04-29 09:47
+WA190,52171,2024-07-01 00:00,A,Math Course Fees,MATH Fees,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32038,2024-09-27 09:15
+WA190,52180,1901-01-01 00:00,A,PHYSICS,PHYSICS,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32039,2023-04-29 09:47
+WA190,52190,1901-01-01 00:00,A,ENGINEERING,ENGINEERIN,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32040,2023-04-29 09:47
+WA190,52200,2024-12-31 00:00,A,PLANETARIUM,PLANETARIU,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32041,2024-12-31 12:56
+WA190,53101,2025-07-01 00:00,A,DEAN-BUSINESS/BAS,D-BUS/C.SC,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32042,2025-07-07 08:39
+WA190,53110,2025-07-01 00:00,A,BUS DIV/SELF SUPPORT,BUS DIV/SS,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32043,2025-07-07 08:40
+WA190,53120,2026-01-01 00:00,A,APPLIED MANAGEMENT,APPLIED MA,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32044,2026-01-13 09:36
+WA190,53130,2026-01-01 00:00,A,BUSINESS-TRANSFER,BUSINESS-T,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32045,2026-01-13 09:36
+WA190,53131,2026-01-01 00:00,A,Digital Marketing,Digi Mark,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39115,2026-01-13 09:37
+WA190,53132,2026-01-11 00:00,A,Logistics and Supply Chain Res,LSCR,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39116,2026-01-13 09:37
+WA190,53140,2026-01-01 00:00,A,BUSINESS-WORKFORCE,BUSINESS-W,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32046,2026-01-13 09:37
+WA190,53150,2026-01-01 00:00,A,ECONOMICS,ECONOMICS,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32047,2026-01-13 09:38
+WA190,53160,2023-09-26 00:00,A,CRIMINAL JUSTICE,CRIMINAL J,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32048,2023-09-26 10:31
+WA190,53170,2025-07-01 00:00,A,COMPUTER SCIENCE,COMP SCI,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32049,2025-07-07 08:40
+WA190,53171,2024-07-01 00:00,A,BS COMPUTER SCIENCE,BSCS,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39311,2024-12-17 10:49
+WA190,53180,2026-01-01 00:00,A,PROJECT MANAGEMENT,PROJECT MA,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32050,2026-01-13 09:38
+WA190,53190,2025-07-01 00:00,A,CYBERSECURITY,CYBERSECUR,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32051,2025-07-07 08:41
+WA190,54101,2023-09-26 00:00,A,DEAN-SOC SCI & EDU,D-SOC SCI,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32052,2023-09-26 07:48
+WA190,54110,2025-09-01 00:00,A,ECE-EARLY CHILD ED,ECE,,2922,Brice Oligui Nguema,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32053,2025-09-18 10:42
+WA190,54120,2025-09-01 00:00,A,BAS-TEACHER EDU PROG,BAS-TCH ED,,2922,Brice Oligui Nguema,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32054,2025-09-18 10:43
+WA190,54130,2023-09-26 00:00,A,SOCIAL SCIENCE,SOCIAL SCI,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32055,2023-09-26 07:49
+WA190,54140,2023-09-26 00:00,A,POLITICAL SCIENCE,POLITICAL,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32056,2023-09-26 07:49
+WA190,54150,2023-09-26 00:00,A,PHILOSOPHY,PHILOSOPHY,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32057,2023-09-26 07:50
+WA190,54160,2023-09-26 00:00,A,PSYCHOLOGY,PSYCHOLOGY,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32058,2023-09-26 07:51
+WA190,54170,2023-09-26 00:00,A,SOCIOLOGY,SOCIOLOGY,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32059,2023-09-26 07:51
+WA190,54180,2023-09-26 00:00,A,INTERCULTURAL STUDY,INTERCULTU,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32060,2023-09-26 07:52
+WA190,54190,2023-09-26 00:00,A,WOMENS STUDIES,WOMENS STU,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32061,2023-09-26 07:52
+WA190,54200,2025-01-01 00:00,A,WORLD LANGUAGE,WORLD LANG,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32062,2025-02-20 16:10
+WA190,55101,1901-01-01 00:00,A,DEAN-HEALTH SCIENCES,D-HLTH SCI,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32063,2023-04-29 09:47
+WA190,55102,2023-07-01 00:00,A,HEET-Hospital Emp Edu/Train'g,HEET,"Hospital Employee Education & Training - EARMARK
+.
+Funds are provided to develop or expand innovative training programs in partnership with labor and employers that support incumbent healthcare workers. 
+
+
+State Earmark funding",1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38262,2024-03-01 13:36
+WA190,55110,1901-01-01 00:00,A,SURGICAL TECHNOLOGY,SURG TECH,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32064,2023-04-29 09:47
+WA190,55120,1901-01-01 00:00,A,RADIOLOGIC TECHNOLGY,RAD TECH,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32065,2023-04-29 09:47
+WA190,55130,1901-01-01 00:00,A,DIAGNOSTIC ULTRASND,DIAGNOSTIC,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32066,2023-04-29 09:47
+WA190,55140,1901-01-01 00:00,A,EMERGENCY MED TECH,ER MED TEC,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32067,2023-04-29 09:47
+WA190,55150,2023-01-01 00:00,A,STERILE PROCESSING,HEALTH CAR,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25716,2023-03-22 07:57
+WA190,55160,1901-01-01 00:00,A,IMAGING-MEDICAL MISC,IMAGING,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32069,2023-04-29 09:47
+WA190,55170,1901-01-01 00:00,A,MEDICAL RECORDS,MEDICAL RE,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32070,2023-04-29 09:47
+WA190,55180,1901-01-01 00:00,A,MEDICAL ASSISTANT,MEDICAL AS,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32071,2023-04-29 09:47
+WA190,55190,1901-01-01 00:00,A,PHLEBOTOMY,PHLEBOTOMY,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32072,2023-04-29 09:47
+WA190,55200,1901-01-01 00:00,A,PARAMEDIC,EMT,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32073,2023-04-29 09:47
+WA190,55201,2023-01-01 00:00,A,HEALTH SCIENCES,EMT CNT ED,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25715,2023-03-22 07:56
+WA190,55202,1901-01-01 00:00,A,FIRE SCIENCE,FIRE SCIEN,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32075,2023-04-29 09:47
+WA190,55203,1901-01-01 00:00,A,AUX- PARAMEDIC INSTRUC,AUX- EMT,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32076,2023-04-29 09:47
+WA190,55301,1901-01-01 00:00,A,NURSING,NURSING,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32077,2023-04-29 09:47
+WA190,55302,1901-01-01 00:00,A,NURSING ASSISTANT,NUR ASST,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32078,2023-04-29 09:47
+WA190,55303,1901-01-01 00:00,A,NURSING KAP,NUR KAP,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32079,2023-04-29 09:47
+WA190,55304,2023-10-02 00:00,A,High D. Enrollments Alloc,HIGH D.,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32080,2023-10-02 14:13
+WA190,55305,2024-01-01 00:00,A,Respiratory Therapy,Resp Thera,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38141,2024-01-08 10:16
+WA190,55306,2024-04-08 00:00,A,Nursing EDU Fund,Nursing ED,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38615,2024-04-08 13:40
+WA190,55309,2024-07-01 00:00,A,LPN-BSN,LPN-BSN,,0562,Ibrahim Traore,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39207,2024-10-14 15:21
+WA190,55310,1901-01-01 00:00,A,BACHELORS-NURSING,BAS- NURS,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32081,2023-04-29 09:47
+WA190,55401,1901-01-01 00:00,A,DENTAL HYGIENE,DENTAL HYG,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32082,2023-04-29 09:47
+WA190,55402,1901-01-01 00:00,A,DH RTEMEDIATION SUPP,DH RTEMEDI,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32083,2023-04-29 09:47
+WA190,55403,1901-01-01 00:00,A,DENT STU EQUIP PURCH,DENT STUEQ,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32084,2023-04-29 09:47
+WA190,55404,2023-09-01 00:00,A,EFDA Expanded Functions Dental,EFDA,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37730,2023-09-12 08:24
+WA190,55405,2024-01-01 00:00,A,Dental Assisting,Dent Assis,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38140,2024-01-08 10:14
+WA190,56101,2022-05-01 00:00,A,DEAN-CAREER TECH EDU,D-CT EDU,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22221,2022-06-07 16:33
+WA190,56102,2025-07-01 00:00,A,APPRENTICESHIP,APPRENTICE,,9114,Rodney Williams,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32086,2025-08-14 08:54
+WA190,56103,1901-01-01 00:00,A,SELF-SUPPORT/FLAGGER,SELF-SUPPO,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32087,2023-04-29 09:47
+WA190,56104,2024-07-01 00:00,A,ESSB 5764 Apprenticeship,ESSB 5764,,9114,Rodney Williams,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39170,2024-10-08 11:42
+WA190,56110,1901-01-01 00:00,A,AUTOMOTIVE,AUTOMOTIVE,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32088,2023-04-29 09:47
+WA190,56111,1901-01-01 00:00,A,AutoLab,AutoLab,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32089,2023-04-29 09:47
+WA190,56120,2024-12-31 00:00,A,OFFICE TECHNICIAN,OFFICE TEC,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32090,2024-12-31 12:56
+WA190,56130,1901-01-01 00:00,A,INDUSTRIAL TECHNLGY,INDUSTRIAL,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32091,2023-04-29 09:47
+WA190,56140,2022-05-01 00:00,A,OCCUPATIONAL SAFETY & HEALTH,OSH,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22445,2022-06-14 13:00
+WA190,56150,1901-01-01 00:00,A,MANUFACTURING,MANUFACTUR,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32093,2023-04-29 09:47
+WA190,56160,1901-01-01 00:00,A,WELDING TECHNOLOGY,WELDING TE,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32094,2023-04-29 09:47
+WA190,56170,1901-01-01 00:00,A,NUCLEAR TECHNOLOGY,NUCLEAR TE,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32095,2023-04-29 09:47
+WA190,56180,2023-07-31 00:00,A,CDL- Truck/Bus Driver,CDL PRG,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32096,2023-07-31 10:49
+WA190,56190,1901-01-01 00:00,A,BAS-HEALTH PHYSICS,BAS-HLTH P,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32097,2023-04-29 09:47
+WA190,56200,1901-01-01 00:00,A,ASSOC DEAN-CULINARY,D-CULINARY,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32098,2023-04-29 09:47
+WA190,56210,1901-01-01 00:00,A,HOSPITALITY,HOSPITALIT,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32099,2023-04-29 09:47
+WA190,60000,2022-05-01 00:00,A,146 FUND BALANCE,146-BAL,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22447,2022-06-14 15:04
+WA190,60001,2022-07-04 00:00,A,148 General Operating,148 GenOps,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32101,2023-06-22 15:44
+WA190,60002,1901-01-01 00:00,A,570 GenRev,570 GenRev,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32102,2023-04-29 09:47
+WA190,60003,2025-01-01 00:00,A,Community Lecture Series,LectSeries,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32103,2025-02-20 16:10
+WA190,60004,2022-07-01 00:00,A,570 - Events,570Events,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23971,2022-09-28 10:45
+WA190,60005,1901-01-01 00:00,A,CareerExp,CareerExp,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32105,2023-04-29 09:47
+WA190,60006,2023-01-02 00:00,I,Law Lib,Law Lib,,0498,Hassanal Bolkiah,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25650,2023-03-14 15:36
+WA190,60007,1901-01-01 00:00,A,Nur conted,Nur conted,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32107,2023-04-29 09:47
+WA190,60008,1901-01-01 00:00,A,XrayStuEq,XrayStuEq,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32108,2023-04-29 09:47
+WA190,60009,1901-01-01 00:00,A,WmResource,WmResource,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32109,2023-04-29 09:47
+WA190,60010,1901-01-01 00:00,A,DistLearn,DistLearn,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32110,2023-04-29 09:47
+WA190,60011,1901-01-01 00:00,A,Test-Comm,Test-Comm,,9792,Mohammed Shahabuddin,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32111,2023-04-29 09:47
+WA190,60012,2025-01-01 00:00,A,JazzUnlim,JazzUnlim,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32112,2025-02-20 16:10
+WA190,60013,1901-01-01 00:00,A,Observ,Observ,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32113,2023-04-29 09:47
+WA190,60014,2025-07-01 00:00,A,STEM Community Center,STEMCtr,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39786,2025-08-08 08:48
+WA190,60015,2025-07-01 00:00,A,Aux Recreational Activities,570RecActi,"The main plan is to use the revenue from the outdoor equipment rentals to purchase more outdoor rec equipment, or replace equipment as it gets worn down or damaged. Other uses may be supplementing my other supplies or activities budget to purchase other things for the SRC or community activity offerings",0578,Evariste Ndayishimiye,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39785,2025-08-07 15:11
+WA190,60016,2022-07-01 00:00,A,Community Fitness,CommFit,,9492,Sam Mostyn,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24395,2022-10-21 12:43
+WA190,60017,1901-01-01 00:00,A,CLD Sim,CLD Sim,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32115,2023-04-29 09:47
+WA190,60018,1901-01-01 00:00,A,AutoEntp,AutoEntp,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32116,2023-04-29 09:47
+WA190,60019,1901-01-01 00:00,A,AthEntp,AthEntp,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32117,2023-04-29 09:47
+WA190,60020,2023-07-01 00:00,A,AG ResAux,AG ResAux,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32118,2023-07-10 07:21
+WA190,60021,2022-07-01 00:00,A,Athletic's FDN Reimb,ATHFDNRB,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25059,2023-01-18 14:47
+WA190,60023,2026-01-01 00:00,A,BusDept Entp,BusDept En,,1800,Nayib Bukele,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32119,2026-01-13 09:39
+WA190,60024,1901-01-01 00:00,A,DH-Clinic,DH-Clinic,,7174,Konstantinos Tasoulas,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32120,2023-04-29 09:47
+WA190,60025,1901-01-01 00:00,A,NursAsst,NursAsst,,0562,Ibrahim Traore,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32121,2023-04-29 09:47
+WA190,60026,2025-07-01 00:00,A,VocWkshp,VocWkshp,,9114,Rodney Williams,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32122,2025-08-14 08:54
+WA190,60027,2022-06-24 00:00,A,Mkt&PR,Mkt&PR,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22181,2022-06-27 07:50
+WA190,60028,2022-06-01 00:00,A,RentalEnp,RentalEnp,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22400,2022-06-08 09:22
+WA190,60029,1901-01-01 00:00,A,STAndNNN,STAndNNN,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32125,2023-04-29 09:47
+WA190,60030,2022-07-01 00:00,A,Aux Activity Rev,570 AuxAct,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25006,2023-01-04 12:08
+WA190,60031,2024-07-02 00:00,A,Passport Incentive Funds,Pass funds,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38223,2024-09-19 12:45
+WA190,61001,1901-01-01 00:00,A,522 FDNBal,522 FDNBal,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32126,2023-04-29 09:47
+WA190,61002,1901-01-01 00:00,A,522 Clearing,522 Cleari,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32127,2023-04-29 09:47
+WA190,61200,1901-01-01 00:00,A,StuAct Rev,StuAct Rev,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32128,2023-04-29 09:47
+WA190,61201,1901-01-01 00:00,A,522 FndBal,522 FndBal,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32129,2023-04-29 09:47
+WA190,61202,2023-01-01 00:00,A,ASB RSV,ASB RSV,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32130,2023-05-12 10:31
+WA190,61203,2023-11-08 00:00,A,Club Funding,Club Fndg,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24951,2023-11-08 07:26
+WA190,61204,2023-11-08 00:00,A,Service,Service,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32131,2023-11-08 07:27
+WA190,61205,2023-11-08 00:00,A,CyberHawks,CyberHawks,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32132,2023-11-08 07:27
+WA190,61206,2023-11-08 00:00,A,Cncil Trav,Cncil Trav,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32133,2023-11-08 07:28
+WA190,61207,2023-11-14 00:00,A,Office Adm,Office Adm,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32134,2023-11-14 10:18
+WA190,61208,2023-01-01 00:00,A,StaffSal,StaffSal,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32135,2023-05-12 10:13
+WA190,61209,2023-07-01 00:00,A,Stu Stipd,Stu Stipd,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32136,2023-11-30 08:32
+WA190,61210,2024-01-01 00:00,A,Activities,Activities,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32137,2025-04-23 13:36
+WA190,61211,2023-11-08 00:00,A,CopyWrites,CopyWrites,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32138,2023-11-08 07:33
+WA190,61214,2024-01-01 00:00,A,STU SUPPORT,STU SUPPOR,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32139,2025-04-23 13:36
+WA190,61215,2024-01-01 00:00,A,Tutor Ctr,Tutor Ctr,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32140,2024-02-05 07:27
+WA190,61216,2025-06-30 00:00,A,Career Services 522,CS522,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39772,2025-07-31 10:59
+WA190,61217,2023-11-08 00:00,A,Food Pantry,Food Pantr,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32141,2023-11-08 07:34
+WA190,61218,2024-01-01 00:00,A,DISABILITY TESTING,DISABILITY,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32142,2024-02-05 07:27
+WA190,61219,2023-01-01 00:00,A,VA Resource,VA Resourc,,9492,Sam Mostyn,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32143,2023-05-10 15:30
+WA190,61220,2024-01-01 00:00,A,CHILDCARE REIMBURSEMENT,CHILDCARER,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32144,2024-02-05 07:28
+WA190,61221,2024-01-01 00:00,A,Travel Reimbursement,TRV Reimb,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32145,2024-02-05 07:29
+WA190,61222,2024-07-01 00:00,A,SRC FeeRev,SRC FeeRev,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32146,2024-12-19 12:48
+WA190,61223,2023-01-02 00:00,A,SRC COP,SRC COP,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32147,2023-12-18 14:13
+WA190,61225,2023-01-01 00:00,A,StuCtr Reno,StuCtr Ren,,0636,Paul Biya,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32148,2023-05-12 10:12
+WA190,61226,2025-07-01 00:00,A,TRIO-522,TRIO-522,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,40159,2026-02-03 09:09
+WA190,61227,2025-07-01 00:00,A,Food Pantry,Food Pant,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,40160,2026-02-03 09:11
+WA190,61301,2023-01-01 00:00,A,Baseball,Baseball,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32149,2023-05-10 14:51
+WA190,61302,2023-01-01 00:00,A,M. Basket,M. Basket,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32150,2023-05-10 14:53
+WA190,61303,2023-01-01 00:00,A,M. Soccer,M. Soccer,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32151,2023-05-10 14:54
+WA190,61304,2023-01-01 00:00,A,M. Golf,M. Golf,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32152,2023-05-10 14:55
+WA190,61305,2023-01-01 00:00,A,Game Mgt,Game Mgt,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32153,2023-05-10 15:44
+WA190,61306,2023-11-08 00:00,A,C-Dent Hyg,C-Dent Hyg,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32154,2023-11-08 07:36
+WA190,61307,2023-01-01 00:00,A,W. Basket,W. Basket,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32155,2023-05-10 14:56
+WA190,61308,2023-01-01 00:00,A,Volleyball,Volleyball,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32156,2023-05-10 14:57
+WA190,61309,2023-01-01 00:00,A,W. Soccer,W. Soccer,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32157,2023-05-10 14:57
+WA190,61310,2023-01-01 00:00,A,W. Golf,W. Golf,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32158,2023-05-10 14:58
+WA190,61311,2023-01-01 00:00,A,Softball,Softball,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32159,2023-05-10 14:59
+WA190,61312,2023-01-01 00:00,A,Ath TGnt,Ath TGnt,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32160,2023-05-10 15:45
+WA190,61313,2023-11-08 00:00,A,InterGame,InterGame,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32161,2023-11-08 07:44
+WA190,61314,2023-01-01 00:00,A,Athletics Promotions,Athl Promo,,0462,Duma Boko,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,21636,2023-05-10 15:44
+WA190,61315,2023-11-08 00:00,A,Proj Mgmt Club,Proj Mgmt,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24958,2023-11-08 07:46
+WA190,61401,2024-01-01 00:00,A,Band,Band,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32162,2024-02-05 07:30
+WA190,61402,2024-01-01 00:00,A,Vocal,Vocal,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32163,2024-02-05 07:30
+WA190,61403,2024-01-01 00:00,A,Drama,Drama,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32164,2024-02-05 07:31
+WA190,61404,2024-01-01 00:00,A,Gallery,Gallery,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32165,2024-02-05 07:32
+WA190,61405,2024-01-01 00:00,A,ORCHESTRA,ORCHESTRA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,21634,2024-02-05 07:32
+WA190,61406,2024-01-01 00:00,A,Vocal TGnt,Vocal TGnt,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32166,2024-02-05 07:33
+WA190,61407,2024-01-01 00:00,A,Orchestra Talent Grant,Orch TGnt,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32167,2024-02-05 07:34
+WA190,61408,2024-01-01 00:00,A,Drama TGnt,Drama TGnt,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32168,2024-02-05 07:35
+WA190,61409,2024-01-01 00:00,A,Band TGnt,Band TGnt,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32169,2024-02-05 07:35
+WA190,61501,2024-01-01 00:00,A,Planet Prj,Planet Prj,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32170,2024-02-05 07:36
+WA190,61502,2023-11-08 00:00,A,Game Club,GameClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32171,2023-11-08 07:47
+WA190,61503,2023-11-08 00:00,A,Hockey Club,Hockey Clu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32172,2023-11-08 07:47
+WA190,61504,2023-11-08 00:00,A,Auto Club,Auto Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32173,2023-11-08 07:48
+WA190,61505,2023-11-08 00:00,A,PAS -Club,PAS -Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32174,2023-11-08 07:49
+WA190,61507,2023-11-08 00:00,A,PTK Club,PTK Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32175,2023-11-08 07:49
+WA190,61508,2023-11-08 00:00,A,S.Image Club,S.Image Cl,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32176,2023-11-08 07:51
+WA190,61509,2023-11-08 00:00,A,PSYCH Club,PSYCH Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32177,2023-11-08 07:52
+WA190,61510,2023-11-08 00:00,A,SkillsUSA,SkillsUSA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32178,2023-11-08 07:52
+WA190,61511,2023-11-08 00:00,A,Tech Club,Tech Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32179,2023-11-08 07:54
+WA190,61512,2023-07-01 00:00,A,ActMinds Club,ActMinds C,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32180,2023-11-30 08:37
+WA190,61513,2023-07-01 00:00,A,AnthroClub,AnthroClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32181,2023-11-30 08:38
+WA190,61514,2023-11-08 00:00,A,BB ChemClub,BB ChemClu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32182,2023-11-08 07:56
+WA190,61515,2023-07-01 00:00,A,DWOB Club,DWOB Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32183,2023-11-30 08:38
+WA190,61516,2023-07-01 00:00,A,DIversityClub,DIversityC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32184,2023-11-30 08:38
+WA190,61517,2023-11-08 00:00,A,ESS Club,ESS Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32185,2023-11-08 07:57
+WA190,61518,2024-07-01 00:00,A,SUNHAWK ASSOC,SHWK ASSOC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32186,2025-04-15 11:27
+WA190,61519,2024-07-01 00:00,A,ENGINEERING CLUB,ENGIN CLUB,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32187,2025-04-15 11:28
+WA190,61520,2023-07-01 00:00,A,HistoryClub,HistoryClu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32188,2023-11-30 08:40
+WA190,61521,2023-11-08 00:00,A,SpanishClub,SpanishClu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32189,2023-11-08 08:02
+WA190,61522,2023-11-08 00:00,A,LULAC,LULAC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32190,2023-11-08 08:03
+WA190,61523,2023-07-01 00:00,A,M& M Club,M& M Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32191,2023-11-30 08:40
+WA190,61524,2023-11-08 00:00,A,NWCM Club,NWCM Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32192,2023-11-08 08:06
+WA190,61525,2024-01-01 00:00,A,JpnCulClub,JpnCulClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32193,2024-01-31 07:56
+WA190,61526,2023-11-08 00:00,A,StuNur Club,StuNur Clu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32194,2023-11-08 08:07
+WA190,61527,2023-11-08 00:00,A,LDSSAClub,LDSSAClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32195,2023-11-08 08:08
+WA190,61528,2023-11-08 00:00,A,ASLClub,ASLClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32196,2023-11-08 08:14
+WA190,61529,2023-11-08 00:00,A,SIGMA Tclub,SIGMA Tclu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32197,2023-11-08 08:14
+WA190,61530,2023-07-01 00:00,A,IITEI Club,IITEI Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32198,2023-11-30 08:41
+WA190,61531,2023-11-08 00:00,A,VA Club,VA Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32199,2023-11-08 08:22
+WA190,61532,2023-11-08 00:00,A,BTW Club,BTW Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32200,2023-11-08 08:30
+WA190,61533,2023-07-01 00:00,A,YDemClub,YDemClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32201,2023-11-30 08:41
+WA190,61534,2023-11-08 00:00,A,BetterYou,BetterYou,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32202,2023-11-08 08:32
+WA190,61535,2023-11-08 00:00,A,ESPORTS,ESPORTS,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32203,2023-11-08 08:42
+WA190,61536,2023-11-08 00:00,A,DECA BUSINESS CLUB,DECA BUSIN,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32204,2023-11-08 08:46
+WA190,61537,2023-11-08 00:00,A,Mariachi and More,Mariachi,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25055,2023-11-08 08:47
+WA190,61538,2024-07-01 00:00,A,GAME DEV CLUB,GAME DEV,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39475,2025-03-13 09:32
+WA190,61539,2024-03-26 00:00,A,DentHygClub,DentHygClu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32205,2024-03-26 10:00
+WA190,61540,2023-11-20 00:00,A,Argentine Tango Club,Tango Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38033,2023-11-20 10:01
+WA190,61541,2023-11-20 00:00,A,Iron Hawks Barbell Club,Iron Hawks,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38034,2023-11-20 10:02
+WA190,61542,2023-11-20 00:00,A,Hawks Cycling Club,Cycle Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38035,2023-11-20 10:04
+WA190,61543,2023-07-01 00:00,A,SQUAD,SQUAD,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38094,2023-12-18 14:26
+WA190,61544,2023-07-01 00:00,A,SPEECH & DEBATE,Speech,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38095,2023-12-18 14:28
+WA190,61545,2023-07-01 00:00,A,KAIROS CHRISTIAN CLUB,KAIROS,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38096,2023-12-18 14:29
+WA190,61546,2024-02-01 00:00,A,Helping Hands Club,Help Hands,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38256,2024-02-28 09:41
+WA190,61547,2024-01-01 00:00,A,Undocumented Stu Advocacy Club,Undoc Stu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38580,2024-03-08 08:09
+WA190,61548,2024-06-12 00:00,A,Graduation,Graduat,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38833,2024-06-12 14:33
+WA190,61549,2024-06-12 00:00,A,522 Stu Exchange Program,Stu Exchan,Higashi Nippon International University Inter-University Exchange Project,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38834,2024-06-12 14:50
+WA190,61550,2024-01-01 00:00,A,522 MESA,522 MESA,ASCBC 522 fund MESA allocation,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38836,2024-06-13 09:30
+WA190,61551,2023-07-01 00:00,A,Sand VB,Sand VB,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32206,2023-11-30 08:41
+WA190,61552,2024-07-01 00:00,A,Broadcast Media Club,BMC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39246,2024-11-06 13:13
+WA190,61553,2024-07-01 00:00,A,Meditation & Mindfulness Club,MMC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39247,2024-11-06 13:15
+WA190,61554,2024-07-01 00:00,A,LEGO Club,LEGO,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39248,2024-11-06 13:15
+WA190,61555,2024-07-01 00:00,A,First Generation Club,FGC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39249,2024-11-06 13:16
+WA190,61556,2024-07-01 00:00,A,Ski & Snowboard Club,SSC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39250,2024-11-06 13:17
+WA190,61557,2024-07-01 00:00,A,Art Club,AC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39251,2024-11-06 13:17
+WA190,61558,2024-07-01 00:00,A,Club Esperanza,CE,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39252,2024-11-06 13:18
+WA190,61559,2023-07-01 00:00,A,YgMusicEdu,YgMusicEdu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32207,2023-12-07 07:52
+WA190,61560,2024-07-01 00:00,A,DANCE CLUB,DANCE CLUB,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39591,2025-05-08 09:01
+WA190,61561,2024-07-01 00:00,A,CREATIVE WRITING CLUB,CR WR CLUB,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39592,2025-05-08 09:16
+WA190,61562,2025-07-01 00:00,A,Ares Club,Ares Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39980,2025-11-12 11:42
+WA190,61563,2025-07-01 00:00,A,Psych & Friends,Psych & F,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39981,2025-11-12 11:44
+WA190,61564,2025-07-01 00:00,A,TUPSA,TUPSA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39982,2025-11-12 11:45
+WA190,61907,2023-11-08 00:00,A,$DentHygClub,$DentHygCl,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32208,2023-11-08 08:48
+WA190,61908,2024-07-01 00:00,A,$ASCBC Fundraised,$ASCBC Fun,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39471,2025-03-12 11:18
+WA190,61909,2023-07-01 00:00,A,$Drama,$Drama,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32209,2023-12-07 07:52
+WA190,61914,2023-11-08 00:00,A,$PTK Club,$PTK Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32210,2023-11-08 08:48
+WA190,61915,2024-02-21 00:00,A,$PAS Club,$PAS Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32211,2024-02-21 14:52
+WA190,61919,2023-07-01 00:00,A,$History,$History,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32212,2023-12-07 07:52
+WA190,61922,2023-07-01 00:00,A,$SpanishClub,$SpanishCl,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32213,2023-12-07 07:53
+WA190,61925,2023-07-01 00:00,A,$CheerClub,$CheerClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32214,2023-12-07 07:53
+WA190,61927,2023-07-01 00:00,A,$Band Org,$Band Org,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32215,2023-12-07 07:53
+WA190,61929,2023-07-01 00:00,A,$Vocal Org,$Vocal Org,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32216,2023-12-07 07:54
+WA190,61930,2023-07-01 00:00,A,$ATH Hawks,$ATH Hawks,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32217,2023-12-07 07:54
+WA190,61931,2024-01-01 00:00,A,$JpnCul,$JpnCul,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32218,2024-01-31 07:57
+WA190,61932,2023-11-08 00:00,A,$Hockey,$Hockey,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32219,2023-11-08 08:56
+WA190,61933,2023-11-08 00:00,A,$S.Image Club,$S.Image C,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32220,2023-11-08 08:56
+WA190,61934,2023-07-01 00:00,A,$STUArt Club,$STUArt Cl,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32221,2023-12-07 07:54
+WA190,61935,2023-11-08 00:00,A,$StuNur Club,$StuNur Cl,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32222,2023-11-08 09:03
+WA190,61937,2024-06-12 00:00,A,$Mariachi and More,$Mariachi,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25056,2024-06-12 13:37
+WA190,61939,2023-07-01 00:00,A,$PSYCH Club,$PSYCH Clu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32223,2023-12-07 07:55
+WA190,61940,2023-07-01 00:00,A,$Debate Club,$Debate Cl,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32224,2023-12-07 07:55
+WA190,61943,2023-07-01 00:00,A,$SkillsUSA,$SkillsUSA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32225,2023-12-07 07:55
+WA190,61944,2024-02-01 00:00,A,$LULAC,$LULAC,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38257,2024-02-28 09:43
+WA190,61945,2024-07-02 00:00,A,$GAME DEV CLUB,$GAME DEV,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39474,2025-03-13 09:34
+WA190,61946,2023-07-01 00:00,A,$SIGMATau,$SIGMATau,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32226,2023-12-07 07:56
+WA190,61947,2024-01-01 00:00,A,$Undocument Stu Advocacy Club,$Undoc Stu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38581,2024-03-08 08:12
+WA190,61948,2023-11-08 00:00,A,$Tech Club,$Tech Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32227,2023-11-08 09:08
+WA190,61949,2024-07-01 00:00,A,$DECA BUSINESS CLUB,$DECA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39472,2025-03-12 11:22
+WA190,61950,2025-07-01 00:00,A,$Dance Club,$Dance,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39819,2025-08-19 07:47
+WA190,61951,2023-07-01 00:00,A,$Athropology,$Athropolo,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32228,2023-12-07 07:56
+WA190,61952,2023-07-01 00:00,A,$Ultrasound,$Ultrasoun,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32229,2023-12-07 07:57
+WA190,61953,2025-07-01 00:00,A,$TUPSA,$TUPSA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39983,2025-11-12 11:46
+WA190,61954,2023-07-01 00:00,A,$VA Club,$VA Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32230,2023-12-07 07:57
+WA190,61955,2023-11-08 00:00,A,$BTW Club,$BTW Club,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32231,2023-11-08 09:08
+WA190,61957,2023-07-01 00:00,A,$WrestlingClub,$Wrestling,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32232,2023-12-07 07:57
+WA190,61958,2023-07-01 00:00,A,$Baseball,$Baseball,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32233,2023-12-07 07:57
+WA190,61962,2023-07-01 00:00,A,$W. BasketB,$W. Basket,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32234,2023-12-07 07:58
+WA190,61963,2023-07-01 00:00,A,$M. BasketB,$M. Basket,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32235,2023-12-07 07:58
+WA190,61966,2023-07-01 00:00,A,$Softball,$Softball,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32236,2023-12-07 07:59
+WA190,61969,2023-07-01 00:00,A,$HawksCLub,$HawksCLub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32237,2023-12-07 07:59
+WA190,61970,2024-06-12 00:00,A,$AutoClub,AutoClub,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32238,2024-06-12 13:37
+WA190,61971,2023-07-01 00:00,A,$Proj Mgmt Club,$Proj Mgmt,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24959,2023-12-07 07:59
+WA190,61972,2023-07-01 00:00,A,$LDSSA,$LDSSA,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24960,2023-12-07 08:00
+WA190,61973,2024-02-01 00:00,A,$Helping Hands Club,$Help Hand,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38258,2024-02-28 09:45
+WA190,64002,1901-01-01 00:00,A,ResHall Ln,ResHall Ln,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32239,2023-04-29 09:47
+WA190,65010,1901-01-01 00:00,A,NEW BOOKS,NEW BOOKS,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32240,2023-04-29 09:47
+WA190,65011,1901-01-01 00:00,A,USED BOOKS,USED BOOKS,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32241,2023-04-29 09:47
+WA190,65012,1901-01-01 00:00,A,ELECTRONICS,ELECTRONIC,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32242,2023-04-29 09:47
+WA190,65013,1901-01-01 00:00,A,TRADE BOOKS,TRADE BOOK,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32243,2023-04-29 09:47
+WA190,65014,1901-01-01 00:00,A,SUPPLIES,SUPPLIES,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32244,2023-04-29 09:47
+WA190,65015,1901-01-01 00:00,A,SUPPLIES ART,SUPPLIES A,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32245,2023-04-29 09:47
+WA190,65017,2022-07-01 00:00,A,Bkstore A/R CLEARING,Bkstr A/R,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24621,2022-11-02 14:28
+WA190,65019,1901-01-01 00:00,A,COPIER,COPIER,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32247,2023-04-29 09:47
+WA190,65022,1901-01-01 00:00,A,CANDY,CANDY,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32248,2023-04-29 09:47
+WA190,65023,1901-01-01 00:00,A,CLOTHING,CLOTHING,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32249,2023-04-29 09:47
+WA190,65024,1901-01-01 00:00,A,SUNDRIES,SUNDRIES,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32250,2023-04-29 09:47
+WA190,65025,1901-01-01 00:00,A,GREETING CARDS,GREETING C,,1640,Felix Tshisekedi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32251,2023-04-29 09:47
+WA190,66001,2024-07-01 00:00,A,Indirect Operating,IndirectOp,,9600,Adama Barrow,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32252,2025-04-15 14:22
+WA190,66002,2022-07-01 00:00,A,146-Fund Bal Projects,146-GenPrj,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23421,2022-08-19 12:04
+WA190,66003,2024-04-30 00:00,A,Athletics Post Season,Post Seaso,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32254,2024-04-30 14:46
+WA190,66004,2022-07-01 00:00,A,Capprj Equip,Capprj Equ,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25019,2023-01-06 10:55
+WA190,66005,1901-01-01 00:00,A,DOE CO-OP,DOE CO-OP,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32256,2023-04-29 09:47
+WA190,66006,1901-01-01 00:00,A,Com Solar,Com Solar,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32257,2023-04-29 09:47
+WA190,66007,1901-01-02 00:00,A,Institutional Commitments,InstituCom,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32258,2024-11-15 13:41
+WA190,66102,2025-07-01 00:00,A,International Student Programs,Int'l Stu,,3872,Alar Karis,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38244,2026-01-08 07:21
+WA190,66103,2024-06-13 00:00,A,HS Academy,HS Academy,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32259,2024-06-24 10:51
+WA190,66104,2024-06-13 00:00,A,Open Doors,Open Doors,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32260,2024-06-24 10:52
+WA190,66105,2023-07-01 00:00,A,Dual Credit Operations,Dual Cred,,1034,Mahamat Deby,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38199,2024-02-02 08:07
+WA190,66106,2024-07-01 00:00,A,WSAC - Dual Enroll Contract,WSAC Dual,,1154,Xi Jinping,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38977,2024-07-23 13:22
+WA190,66107,2025-07-31 00:00,A,College in the HighSchool,146-CiHS,College in the High School department set up in FY26  College in the High School will be an ongoing program with revenue received from SBCTC to supplement the costs of the program beginning in FY27.,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39794,2025-08-13 08:47
+WA190,66108,2025-10-01 00:00,A,Spanish GED Prep,GED PREP,"establish Spanish-language GED preparation courses as a permanent offering within Columbia Basin College¿s Transitional Studies division. Building on the legacy of the High School Equivalency Program (HEP) and its commitment to migrant and seasonal farmworkers, this program would ensure continued access to Spanish GED preparation for all Spanish-speaking adult learners.
+Beyond providing a pathway to GED completion, this initiative creates structured next steps for students to transition into English Language Acquisition (ELA), College, Military service, or I-BEST workforce pathways such as Nursing Assistant Certified (NAC), Phlebotomy, Automotive Technology, Medical Office Secretary, and Early Childhood Education.",1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39967,2025-11-03 13:33
+WA190,66201,1901-01-01 00:00,A,RJ Lease,RJ Lease,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32261,2023-04-29 09:47
+WA190,66202,2024-07-16 00:00,A,4%CTR LABSCI,4%CTR LABS,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32262,2024-07-16 16:04
+WA190,66203,1901-01-01 00:00,A,COX-Ag FDN,COX-Ag FDN,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32263,2023-04-29 09:47
+WA190,66204,1901-01-01 00:00,A,FDN Fund'g,FDN Fund'g,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32264,2023-04-29 09:47
+WA190,66205,1901-01-01 00:00,A,Banner Ln,Banner Ln,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32265,2023-04-29 09:47
+WA190,66206,1901-01-01 00:00,A,LABCert MJ,LABCert MJ,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32266,2023-04-29 09:47
+WA190,66207,2024-07-17 00:00,I,Placeholder,Placehold,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38948,2024-07-16 16:29
+WA190,66301,1901-01-01 00:00,A,Solar H20 Tech,Solar H20,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32267,2023-04-29 09:47
+WA190,66302,2025-01-01 00:00,A,Summer Theatre,SumTheatre,,1148,Ratu Lalabalavu,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32268,2025-02-20 16:14
+WA190,66303,1901-01-01 00:00,A,NucTech Prg,NucTech Pr,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32269,2023-04-29 09:47
+WA190,66304,1901-01-01 00:00,A,AreoSpace Prg,AreoSpace,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32270,2023-04-29 09:47
+WA190,66401,1901-01-01 00:00,A,Local MWks,Local MWks,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32271,2023-04-29 09:47
+WA190,66402,1901-01-01 00:00,A,SF HS2 Bldg,SF HS2 Bld,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32272,2023-04-29 09:47
+WA190,70000,1901-01-01 00:00,A,145:Closed,145:Closed,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32273,2023-04-29 09:47
+WA190,70101,2024-07-01 00:00,A,BEDA Master Grant,BEDA Maste,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32274,2024-08-06 07:26
+WA190,70102,1901-01-01 00:00,A,BFET 100% FUNDS,BFET 100%,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32275,2023-04-29 09:47
+WA190,70103,1901-01-01 00:00,A,BFET REUTILIZED,BFET REUTI,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32276,2023-04-29 09:47
+WA190,70104,1901-01-01 00:00,A,BFET 50/50,BFET 50/50,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32277,2023-04-29 09:47
+WA190,70105,1901-01-01 00:00,A,CTR FOR LAB SCIENCE,CTR FOR LA,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32278,2023-04-29 09:47
+WA190,70106,1901-01-01 00:00,A,CAMP SUPPLEMENTAL,CAMP SUPPL,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32279,2023-04-29 09:47
+WA190,70107,2022-07-01 00:00,A,EARLY ACHIEVERS GRANT,EARLY ACHI,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24954,2022-12-20 15:46
+WA190,70108,2024-07-01 00:00,A,EARLY EDU PARTNERSHP,EARLY EDU,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32281,2024-09-11 15:32
+WA190,70109,2022-07-01 00:00,A,WF STUDENT SUPPORTS,WF STUSUPS,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24955,2022-12-20 15:49
+WA190,70110,1901-01-01 00:00,A,WF VOCATIONAL ED,WF VOCATIO,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32283,2023-04-29 09:47
+WA190,70111,2023-01-02 00:00,I,FRONTIER SET GRANT,FRONTIER S,,0498,Hassanal Bolkiah,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25651,2023-03-14 15:36
+WA190,70112,2022-07-01 00:00,A,GENCYBER UW SUBGRANT,GENCYBER U,,0320,Rodrigo Paz,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24630,2022-11-03 11:58
+WA190,70113,1901-01-01 00:00,A,WF BASIC SKILLS,WF BASIC S,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32286,2023-04-29 09:47
+WA190,70114,2024-06-13 00:00,A,LEP PATHWAY/ESL,LEP PATHWA,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32287,2024-06-24 10:51
+WA190,70115,2024-07-01 00:00,A,BEDA IELCE GRANT,BEDA IELCE,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32288,2024-08-06 07:28
+WA190,70116,2023-01-01 00:00,A,NSF HSI 21-23 Grant,NSF HSI 21,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22198,2023-02-15 11:19
+WA190,70117,2023-01-02 00:00,A,OLD-PASSPORT (do not use),PASSPORT A,,0186,Patrice Talon,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32290,2024-09-17 16:30
+WA190,70118,1901-01-01 00:00,A,PASSPORT MINI GRANT,PASSPORT M,,1898,Zoran Milanovic,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32291,2023-04-29 09:47
+WA190,70119,2024-07-02 00:00,A,PERKINS NPS,PERKINS NP,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32292,2024-09-19 12:46
+WA190,70120,2024-07-02 00:00,A,Perkins Student Leadership,PerkStLead,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32293,2024-09-19 12:47
+WA190,70121,2024-07-02 00:00,A,Perkins Industry Based Prof,PrkIndProf,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32294,2024-09-19 12:47
+WA190,70122,1901-01-01 00:00,A,Nur RESTART PT,Nur RESTAR,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32295,2023-04-29 09:47
+WA190,70123,2025-07-01 00:00,A,VICEROY-CYBERSEC WSU,VICEROY-CY,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32296,2025-07-07 08:41
+WA190,70124,1901-01-01 00:00,A,WF ADMIN,WF ADMIN,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32297,2023-04-29 09:47
+WA190,70125,1901-01-01 00:00,A,WF WBL/WORK STUDY,WF WBL/WOR,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32298,2023-04-29 09:47
+WA190,70126,1901-01-01 00:00,A,WF INTERNAL CONTROLS,WF INTERNA,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32299,2023-04-29 09:47
+WA190,70127,1901-01-01 00:00,A,WF TRACK & MONITOR,WF TRACK &,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32300,2023-04-29 09:47
+WA190,70128,2024-09-01 00:00,A,PERKINS PLAN,PERKPLAN,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32301,2024-09-10 09:18
+WA190,70129,2024-07-01 00:00,A,CORRECTIONAL EDU,CORRECTION,,7170,Sylvanie Burton,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32302,2024-08-15 15:42
+WA190,70130,2025-07-01 00:00,A,Short-Term Grants,S.T Grants,,9600,Adama Barrow,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32303,2026-01-20 08:32
+WA190,70131,2023-01-01 00:00,A,PREMERA LPN-BSN FDN-GNT,PremeraGNT,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25332,2023-02-06 15:24
+WA190,70132,2024-07-01 00:00,A,STEM NEXUS,STEM NEXUS,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32305,2024-09-11 15:32
+WA190,70133,2024-06-13 00:00,A,ABE LEADERSHIP,ABE LEADER,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32306,2024-06-24 10:49
+WA190,70134,2024-07-02 00:00,I,WA PESB ADV EQUITY,WA PESB AD,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32307,2024-12-04 08:18
+WA190,70135,2023-07-01 00:00,A,WorkFirst,WF,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37645,2023-07-10 09:54
+WA190,70140,2024-01-01 00:00,A,CAMP,CAMP GRANT,,9986,Froyla Tzalam,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32308,2024-02-20 08:29
+WA190,70141,2024-07-18 00:00,A,HEP GRANT 2020-2025,HEP GRANT,,1466,Azali Assoumani,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32309,2024-08-29 10:12
+WA190,70142,1901-01-01 00:00,A,NSF MTF GRANT,NSF MTF GR,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32310,2023-04-29 09:47
+WA190,70143,2023-08-07 00:00,A,TITLE V 22-27 GRANT,TitleV7222,,3556,John Mahama,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32311,2023-10-24 08:04
+WA190,70144,2024-05-14 00:00,A,TRIO-SSS 2021-2425,TRIO-SSS 2,,7210,Ntfombi Ndlovukati,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32312,2024-05-14 13:15
+WA190,70145,2025-01-01 00:00,A,UPWARD BOUND,UPWARD BOU,,1280,Alexander Stubb,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32313,2025-02-03 10:05
+WA190,70146,2023-07-01 00:00,A,USDA GRANT,USDA GRANT,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32314,2023-07-10 07:22
+WA190,70147,2022-07-01 00:00,A,RS ESSER GRANT,RS ESSER,,1154,Xi Jinping,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,23017,2022-07-26 07:24
+WA190,70148,2024-07-01 00:00,A,ESD CCW COVID GRANTS,ESD CCW CO,,9484,Javier Milei,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32315,2024-09-11 15:33
+WA190,70149,2023-07-01 00:00,A,CULTIVATE OF FUTURE,CULTIVATE,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32316,2023-07-10 07:23
+WA190,70150,2022-07-01 00:00,A,COLLEGE SPARK I-BEST,COLLEGE SP,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24629,2022-11-03 11:54
+WA190,70151,1901-01-01 00:00,A,TOBACCO-FREE CAMPUS,TOBACCO-FR,,0578,Evariste Ndayishimiye,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32318,2023-04-29 09:47
+WA190,70152,1901-01-01 00:00,A,SSS SUPPLEMENTAL,SSS SUPPLE,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32319,2023-04-29 09:47
+WA190,70153,1971-10-01 00:00,A,CCRI-UW-STEM,CCRIUW,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24503,2022-10-25 08:17
+WA190,70154,2025-07-01 00:00,A,24-27 NSF IUSE HSI,24-27 NSF,,0548,Iliana Iotova,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39013,2026-01-20 10:05
+WA190,70155,2025-07-01 00:00,A,24-26 NSF HSI: ELPSE EI,NSF ELPSE,,1192,Gustavo Petro,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39074,2026-01-20 08:36
+WA190,70156,2025-01-01 00:00,A,BEDA BASIC,BEDA BASIC,,0434,Christian Schmidt,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39631,2025-06-04 08:22
+WA190,70201,2025-07-01 00:00,A,Dept of Energy - CCBGP,DOE - CCBG,,1712,Emmanuel Macron,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39163,2026-01-20 08:37
+WA190,71053,2023-07-01 00:00,A,GRANT CLEARING,Grant CLR,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32320,2024-03-14 12:01
+WA190,71054,1901-01-01 00:00,A,LITERACY DONATIONS,LITERACY D,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32321,2023-04-29 09:47
+WA190,71055,1901-01-01 00:00,A,PARENT ED COOPS,PARENT ED,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32322,2023-04-29 09:47
+WA190,71056,2024-07-25 00:00,A,WSAC-REGIONAL CHALLENGE,REG CHALLE,,1034,Mahamat Deby,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32323,2024-07-29 10:00
+WA190,71057,1901-01-01 00:00,A,F5900 TRC BK/TR LOAN,F5900 TRC,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32324,2023-04-29 09:47
+WA190,71058,1901-01-01 00:00,A,F2950 TRC CHILD/TRVL,F2950 TRC,,1058,Jose Antonio Kast,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32325,2023-04-29 09:47
+WA190,71059,1901-01-01 00:00,A,MESA -Cont,MESA -Cont,,7906,Hibatullah Akhundzada,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32326,2023-04-29 09:47
+WA190,71060,1901-01-01 00:00,A,CompChLn,CompChLn,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32327,2023-04-29 09:47
+WA190,71061,1901-01-01 00:00,A,CARES FND,CARES FND,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32328,2023-04-29 09:47
+WA190,71062,1901-01-01 00:00,A,HSICARES,HSICARES,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32329,2023-04-29 09:47
+WA190,71063,1901-01-01 00:00,A,CARESFA,CARESFA,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32330,2023-04-29 09:47
+WA190,71064,1901-01-01 00:00,A,CARESCRS,CARESCRS,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32331,2023-04-29 09:47
+WA190,71065,1901-01-01 00:00,A,FA-CARES ACT,FA-CARES A,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32332,2023-04-29 09:47
+WA190,71066,1901-01-01 00:00,A,HEERF INST AID,HEERF INST,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32333,2023-04-29 09:47
+WA190,71067,2022-07-01 00:00,A,CCRI-UW STEM,CCRI-UW,,9510,Alexander Van der Bellen,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24502,2022-10-25 06:53
+WA190,71068,2025-07-01 00:00,A,Amazon-CS Grant,AMAZON,,1728,Denis Nguesso,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25406,2025-07-07 08:41
+WA190,71069,2023-07-01 00:00,A,CCW - Automotive Grant,CCW - Auto,,9490,Vahagn Khachaturyan,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37889,2023-09-07 09:46
+WA190,71070,2024-07-02 00:00,A,ENVIRONMENTAL FIELD STATION,ENV FLD ST,,2246,Petr Pavel,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,39561,2025-04-23 14:45
+WA190,80001,1901-01-01 00:00,A,CAPITAL PROJ,CAPITAL PR,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32334,2023-04-29 09:47
+WA190,80100,1901-01-01 00:00,A,PREV FACILITY MAINT,PREV FACIL,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32335,2023-04-29 09:47
+WA190,80200,2023-08-16 00:00,A,UNANTICIPATED REPAIR,UNANTICIPA,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32336,2023-08-16 09:19
+WA190,80300,2022-08-01 00:00,A,MinorCap State Proj,MinorCapST,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,22206,2022-08-12 10:50
+WA190,80301,2023-07-01 00:00,A,Grant funded projects -,145proj,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32338,2024-01-03 10:28
+WA190,80302,1901-01-01 00:00,A,CHILLER,CHILLER,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32339,2023-04-29 09:47
+WA190,80303,1901-01-01 00:00,A,AIR HANDLER,AIR HANDLE,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32340,2023-04-29 09:47
+WA190,80304,1901-01-01 00:00,A,ACCESSIBILITY,ACCESSIBIL,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32341,2023-04-29 09:47
+WA190,80305,2023-02-02 00:00,A,Teaching and Learning Center,TLC,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,25646,2023-03-14 15:55
+WA190,80306,2023-07-01 00:00,A,CAREER LAUNCH ALLOCATION,CAREER LAU,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32343,2024-07-02 12:38
+WA190,80307,1901-01-01 00:00,A,T-BLDG AIR HANDLER,T-BLDG AIR,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32344,2023-04-29 09:47
+WA190,80320,1901-01-01 00:00,A,Local 148 Proj,Local 148,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32345,2023-04-29 09:47
+WA190,80330,1901-01-01 00:00,A,Local 146 Proj,Local 146,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32346,2023-04-29 09:47
+WA190,80340,1901-01-01 00:00,A,Aux 570 Proj,Aux 570 Pr,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32347,2023-04-29 09:47
+WA190,80350,1901-01-01 00:00,A,ASCBC 522 Proj,ASCBC 522,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32348,2023-04-29 09:47
+WA190,80904,2023-07-01 00:00,A,147 LocalCap Proj,147_Proj,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32349,2023-12-06 09:22
+WA190,89000,1901-01-01 00:00,A,PriorYRCP,PriorYRCP,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32350,2023-04-29 09:47
+WA190,89001,1901-01-01 00:00,A,MSC-DENTAL HYGIENE,MSC-DENTAL,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32351,2023-04-29 09:47
+WA190,89002,1901-01-01 00:00,A,STU REC CENTER 522,STU REC CT,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32352,2023-04-29 09:47
+WA190,89003,1901-01-01 00:00,A,ST.ANDREWS LOOP PUR,ST.ANDREWS,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32353,2023-04-29 09:47
+WA190,89004,2024-01-01 00:00,A,New Student Housing Project,NSH Proj,,1888,Rodrigo Robles,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38608,2024-04-01 15:43
+WA190,98009,2023-07-01 00:00,A,Tuition Pre-distribution,Tuition Pr,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32354,2023-07-12 15:45
+WA190,98019,2023-07-01 00:00,A,FA Payable - Recon,FA Payable,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32355,2023-07-12 15:45
+WA190,98049,2024-03-26 00:00,A,Fin Aid Error Suspense,FA Suspens,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,21845,2024-03-26 10:03
+WA190,98099,2023-07-01 00:00,A,Conversion Charges,Conversion,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32356,2023-07-12 15:46
+WA190,98109,2023-07-01 00:00,A,Write-off Clearing,Write-off,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32357,2023-07-12 15:46
+WA190,98149,2023-07-01 00:00,A,Asset Management,Asset Mana,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32358,2023-07-12 15:46
+WA190,98209,2023-07-01 00:00,A,InterUnit Default Suspense,InterUnit,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32359,2023-07-12 15:47
+WA190,98219,2023-03-11 00:00,A,Indirect Cost Liability,Indirect C,,1436,Abdel Fattah el-Sisi,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,24394,2023-04-06 08:29
+WA190,98299,2023-07-01 00:00,A,Waivers,Waivers,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32361,2023-07-12 15:47
+WA190,98309,2023-07-01 00:00,A,Concurrent Enroll Adjustment,Concurrent,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32362,2023-07-12 15:47
+WA190,98319,2023-07-01 00:00,A,Concurrent Lower/Upper Adjustm,Concurrent,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32363,2023-07-12 15:48
+WA190,98349,2023-07-01 00:00,A,AR Clearing,AR Clearin,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32364,2023-07-12 15:48
+WA190,98389,2023-07-01 00:00,A,Travel/Suspense,Travel/Sus,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32365,2023-07-12 15:49
+WA190,98399,2023-07-01 00:00,A,Clearing Acct Payroll Vendors,Clearing A,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32366,2023-07-12 15:49
+WA190,98410,2023-07-01 00:00,A,PELL Grant,PELL Grant,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38284,2024-03-06 09:37
+WA190,98411,2023-07-01 00:00,A,Supp Educ Opp Grant (SEOG),SEOG,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38315,2024-03-06 09:51
+WA190,98412,2023-07-01 00:00,A,Direct Loan Sub,DLSUB,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38346,2024-03-06 12:12
+WA190,98413,2023-07-01 00:00,A,Direct Loan Unsub,DLUNSUB,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38377,2024-03-06 12:12
+WA190,98414,2023-07-01 00:00,A,Parent Plus Loan,PPLOAN,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38408,2024-03-06 10:33
+WA190,98415,2023-07-01 00:00,A,Fed Work Study,FWS,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38439,2024-03-06 10:48
+WA190,98416,2023-07-01 00:00,A,FWS Job Loc & Dev,FWSJOBLOC,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38470,2024-03-06 11:01
+WA190,98417,2023-07-01 00:00,A,FWS Community Svc Blk,FWSCOMM,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38501,2024-03-06 11:15
+WA190,98418,2023-07-01 00:00,A,Americorp Natl Comm Svc,AMERICORP,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38532,2024-03-06 12:12
+WA190,98419,2023-07-01 00:00,A,Natl Sci Fdtn Scholarship,NSFSCH,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38565,2024-03-06 12:12
+WA190,98439,2023-07-01 00:00,A,Shared Leave,Shared Lea,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32367,2023-07-12 15:50
+WA190,98449,2023-07-01 00:00,A,Receivables on Account,Receivable,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32368,2023-07-12 15:50
+WA190,98459,2022-07-01 00:00,A,Revolving Fund transfers,Revolving,,6126,Bajram Begaj,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,37596,2023-06-30 11:56
+WA190,98479,2024-03-26 00:00,A,State Allocations,State Allo,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,21846,2024-03-26 10:03
+WA190,98489,2023-07-01 00:00,A,Bank Cash Pre-Reconciliation,Bank Cash,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32369,2023-07-12 15:50
+WA190,98499,2023-07-01 00:00,A,State Reimbursement,State Reim,,2648,Teodoro Mbasogo,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32370,2023-07-12 15:50
+WA190,98500,1901-01-01 00:00,A,Office of the President,CBC Pres,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32371,2023-04-29 09:47
+WA190,98501,1901-01-01 00:00,A,Foundation,Foundation,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32372,2023-04-29 09:47
+WA190,98502,1901-01-01 00:00,A,Organizational Learning,Org Learn,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32373,2023-04-29 09:47
+WA190,98503,1901-01-01 00:00,A,Graphics/Printing,Graphics,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32374,2023-04-29 09:47
+WA190,98504,1901-01-01 00:00,A,Institutional Research,Inst Res,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32375,2023-04-29 09:47
+WA190,98505,1901-01-01 00:00,A,Board of Trustees,Trustees,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32376,2023-04-29 09:47
+WA190,98506,1901-01-01 00:00,A,Accreditation,Accredit,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32377,2023-04-29 09:47
+WA190,98600,1901-01-01 00:00,A,Office of Instruction,VPInstruct,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32378,2023-04-29 09:47
+WA190,98601,1901-01-01 00:00,A,Adult Basic Education,Basic Ed,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32379,2023-04-29 09:47
+WA190,98602,1901-01-01 00:00,A,Academic Success Center,Acad Ctr,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32380,2023-04-29 09:47
+WA190,98603,1901-01-01 00:00,A,Agriculture,Agricultur,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32381,2023-04-29 09:47
+WA190,98604,1901-01-01 00:00,A,Arts & Humanities,Arts/Humn,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32382,2023-04-29 09:47
+WA190,98605,1901-01-01 00:00,A,Assistive Technology,Asst Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32383,2023-04-29 09:47
+WA190,98606,1901-01-01 00:00,A,Automotive Technology,Auto Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32384,2023-04-29 09:47
+WA190,98607,1901-01-01 00:00,A,BAS Program,BAS Prog,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32385,2023-04-29 09:47
+WA190,98608,1901-01-01 00:00,A,Business Division,Bus Div,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32386,2023-04-29 09:47
+WA190,98609,1901-01-01 00:00,A,Career Technical Education,CarTechEd,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32387,2023-04-29 09:47
+WA190,98610,1901-01-01 00:00,A,Communications,Commun,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32388,2023-04-29 09:47
+WA190,98611,1901-01-01 00:00,A,Dental Hygiene,Dental Hyg,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32389,2023-04-29 09:47
+WA190,98612,1901-01-01 00:00,A,Early Childhood Education,ECE,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32390,2023-04-29 09:47
+WA190,98613,1901-01-01 00:00,A,English,English,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32391,2023-04-29 09:47
+WA190,98614,1901-01-01 00:00,A,Engineering,ENT Dept,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32392,2023-04-29 09:47
+WA190,98615,1901-01-01 00:00,A,English Language Acquisition,ELA,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32393,2023-04-29 09:47
+WA190,98616,1901-01-01 00:00,A,Fire Science,Fire Sci,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32394,2023-04-29 09:47
+WA190,98617,1901-01-01 00:00,A,Gallery,Gallery,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32395,2023-04-29 09:47
+WA190,98618,1901-01-01 00:00,A,HS Equivalency Program,HEP,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32396,2023-04-29 09:47
+WA190,98619,1901-01-01 00:00,A,High School Academy,HS Academy,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32397,2023-04-29 09:47
+WA190,98620,1901-01-01 00:00,A,Health Sciences,Health Sci,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32398,2023-04-29 09:47
+WA190,98621,1901-01-01 00:00,A,Information Technology,Info Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32399,2023-04-29 09:47
+WA190,98622,1901-01-01 00:00,A,Jazz Unlimited,Jazz,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32400,2023-04-29 09:47
+WA190,98623,1901-01-01 00:00,A,Library Instructional Svcs,Lib/InstSv,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32401,2023-04-29 09:47
+WA190,98624,1901-01-01 00:00,A,Machine Technology,Mac Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32402,2023-04-29 09:47
+WA190,98625,1901-01-01 00:00,A,MESA,MESA,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32403,2023-04-29 09:47
+WA190,98626,1901-01-01 00:00,A,Math & Science,MTH SCI,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32404,2023-04-29 09:47
+WA190,98627,1901-01-01 00:00,A,Nuclear Technology,Nuc Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32405,2023-04-29 09:47
+WA190,98628,1901-01-01 00:00,A,Nursing Department,Nursing,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32406,2023-04-29 09:47
+WA190,98629,1901-01-01 00:00,A,Physical Education,Phys Ed,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32407,2023-04-29 09:47
+WA190,98630,1901-01-01 00:00,A,Planetarium,Planet,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32408,2023-04-29 09:47
+WA190,98631,1901-01-01 00:00,A,Emergency Services/Paramedic,Paramedic,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32409,2023-04-29 09:47
+WA190,98632,1901-01-01 00:00,A,Project Management Program,Proj Mgmt,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32410,2023-04-29 09:47
+WA190,98633,1901-01-01 00:00,A,Radiologic Technology,Rad Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32411,2023-04-29 09:47
+WA190,98634,1901-01-01 00:00,A,Summer Camps,Smmr Cmps,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32412,2023-04-29 09:47
+WA190,98635,1901-01-01 00:00,A,Summer Show Case,Show Case,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32413,2023-04-29 09:47
+WA190,98636,1901-01-01 00:00,A,Social Sciences,Soc Sci,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32414,2023-04-29 09:47
+WA190,98637,1901-01-01 00:00,A,Surgical Technology Program,Surg Tech,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32415,2023-04-29 09:47
+WA190,98638,1901-01-01 00:00,A,CTE Dual Credit,Dual Cred,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32416,2023-04-29 09:47
+WA190,98639,1901-01-01 00:00,A,Title V Program,Title V,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32417,2023-04-29 09:47
+WA190,98640,1901-01-01 00:00,A,Transitional Studies,Trnstl Std,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32418,2023-04-29 09:47
+WA190,98641,1901-01-01 00:00,A,The Resource Center,Res Ctr,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32419,2023-04-29 09:47
+WA190,98642,1901-01-01 00:00,A,Tutor Center,Tutor Ctr,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32420,2023-04-29 09:47
+WA190,98643,1901-01-01 00:00,A,Virtual Campus,VCA,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32421,2023-04-29 09:47
+WA190,98644,1901-01-01 00:00,A,WorkFirst,WrkFrst,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32422,2023-04-29 09:47
+WA190,98645,1901-01-01 00:00,A,Workforce Education Center,WEC,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32423,2023-04-29 09:47
+WA190,98646,1901-01-01 00:00,A,Worker Retraining,Work Rtng,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32424,2023-04-29 09:47
+WA190,98647,1901-01-01 00:00,A,Welding,Welding,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32425,2023-04-29 09:47
+WA190,98648,1901-01-02 00:00,A,Disability Support Services,DSS,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32426,2024-03-25 08:37
+WA190,98649,1901-01-02 00:00,A,Teaching & Learning Center,TLC,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32427,2024-03-25 08:37
+WA190,98650,2024-02-16 00:00,A,Continuing Education,CNED,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38954,2024-07-17 14:07
+WA190,98700,1901-01-01 00:00,A,Student Services,Stu Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32428,2023-04-29 09:47
+WA190,98701,1901-01-01 00:00,A,Assoc Stu Body,ASCBC,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32429,2023-04-29 09:47
+WA190,98702,1901-01-01 00:00,A,Assessment Center,Assess Ctr,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32430,2023-04-29 09:47
+WA190,98703,1901-01-01 00:00,A,Athletics,Athletics,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32431,2023-04-29 09:47
+WA190,98704,1901-01-01 00:00,A,CAMP,CAMP,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32432,2023-04-29 09:47
+WA190,98705,1901-01-01 00:00,A,College Recruitment,Stu Recrt,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32433,2023-04-29 09:47
+WA190,98706,1901-01-01 00:00,A,Counseling & Advising,Counseling,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32434,2023-04-29 09:47
+WA190,98707,1901-01-01 00:00,A,Enrollment Services,Enrollment,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32435,2023-04-29 09:47
+WA190,98708,1901-01-01 00:00,A,Financial Aid,Fin Aid,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32436,2023-04-29 09:47
+WA190,98709,1901-01-01 00:00,A,First Year Introduction,FYI,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32437,2023-04-29 09:47
+WA190,98710,1901-01-01 00:00,A,Athletics Game Management,Gym,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32438,2023-04-29 09:47
+WA190,98711,1901-01-01 00:00,A,Human Development,Hum Dev,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32439,2023-04-29 09:47
+WA190,98712,1901-01-01 00:00,A,Hawk Central,Hawk Ctrl,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32440,2023-04-29 09:47
+WA190,98713,1901-01-01 00:00,A,Outreach,Outreach,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32441,2023-04-29 09:47
+WA190,98714,1901-01-01 00:00,A,Admissions/Registration,Admin/Reg,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32442,2023-04-29 09:47
+WA190,98715,1901-01-01 00:00,A,Student Conduct,Stu Cndct,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32443,2023-04-29 09:47
+WA190,98716,1901-01-01 00:00,A,Student Records,Stu Recds,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32444,2023-04-29 09:47
+WA190,98717,1901-01-01 00:00,A,Student Support Services,SSS,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32445,2023-04-29 09:47
+WA190,98718,1901-01-01 00:00,A,Student Activities,Stu Actv,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32446,2023-04-29 09:47
+WA190,98719,1901-01-01 00:00,A,Upward Bound,UpBound,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32447,2023-04-29 09:47
+WA190,98720,1901-01-01 00:00,A,Veterans Services,Vet Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32448,2023-04-29 09:47
+WA190,98721,1901-01-01 00:00,A,Residence Life,Res Life,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32449,2023-04-29 09:47
+WA190,98722,1901-01-01 00:00,A,Running Start,Rng Start,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32450,2023-04-29 09:47
+WA190,98723,1901-01-02 00:00,A,Career Services,Car Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32451,2024-03-25 08:38
+WA190,98724,1901-01-02 00:00,A,VP Student Services,VPSS,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32452,2024-03-25 08:38
+WA190,98800,1901-01-01 00:00,A,Administrative Services,Adm Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32453,2023-04-29 09:47
+WA190,98801,1901-01-01 00:00,A,Accounting Services,Acct Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32454,2023-04-29 09:47
+WA190,98802,1901-01-01 00:00,A,Budget Services,Budget Ser,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32455,2023-04-29 09:47
+WA190,98803,1901-01-01 00:00,A,Business Services,Bus Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32456,2023-04-29 09:47
+WA190,98804,1901-01-01 00:00,A,Custodial Services,Cust Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32457,2023-04-29 09:47
+WA190,98805,1901-01-01 00:00,A,Bookstore,Bookstore,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32458,2023-04-29 09:47
+WA190,98806,1901-01-01 00:00,A,Information Services,Info Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32459,2023-04-29 09:47
+WA190,98807,1901-01-01 00:00,A,Plant Operations/Grounds,POP,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32460,2023-04-29 09:47
+WA190,98808,1901-01-01 00:00,A,Purchasing Services,Purchasing,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32461,2023-04-29 09:47
+WA190,98809,1901-01-01 00:00,A,Campus Security,Security,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32462,2023-04-29 09:47
+WA190,98810,2023-07-02 00:00,A,Central Services,Cntr Svcs,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,38589,2024-03-25 08:39
+WA190,98900,1901-01-01 00:00,A,HR & Legal Affairs,HR Office,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32463,2023-04-29 09:47
+WA190,98901,1901-01-01 00:00,A,HR Hold,HRH,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32464,2023-04-29 09:47
+WA190,98902,1901-01-01 00:00,A,Adjunct Mailing,PTF Mail,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32465,2023-04-29 09:47
+WA190,98903,1901-01-01 00:00,A,Student Workers,STU,,3628,Mikheil Kavelashvili,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32466,2023-04-29 09:47
+WA190,ALL_DEPT,1901-01-01 00:00,A,ALL DEPARTMENTS,ALL DEPTS,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32467,2023-04-29 09:47
+WA190,CNV19,1901-01-01 00:00,A,CONVERSION,CONVERSION,,0718,Jose Maria Neves,,,,,,0,N,,,,,,,,,,,,,,,,,,,,,,0,,,N,N,N,N,N,N,,N,,,,,N,,32468,2023-04-29 09:47
