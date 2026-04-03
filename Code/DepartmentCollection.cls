@@ -72,7 +72,7 @@ Attribute AddDepartmentsFromWorksheet.VB_Description = "Add Department instances
     Dim Dept As Department
 
     RowIndex = 3
-    Do While RowIndex <= ws_ALL_DEPTS_BY_SETID.Rows.Count
+    Do While RowIndex <= ws_ALL_DEPTS_BY_SETID.UsedRange.Rows.Count
         Set Dept = New Department
         Dept.ReadFromWorksheet ws_ALL_DEPTS_BY_SETID, RowIndex
         Add Dept
