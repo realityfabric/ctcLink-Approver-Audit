@@ -102,3 +102,27 @@ Public Function DepartmentsWithExpenseApproverMismatch(ByVal ExpenseApprovals As
     
     Set DepartmentsWithExpenseApproverMismatch = Departments
 End Function
+
+'@Description "Return a DepartmentCollection with Departments not covered in an ExpenseApprovalCollection"
+Public Function DepartmentsWithoutExpenseApproval(ByVal ExpenseApprovals As ExpenseApprovalCollection) As DepartmentCollection
+    Dim FilteredExApprovers As ExpenseApprovalCollection
+    Dim Dept As Variant ' Department, used in For Each loop
+    Dim Index As Long
+    Dim IsDeptCovered As Boolean
+    Set DepartmentsWithoutExpenseApproval = New DepartmentCollection
+    Set FilteredExApprovers = ExpenseApprovals.Filter(ApproverType:="EXAPPROVER")
+
+    For Each Dept In this.Departments
+        Index = 1
+        IsDeptCovered = False ' Default to false
+        Do While Index <= FilteredExApprovers.Count
+            ' If there is at least one ExpenseApproval that covers the department then Dept is covered
+            If FilteredExApprovers.Item(Index).DepartmentInRange(Dept.DeptID) Then IsDeptCovered = True
+            
+            Index = Index + 1
+        Loop
+        If Not IsDeptCovered Then DepartmentsWithoutExpenseApproval.Add Dept
+    Next Dept
+    
+    ' Return DepartmentsWithoutExpenseApproval
+End Function

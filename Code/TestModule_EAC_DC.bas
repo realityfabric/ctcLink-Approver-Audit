@@ -676,4 +676,114 @@ TestFail:
     Resume TestExit
 End Sub
 
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DepartmentsWithoutExpenseApproval_NoMatches_OneDeptOneEA()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim Departments As DepartmentCollection
+    Dim ExApprovals As ExpenseApprovalCollection
+    
+    Dim Dept As Department
+    Dim ExAppr As ExpenseApproval
+    
+    Set Departments = New DepartmentCollection
+    Set ExApprovals = New ExpenseApprovalCollection
+    Set Dept = New Department
+    Set ExAppr = New ExpenseApproval
+    
+    Dept.DeptID = "1"
+    ExAppr.ApproverType = "EXAPPROVER"
+    ExAppr.FromChartfield = "1"
+    ExAppr.ToChartfield = "1"
+    Departments.Add Dept
+    ExApprovals.Add ExAppr
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DepartmentsWithoutExpenseApproval_OneMatches_OneDeptOneEA_CountCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim Departments As DepartmentCollection
+    Dim ExApprovals As ExpenseApprovalCollection
+    
+    Dim Dept As Department
+    Dim ExAppr As ExpenseApproval
+    
+    Set Departments = New DepartmentCollection
+    Set ExApprovals = New ExpenseApprovalCollection
+    Set Dept = New Department
+    Set ExAppr = New ExpenseApproval
+    
+    Dept.DeptID = "1"
+    ExAppr.ApproverType = "EXAPPROVER"
+    ExAppr.FromChartfield = "2"
+    ExAppr.ToChartfield = "2"
+    Departments.Add Dept
+    ExApprovals.Add ExAppr
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Count = 1
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_DepartmentsWithoutExpenseApproval_OneMatches_OneDeptOneEA_DeptIDCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim Departments As DepartmentCollection
+    Dim ExApprovals As ExpenseApprovalCollection
+    
+    Dim Dept As Department
+    Dim ExAppr As ExpenseApproval
+    
+    Set Departments = New DepartmentCollection
+    Set ExApprovals = New ExpenseApprovalCollection
+    Set Dept = New Department
+    Set ExAppr = New ExpenseApproval
+    
+    Dept.DeptID = "1"
+    ExAppr.ApproverType = "EXAPPROVER"
+    ExAppr.FromChartfield = "2"
+    ExAppr.ToChartfield = "2"
+    Departments.Add Dept
+    ExApprovals.Add ExAppr
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Item(1).DeptID = "1"
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
 
