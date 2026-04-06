@@ -252,16 +252,20 @@ Public Sub Main()
         )
         
         Dim Index As Long
-        Index = 2
+        Dim RowIndex As Long
+        Index = 1
+        RowIndex = 2
         Do While Index <= MismatchedDepartments.Count
-            .Range("A" & Index & ":D" & Index).Value2 = Array( _
+            .Range("A" & RowIndex & ":D" & RowIndex).Value2 = Array( _
                 MismatchedDepartments.Item(Index).DeptID, _
                 MismatchedDepartments.Item(Index).Description, _
                 MismatchedDepartments.Item(Index).ManagerID, _
                 "Expense Approver does not match!" _
             )
+            RowIndex = RowIndex + 1
             Index = Index + 1
         Loop
+        
     End With
 End Sub
 
