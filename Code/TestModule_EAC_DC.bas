@@ -17,6 +17,7 @@ Attribute VB_Name = "TestModule_EAC_DC"
 
 '@TestModule
 '@Folder("Tests.Integrations")
+'@IgnoreModule UseMeaningfulName
 
 Option Explicit
 Option Private Module
@@ -40,13 +41,10 @@ Private Sub TestMethod_OneMismatch_CorrectCount()
     On Error GoTo TestFail
     
     'Arrange:
-    '@Ignore UseMeaningfulName
     Dim DC As DepartmentCollection
     Dim DCMismatched As DepartmentCollection
-    '@Ignore UseMeaningfulName
     Dim EAC As ExpenseApprovalCollection
     Dim Dept As Department
-    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     
     Set DC = New DepartmentCollection
@@ -100,6 +98,7 @@ Private Sub TestMethod_OneDepartment_NoExpenseApprovals_NoFail()
     Departments.Add Dept
     
     'Act:
+    '@Ignore FunctionReturnValueDiscarded
     Departments.DepartmentsWithExpenseApproverMismatch ExpenseApprovers
     
     'Assert:
@@ -375,6 +374,7 @@ Private Sub TestMethod_TenDepts_TenExpenseApprovers_NoFail()
     'Arrange:
     Dim ExpenseApprovers As ExpenseApprovalCollection
     Dim Departments As DepartmentCollection
+    '@Ignore VariableNotUsed
     Dim MismatchedDepartments As DepartmentCollection
     Dim D0 As Department
     Dim D1 As Department
@@ -507,6 +507,7 @@ Private Sub TestMethod_TenDepts_TenExpenseApprovers_NoFail()
     ExpenseApprovers.Add EA9
     
     'Act:
+    '@Ignore AssignmentNotUsed
     Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
     
     'Assert:

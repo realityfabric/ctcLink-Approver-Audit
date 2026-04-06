@@ -22,7 +22,6 @@ Option Explicit
 Option Private Module
 
 Private Assert As Object
-Private Fakes As Object
 Private TestBook As Workbook
 Private TestSheet As Worksheet
 Private TestDataFolderPath As String
@@ -31,7 +30,6 @@ Private TestDataFolderPath As String
 Private Sub ModuleInitialize()
     'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
-    Set Fakes = CreateObject("Rubberduck.FakesProvider")
 
     TestDataFolderPath = ThisWorkbook.Path & "/test_data"
 End Sub
@@ -39,7 +37,6 @@ End Sub
 '@ModuleCleanup
 Private Sub ModuleCleanup()
     Set Assert = Nothing
-    Set Fakes = Nothing
 End Sub
 
 '@TestInitialize

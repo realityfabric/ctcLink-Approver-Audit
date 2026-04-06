@@ -238,6 +238,7 @@ TestFail:
 End Sub
 
 '@TestMethod("Wrapper")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_EAC_Count0()
     On Error GoTo TestFail
     
@@ -260,11 +261,13 @@ TestFail:
 End Sub
 
 '@TestMethod("Wrapper")
+'@Ignore UseMeaningfulName
 Private Sub TestMethod_EAC_Count1()
     On Error GoTo TestFail
     
     'Arrange:
     Dim EAC As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
     Dim EA As ExpenseApproval
     Set EAC = New ExpenseApprovalCollection
     Set EA = New ExpenseApproval
