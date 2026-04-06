@@ -105,6 +105,7 @@ End Function
 
 '@Description "Return a DepartmentCollection with Departments not covered in an ExpenseApprovalCollection"
 Public Function DepartmentsWithoutExpenseApproval(ByVal ExpenseApprovals As ExpenseApprovalCollection) As DepartmentCollection
+Attribute DepartmentsWithoutExpenseApproval.VB_Description = "Return a DepartmentCollection with Departments not covered in an ExpenseApprovalCollection"
     Dim FilteredExApprovers As ExpenseApprovalCollection
     Dim Dept As Variant ' Department, used in For Each loop
     Dim Index As Long
