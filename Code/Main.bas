@@ -60,9 +60,12 @@ Public Sub Main()
     Dim wsExpenseApprovers As Worksheet
     Dim wsSecurityRoles As Worksheet
     Dim wsApproverRolesOverview As Worksheet
+    Dim wsDepartmentsOverview As Worksheet
 
     Dim ExpenseApprovals As ExpenseApprovalCollection
+    Dim Departments As DepartmentCollection
     Set ExpenseApprovals = New ExpenseApprovalCollection
+    Set Departments = New DepartmentCollection
 
     ' Show file selection form
     FileSelection.Show
@@ -228,11 +231,37 @@ Public Sub Main()
         .Range("R:U").Columns.Delete
     End With
     
-    ' TODO: Create new sheet for Department overview
+    ' Prepare the Departments Overview sheet
+    Set wsDepartmentsOverview = wbOutput.Sheets.Add(After:=wsApproverRolesOverview)
+    With wsDepartmentsOverview
+        .Name = "Departments Overview"
+        .Activate
 
-    ' Department Manager not assigned to Expense Approvals for relevant departments
-    ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovers
-    ' TODO compare ExpenseApprovals to Department Managers
+        ' Department Manager not assigned to Expense Approvals for relevant departments
+        ExpenseApprovals.CreateExpenseApprovalCollectionFromWorksheet wsExpenseApprovers
+        Departments.AddDepartmentsFromWorksheet wsDepartments
 
+        Dim MismatchedDepartments As DepartmentCollection
+        Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovals)
+        
+        .Range("A1:D1").Value2 = Array( _
+            "DeptID", _
+            "Description", _
+            "ManagerID", _
+            "Issues" _
+        )
+        
+        Dim Index As Long
+        Index = 2
+        Do While Index <= MismatchedDepartments.Count
+            .Range("A" & Index & ":D" & Index).Value2 = Array( _
+                MismatchedDepartments.Item(Index).DeptID, _
+                MismatchedDepartments.Item(Index).Description, _
+                MismatchedDepartments.Item(Index).ManagerID, _
+                "Expense Approver does not match!" _
+            )
+            Index = Index + 1
+        Loop
+    End With
 End Sub
 
