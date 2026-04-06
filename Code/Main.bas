@@ -223,12 +223,20 @@ Public Sub Main()
         ' Is the employee inactive and has AWE routing roles?
         .Range("U2:U2000").Formula = _
             "=IF(AND($C2 =""I"", COUNTA($J2:$P2) > 0), ""Inactive Employee has AWE Routing Roles!"", """")"
+        
+        ' Is the employee an Expense Approver but not a Department Manager?
+        ' TODO: Exclude approvers who have non EXAPPROVER ExpenseApproval roles.
+        .Range("V2:V2000").Formula = _
+            "=IF(AND($D2 <> ""X"", $E2 = ""X""),""Travel Approver is not Department Manager! (Do they have non-Department approval responsibilities?)"", """")"
 
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
-        .Range("Q2:Q2000").Formula = "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2))"
-        .Range("Q2:Q2000").Value2 = .Range("Q2:Q2000").Value2
-        .Range("R:U").Columns.Delete
+        .Range("Q2:Q2000").Formula = _
+            "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2, "" "", $V2))"
+        .Range("Q2:Q2000").Value2 = _
+            .Range("Q2:Q2000").Value2
+        .Range("R:V") _
+            .Columns.Delete
     End With
     
     ' Prepare the Departments Overview sheet
