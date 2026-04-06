@@ -266,6 +266,20 @@ Public Sub Main()
             Index = Index + 1
         Loop
         
+        Dim NoExApprDepartments As DepartmentCollection
+        Set NoExApprDepartments = Departments.DepartmentsWithoutExpenseApproval(ExpenseApprovals)
+        
+        Index = 1
+        Do While Index <= NoExApprDepartments.Count
+            .Range("A" & RowIndex & ":D" & RowIndex).Value2 = Array( _
+                NoExApprDepartments.Item(Index).DeptID, _
+                NoExApprDepartments.Item(Index).Description, _
+                NoExApprDepartments.Item(Index).ManagerID, _
+                "Department has no ExApprover!" _
+            )
+            RowIndex = RowIndex + 1
+            Index = Index + 1
+        Loop
     End With
 End Sub
 
