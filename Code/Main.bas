@@ -229,13 +229,20 @@ Public Sub Main()
         .Range("V2:V2000").Formula = _
             "=IF(AND($D2 <> ""X"", $E2 = ""X""),""Travel Approver is not Department Manager! (Do they have non-Department approval responsibilities?)"", """")"
 
+        ' Is the employee able to approve everything they need to approve? i.e. do they have Req, PO, and Voucher approval roles?
+        .Range("W2:W2000").Formula = _
+            "=IF(AND(OR(D2=""X"",J2=""X"",K2=""X"",L2=""X"",N2=""X"",O2=""X"",P2=""X""),OR(NOT(G2=""X""),NOT(H2=""X""),NOT(I2=""X""))), ""Employee is missing an approval role!"","""")"
+
+        .Range("X2:X2000").Formula = _
+            "=IF(AND(M2=""X"", NOT(G2 = ""X"")), ""Employee is missing an approval role!"", """")"
+
         ' Combine issue checks into a single cell, convert to plain text
         '   then delete extraneous
         .Range("Q2:Q2000").Formula = _
-            "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2, "" "", $V2))"
+            "=TRIM(CONCAT($R2, "" "", $S2,"" "", $T2, "" "", $U2, "" "", $V2, "" "", $W2, "" "", $X2))"
         .Range("Q2:Q2000").Value2 = _
             .Range("Q2:Q2000").Value2
-        .Range("R:V") _
+        .Range("R:X") _
             .Columns.Delete
     End With
     

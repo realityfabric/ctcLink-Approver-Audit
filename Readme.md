@@ -22,13 +22,13 @@ You can use QFS_DS_QUERY_RECORD_USER_RPT to determine which Query Security Roles
 
 - [ ] Security Checks
   - [X] Check for inactive employees with approval roles.
-  - [ ] Check for Department Managers without the appropriate approval roles.
+  - [X] Check for Department Managers without the appropriate approval roles.
   - [ ] Check for employees with AWE routing roles without the appropriate approval roles.
-    - [ ] ZZ_AW_EXEC_LEVEL_X (Pres & VPs)
-    - [ ] Commodity Codes
-    - [ ] Grants
-    - [ ] Billing & AP Review
-    - [ ] Amount Level roles
+    - [X] ZZ_AW_EXEC_LEVEL_X (Pres & VPs)
+    - [X] Commodity Codes
+    - [X] Grants
+    - [X] Billing & AP Review
+    - [X] Amount Level roles
 	- [ ] Route Control Configuration
 - [X] Travel & Expenses Approver Checks
   - [X] Expense Approvers who are not Department Managers
