@@ -35,4 +35,4 @@ You can use QFS_DS_QUERY_RECORD_USER_RPT to determine which Query Security Roles
   - [ ] Departments with no Expense Approver
   - [X] Departments with an Expense Approver that is not the Department Manager
 - [X] Check for Inactive Employees who are Department Managers
-- [ ] Check for Departments with no Department Manager
+- [X] Check for Departments with no Department Manager
