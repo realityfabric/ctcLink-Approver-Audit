@@ -152,3 +152,135 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_NoDepts_StepFieldCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim AWE_3 As ApprovalWorkflowConfig
+    '@Ignore UseMeaningfulName
+    Dim AWE_4 As ApprovalWorkflowConfig
+    '@Ignore UseMeaningfulName
+    Dim AWE_17 As ApprovalWorkflowConfig
+    '@Ignore UseMeaningfulName
+    Dim AWE_92 As ApprovalWorkflowConfig
+    Dim Depts As DepartmentCollection
+    Set AWE_3 = New ApprovalWorkflowConfig
+    Set AWE_4 = New ApprovalWorkflowConfig
+    Set AWE_17 = New ApprovalWorkflowConfig
+    Set AWE_92 = New ApprovalWorkflowConfig
+    Set Depts = New DepartmentCollection
+    
+    'Act:
+    AWE_3.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 3, Depts
+    AWE_4.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 4, Depts
+    AWE_17.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 17, Depts
+    AWE_92.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 92, Depts
+    
+    'Assert:
+    Assert.IsTrue vbNullString = AWE_3.StepFieldName
+    Assert.IsTrue "CATEGORY_ID" = AWE_4.StepFieldName
+    Assert.IsTrue "DEPTID" = AWE_17.StepFieldName
+    Assert.IsTrue "FUND_CODE" = AWE_92.StepFieldName
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_Count2Correct()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim AWE_17 As ApprovalWorkflowConfig
+    '@Ignore UseMeaningfulName
+    Dim AWE_92 As ApprovalWorkflowConfig
+    Dim Depts As DepartmentCollection
+    Dim Dept1 As Department
+    Dim Dept2 As Department
+    Dim Dept3 As Department
+    Set AWE_17 = New ApprovalWorkflowConfig
+    Set Depts = New DepartmentCollection
+    Set Dept1 = New Department
+    Set Dept2 = New Department
+    Set Dept3 = New Department
+    
+    Dept1.DeptID = "10601"
+    Dept2.DeptID = "10603"
+    Dept3.DeptID = "10605"
+    
+    Depts.Add Dept1
+    Depts.Add Dept2
+    Depts.Add Dept3
+
+    'Act:
+    AWE_17.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 17, Depts
+    
+    'Assert:
+    Assert.IsTrue 2 = AWE_17.ValueCount
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_ValuesCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim AWE_17 As ApprovalWorkflowConfig
+    '@Ignore UseMeaningfulName
+    Dim AWE_92 As ApprovalWorkflowConfig
+    Dim Depts As DepartmentCollection
+    Dim Dept1 As Department
+    Dim Dept2 As Department
+    Dim Dept3 As Department
+    Set AWE_17 = New ApprovalWorkflowConfig
+    Set Depts = New DepartmentCollection
+    Set Dept1 = New Department
+    Set Dept2 = New Department
+    Set Dept3 = New Department
+    
+    Dept1.DeptID = "10601"
+    Dept2.DeptID = "10603"
+    Dept3.DeptID = "10605"
+    
+    Depts.Add Dept1
+    Depts.Add Dept2
+    Depts.Add Dept3
+
+    'Act:
+    AWE_17.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 17, Depts
+    
+    'Assert:
+    Debug.Print "Value 1: " & AWE_17.Value(1)
+    Debug.Print "Value 2: " & AWE_17.Value(2)
+    Assert.IsTrue ("10601" = AWE_17.Value(1) And "10603" = AWE_17.Value(2)) Or _
+                  ("10603" = AWE_17.Value(1) And "10601" = AWE_17.Value(2))
+    
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
