@@ -176,6 +176,7 @@ Public Sub ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet(ByVal ws As Worksheet, ByV
         StepCriteriaDescription = .Range("AD" & RowIndex).Value2
         StepFieldName = .Range("AF" & RowIndex).Value2
         
+        Dim Index As Long
         Dim Operator As String
         Operator = .Range("AG" & RowIndex).Value2
         If Operator = "Equals" Then
@@ -183,12 +184,15 @@ Public Sub ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet(ByVal ws As Worksheet, ByV
         ElseIf Operator = "List Values" Then
             '@Ignore UseMeaningfulName
             Dim Str As Variant ' to be used in For Each loop
-            For Each Str In Split(.Range("AH" & RowIndex).Value2, ",")
-                AddValue Str
-            Next Str
+            Index = 1
+            Do While Index <= Departments.Count
+                For Each Str In Split(.Range("AH" & RowIndex).Value2, ",")
+                    If Str = Departments.Item(Index).DeptID Then AddValue Str
+                Next Str
+                Index = Index + 1
+            Loop
         ' TODO: Either make this work with non-DEPTID criteria or make this sub explicitly for depts only
         ElseIf Operator = "Between" And StepFieldName = "DEPTID" Then
-            Dim Index As Long
             Dim ValueRange As Variant ' Array([Start], [End])
             ValueRange = Split(.Range("AH" & RowIndex).Value2, " AND ")
             Index = 1
