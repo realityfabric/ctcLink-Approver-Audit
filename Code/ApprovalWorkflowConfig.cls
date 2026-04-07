@@ -66,6 +66,14 @@ Public Property Let DefinitionID(ByVal Value As String)
     this.DefinitionID = Value
 End Property
 
+Public Property Get Description() As String
+    Description = this.Description
+End Property
+
+Public Property Let Description(ByVal Value As String)
+    this.Description = Value
+End Property
+
 Public Property Get EffectiveDate() As Date
     EffectiveDate = this.EffectiveDate
 End Property
@@ -149,3 +157,52 @@ End Sub
 Public Function ValueCount() As Long
     ValueCount = this.Values.Count
 End Function
+
+' Departments are required because I don't want to generate massive lists of department strings
+' Which would be necessary if criteria was "Between" any department with a non-numeric value and another.
+' By requiring Departments, we can simply iterate through the departments and add existing ones.
+'@Ignore UseMeaningfulName, UnderscoreInPublicClassModuleMember
+Public Sub ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet(ByVal ws As Worksheet, ByVal RowIndex As Long, ByVal Departments As DepartmentCollection)
+    With ws
+        ProcessID = .Range("A" & RowIndex).Value2
+        DefinitionID = .Range("B" & RowIndex).Value2
+        Description = .Range("C" & RowIndex).Value2
+        EffectiveDate = .Range("D" & RowIndex).Value2
+        EffectiveStatus = .Range("E" & RowIndex).Value2
+        Stage = .Range("G" & RowIndex).Value2
+        Path = .Range("I" & RowIndex).Value2
+        Step = .Range("Y" & RowIndex).Value2
+        Approvers = .Range("AA" & RowIndex).Value2
+        StepCriteriaDescription = .Range("AD" & RowIndex).Value2
+        StepFieldName = .Range("AF" & RowIndex).Value2
+        
+        Dim Operator As String
+        Operator = .Range("AG" & RowIndex).Value2
+        If Operator = "Equals" Then
+            Values.Add .Range("AH" & RowIndex).Value2
+        ElseIf Operator = "List Values" Then
+            '@Ignore UseMeaningfulName
+            Dim Str As Variant ' to be used in For Each loop
+            For Each Str In Split(.Range("AH" & RowIndex).Value2, ",")
+                AddValue Str
+            Next Str
+        ' TODO: Either make this work with non-DEPTID criteria or make this sub explicitly for depts only
+        ElseIf Operator = "Between" And StepCriteriaDescription = "DEPTID" Then
+            Dim Index As Long
+            Dim ValueRange As Variant ' Array([Start], [End])
+            ValueRange = Split(.Range("AH" & RowIndex).Value2, " AND ")
+            Index = 1
+            Do While Index <= Departments.Count
+                If Departments.Item(Index).DeptID >= ValueRange(0) And _
+                    Departments.Item(Index).DeptID <= ValueRange(1) Then
+                    AddValue Departments.Item(Index).DeptID
+                End If
+                Index = Index + 1
+            Loop
+        Else
+            Debug.Print "Unhandled Step Criteria Operator"
+        End If
+    End With
+End Sub
+
+
