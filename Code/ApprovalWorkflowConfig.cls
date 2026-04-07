@@ -142,9 +142,9 @@ Public Property Get Values() As Collection
     Set Values = this.Values
 End Property
 
-Public Property Get Value(ByVal Index As Long) As String
+Public Function Value(ByVal Index As Long) As String
     Value = this.Values.Item(Index)
-End Property
+End Function
 
 Public Sub AddValue(ByVal Value As String)
     this.Values.Add Value
@@ -187,7 +187,7 @@ Public Sub ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet(ByVal ws As Worksheet, ByV
                 AddValue Str
             Next Str
         ' TODO: Either make this work with non-DEPTID criteria or make this sub explicitly for depts only
-        ElseIf Operator = "Between" And StepCriteriaDescription = "DEPTID" Then
+        ElseIf Operator = "Between" And StepFieldName = "DEPTID" Then
             Dim Index As Long
             Dim ValueRange As Variant ' Array([Start], [End])
             ValueRange = Split(.Range("AH" & RowIndex).Value2, " AND ")
