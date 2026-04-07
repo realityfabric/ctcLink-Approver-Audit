@@ -269,8 +269,6 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_ValuesCorrect()
     AWE_17.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 17, Depts
     
     'Assert:
-    Debug.Print "Value 1: " & AWE_17.Value(1)
-    Debug.Print "Value 2: " & AWE_17.Value(2)
     Assert.IsTrue ("10601" = AWE_17.Value(1) And "10603" = AWE_17.Value(2)) Or _
                   ("10603" = AWE_17.Value(1) And "10601" = AWE_17.Value(2))
     
@@ -284,3 +282,231 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorEquals_ValuesCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim AWE_18 As ApprovalWorkflowConfig
+    Dim Depts As DepartmentCollection
+    Dim Dept1 As Department
+    Dim Dept2 As Department
+    Dim Dept3 As Department
+    Set AWE_18 = New ApprovalWorkflowConfig
+    Set Depts = New DepartmentCollection
+    Set Dept1 = New Department
+    Set Dept2 = New Department
+    Set Dept3 = New Department
+    
+    Dept1.DeptID = "10601"
+    Dept2.DeptID = "60027"
+    Dept3.DeptID = "10605"
+    
+    Depts.Add Dept1
+    Depts.Add Dept2
+    Depts.Add Dept3
+
+    'Act:
+    AWE_18.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 18, Depts
+    
+    'Assert:
+    Assert.IsTrue AWE_18.Value(1) = "60027"
+    
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorList_ValuesCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim AWE_65 As ApprovalWorkflowConfig
+    Dim Depts As DepartmentCollection
+    Dim Dept1 As Department
+    Dim Dept2 As Department
+    Dim Dept3 As Department
+    Set AWE_65 = New ApprovalWorkflowConfig
+    Set Depts = New DepartmentCollection
+    Set Dept1 = New Department
+    Set Dept2 = New Department
+    Set Dept3 = New Department
+    
+    Dept1.DeptID = "20240"
+    Dept2.DeptID = "50100"
+    Dept3.DeptID = "10605"
+    
+    Depts.Add Dept1
+    Depts.Add Dept2
+    Depts.Add Dept3
+
+    'Act:
+    AWE_65.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 65, Depts
+    
+    'Assert:
+    Debug.Print "|" & AWE_65.ValueCount & "|"
+    Debug.Print "|" & AWE_65.Value(1) & "|"
+    Debug.Print "|" & AWE_65.Value(2) & "|"
+    Assert.IsTrue (AWE_65.Value(1) = "20240" And AWE_65.Value(2) = "50100") Or _
+                  (AWE_65.Value(1) = "50100" And AWE_65.Value(2) = "20240")
+    
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_OperatorList_TwentyDepts()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim AWE As ApprovalWorkflowConfig
+    Dim DeptCollection As DepartmentCollection
+    Dim Departments(19) As Department
+    Dim Dept As Department
+    Dim Index As Long
+    
+    Set AWE = New ApprovalWorkflowConfig
+    Set DeptCollection = New DepartmentCollection
+    
+    Index = 0
+    Do While Index <= 19
+        Set Departments(Index) = New Department
+        Index = Index + 1
+    Loop
+    
+    Departments(0).DeptID = "20240"
+    Departments(1).DeptID = "50001"
+    Departments(2).DeptID = "50100"
+    Departments(3).DeptID = "50102"
+    Departments(4).DeptID = "50110"
+    Departments(5).DeptID = "50120"
+    Departments(6).DeptID = "50130"
+    Departments(7).DeptID = "50140"
+    Departments(8).DeptID = "50200"
+    Departments(9).DeptID = "50210"
+    Departments(10).DeptID = "50220"
+    Departments(11).DeptID = "50230"
+    Departments(12).DeptID = "50340"
+    Departments(13).DeptID = "50341"
+    Departments(14).DeptID = "50501"
+    Departments(15).DeptID = "50510"
+    Departments(16).DeptID = "50520"
+    Departments(17).DeptID = "50530"
+    Departments(18).DeptID = "50540"
+    Departments(19).DeptID = "50550"
+    
+    Index = 0
+    Do While Index <= 19
+        DeptCollection.Add Departments(Index)
+        Index = Index + 1
+    Loop
+    
+    'Act:
+    AWE.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 65, DeptCollection
+    
+    'Assert:
+    Index = 0
+    Do While Index <= 19
+        Assert.IsTrue Departments(Index).DeptID = AWE.Value(Index + 1)
+        Index = Index + 1
+    Loop
+    Assert.IsTrue AWE.ValueCount = 20
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromQuery_OperatorList_21Depts_OneExcluded()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim AWE As ApprovalWorkflowConfig
+    Dim DeptCollection As DepartmentCollection
+    Dim Departments(20) As Department
+    Dim Dept As Department
+    Dim Index As Long
+    
+    Set AWE = New ApprovalWorkflowConfig
+    Set DeptCollection = New DepartmentCollection
+    
+    Index = 0
+    Do While Index <= 20
+        Set Departments(Index) = New Department
+        Index = Index + 1
+    Loop
+    
+    Departments(0).DeptID = "20240"
+    Departments(1).DeptID = "50001"
+    Departments(2).DeptID = "50100"
+    Departments(3).DeptID = "50102"
+    Departments(4).DeptID = "50110"
+    Departments(5).DeptID = "50120"
+    Departments(6).DeptID = "50130"
+    Departments(7).DeptID = "50140"
+    Departments(8).DeptID = "50200"
+    Departments(9).DeptID = "50210"
+    Departments(10).DeptID = "50220"
+    Departments(11).DeptID = "50230"
+    Departments(12).DeptID = "50340"
+    Departments(13).DeptID = "50341"
+    Departments(14).DeptID = "50501"
+    Departments(15).DeptID = "50510"
+    Departments(16).DeptID = "50520"
+    Departments(17).DeptID = "50530"
+    Departments(18).DeptID = "50540"
+    Departments(19).DeptID = "50550"
+    Departments(20).DeptID = "FALSE"
+    
+    Index = 0
+    Do While Index <= 20
+        DeptCollection.Add Departments(Index)
+        Index = Index + 1
+    Loop
+    
+    'Act:
+    AWE.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet wbAWE.Sheets.Item(1), 65, DeptCollection
+    
+    'Assert:
+    Index = 0
+    Do While Index < AWE.ValueCount
+        Assert.IsTrue Departments(Index).DeptID = AWE.Value(Index + 1)
+        Index = Index + 1
+    Loop
+    Assert.IsTrue AWE.ValueCount = 20
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
