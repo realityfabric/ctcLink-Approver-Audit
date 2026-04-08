@@ -205,8 +205,11 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_Count2Correct()
     '@Ignore UseMeaningfulName
     Dim AWE_92 As ApprovalWorkflowConfig
     Dim Depts As DepartmentCollection
+    '@Ignore UseMeaningfulName
     Dim Dept1 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept2 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept3 As Department
     Set AWE_17 = New ApprovalWorkflowConfig
     Set Depts = New DepartmentCollection
@@ -248,8 +251,11 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_ValuesCorrect()
     '@Ignore UseMeaningfulName
     Dim AWE_92 As ApprovalWorkflowConfig
     Dim Depts As DepartmentCollection
+    '@Ignore UseMeaningfulName
     Dim Dept1 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept2 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept3 As Department
     Set AWE_17 = New ApprovalWorkflowConfig
     Set Depts = New DepartmentCollection
@@ -291,8 +297,11 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorEquals_ValuesCorrect()
     '@Ignore UseMeaningfulName
     Dim AWE_18 As ApprovalWorkflowConfig
     Dim Depts As DepartmentCollection
+    '@Ignore UseMeaningfulName
     Dim Dept1 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept2 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept3 As Department
     Set AWE_18 = New ApprovalWorkflowConfig
     Set Depts = New DepartmentCollection
@@ -334,8 +343,11 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorList_ValuesCorrect()
     '@Ignore UseMeaningfulName
     Dim AWE_65 As ApprovalWorkflowConfig
     Dim Depts As DepartmentCollection
+    '@Ignore UseMeaningfulName
     Dim Dept1 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept2 As Department
+    '@Ignore UseMeaningfulName
     Dim Dept3 As Department
     Set AWE_65 = New ApprovalWorkflowConfig
     Set Depts = New DepartmentCollection
