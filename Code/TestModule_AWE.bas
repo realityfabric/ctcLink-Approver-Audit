@@ -202,8 +202,6 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_Count2Correct()
     'Arrange:
     '@Ignore UseMeaningfulName
     Dim AWE_17 As ApprovalWorkflowConfig
-    '@Ignore UseMeaningfulName
-    Dim AWE_92 As ApprovalWorkflowConfig
     Dim Depts As DepartmentCollection
     '@Ignore UseMeaningfulName
     Dim Dept1 As Department
@@ -248,8 +246,6 @@ Private Sub TestMethod_ReadFromQuery_ThreeDepts_OperatorBetween_ValuesCorrect()
     'Arrange:
     '@Ignore UseMeaningfulName
     Dim AWE_17 As ApprovalWorkflowConfig
-    '@Ignore UseMeaningfulName
-    Dim AWE_92 As ApprovalWorkflowConfig
     Dim Depts As DepartmentCollection
     '@Ignore UseMeaningfulName
     Dim Dept1 As Department
