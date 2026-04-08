@@ -388,7 +388,6 @@ Private Sub TestMethod_ReadFromQuery_OperatorList_TwentyDepts()
     Dim AWE As ApprovalWorkflowConfig
     Dim DeptCollection As DepartmentCollection
     Dim Departments(19) As Department
-    Dim Dept As Department
     Dim Index As Long
     
     Set AWE = New ApprovalWorkflowConfig
@@ -456,7 +455,6 @@ Private Sub TestMethod_ReadFromQuery_OperatorList_21Depts_OneExcluded()
     Dim AWE As ApprovalWorkflowConfig
     Dim DeptCollection As DepartmentCollection
     Dim Departments(20) As Department
-    Dim Dept As Department
     Dim Index As Long
     
     Set AWE = New ApprovalWorkflowConfig
