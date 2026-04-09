@@ -74,3 +74,15 @@ Public Function Filter( _
         End If
     Next Index
 End Function
+
+'@Ignore UseMeaningfulName
+Public Sub ReadFromWorksheet(ByVal ws As Worksheet, ByVal Departments As DepartmentCollection, Optional ByVal HeaderRow As Long = 1)
+    Dim AWConfig As ApprovalWorkflowConfig
+    Dim RowIndex As Long
+    For RowIndex = (HeaderRow + 1) To ws.UsedRange.Rows.Count
+        Set AWConfig = New ApprovalWorkflowConfig
+        AWConfig.ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet ws, RowIndex, Departments
+        Add AWConfig
+    Next RowIndex
+End Sub
+

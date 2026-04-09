@@ -515,4 +515,180 @@ TestFail:
     Resume TestExit
 End Sub
 
+'@TestMethod("No Fail")
+Private Sub TestMethod_ReadFromWorksheet_NoFail()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim AWEColl As AWConfigCollection
+    Dim DisplayAlerts As Boolean
+    Dim wbDepartments As Workbook
+    Dim Departments As DepartmentCollection
+    
+    Set AWEColl = New AWConfigCollection
+    Set Departments = New DepartmentCollection
+    Set wbDepartments = Workbooks _
+        .Open(ThisWorkbook.Path & "/test_data/ALL_DEPTS_BY_SETID_ANON.csv", ReadOnly:=True)
+    
+    Departments.AddDepartmentsFromWorksheet wbDepartments.Sheets.Item(1)
+    DisplayAlerts = Application.DisplayAlerts
+    Application.DisplayAlerts = False
+    wbDepartments.Close SaveChanges:=False
+    Application.DisplayAlerts = DisplayAlerts
+    
+    'Act:
+    ' Query header begins on row 2
+    AWEColl.ReadFromWorksheet wbAWE.Sheets.Item(1), Departments, 2
+    
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromWorksheet_CountCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim AWEColl As AWConfigCollection
+    Dim DisplayAlerts As Boolean
+    Dim wbDepartments As Workbook
+    Dim Departments As DepartmentCollection
+    
+    Set AWEColl = New AWConfigCollection
+    Set Departments = New DepartmentCollection
+    Set wbDepartments = Workbooks _
+        .Open(ThisWorkbook.Path & "/test_data/ALL_DEPTS_BY_SETID_ANON.csv", ReadOnly:=True)
+    
+    Departments.AddDepartmentsFromWorksheet wbDepartments.Sheets.Item(1)
+    DisplayAlerts = Application.DisplayAlerts
+    Application.DisplayAlerts = False
+    wbDepartments.Close SaveChanges:=False
+    Application.DisplayAlerts = DisplayAlerts
+    
+    'Act:
+    ' Query header begins on row 2
+    AWEColl.ReadFromWorksheet wbAWE.Sheets.Item(1), Departments, 2
+    
+    'Assert:
+    Assert.IsTrue AWEColl.Count = 158
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromWorksheet_FirstRowCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim AWEColl As AWConfigCollection
+    Dim DisplayAlerts As Boolean
+    Dim wbDepartments As Workbook
+    Dim Departments As DepartmentCollection
+    
+    Set AWEColl = New AWConfigCollection
+    Set Departments = New DepartmentCollection
+    Set wbDepartments = Workbooks _
+        .Open(ThisWorkbook.Path & "/test_data/ALL_DEPTS_BY_SETID_ANON.csv", ReadOnly:=True)
+    
+    Departments.AddDepartmentsFromWorksheet wbDepartments.Sheets.Item(1)
+    DisplayAlerts = Application.DisplayAlerts
+    Application.DisplayAlerts = False
+    wbDepartments.Close SaveChanges:=False
+    Application.DisplayAlerts = DisplayAlerts
+    
+    'Act:
+    ' Query header begins on row 2
+    AWEColl.ReadFromWorksheet wbAWE.Sheets.Item(1), Departments, 2
+    
+    'Assert:
+    With AWEColl.Item(1)
+        Assert.IsTrue .ProcessID = "PurchaseOrder"
+        Assert.IsTrue .DefinitionID = "SHARE"
+        Assert.IsTrue .Description = "Line Fiscal"
+        Assert.IsTrue .EffectiveDate = #1/1/1902#
+        Assert.IsTrue .EffectiveStatus = "I"
+        Assert.IsTrue .Stage = 10
+        Assert.IsTrue .Path = 1
+        Assert.IsTrue .Step = 1
+        Assert.IsTrue .Approvers = "Supervisor by UserId"
+        Assert.IsTrue .StepCriteriaDescription = "Step Criteria Definition for Line Level"
+        Assert.IsTrue .StepFieldName = vbNullString
+        Assert.IsTrue .ValueCount = 0
+    End With
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Uncategorized")
+Private Sub TestMethod_ReadFromWorksheet_LastRowCorrect()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim AWEColl As AWConfigCollection
+    Dim DisplayAlerts As Boolean
+    Dim wbDepartments As Workbook
+    Dim Departments As DepartmentCollection
+    
+    Set AWEColl = New AWConfigCollection
+    Set Departments = New DepartmentCollection
+    Set wbDepartments = Workbooks _
+        .Open(ThisWorkbook.Path & "/test_data/ALL_DEPTS_BY_SETID_ANON.csv", ReadOnly:=True)
+    
+    Departments.AddDepartmentsFromWorksheet wbDepartments.Sheets.Item(1)
+    DisplayAlerts = Application.DisplayAlerts
+    Application.DisplayAlerts = False
+    wbDepartments.Close SaveChanges:=False
+    Application.DisplayAlerts = DisplayAlerts
+    
+    'Act:
+    ' Query header begins on row 2
+    AWEColl.ReadFromWorksheet wbAWE.Sheets.Item(1), Departments, 2
+    
+    'Assert:
+    With AWEColl.Item(AWEColl.Count)
+        Assert.IsTrue .ProcessID = "VoucherApproval"
+        Assert.IsTrue .DefinitionID = "WA999"
+        Assert.IsTrue .Description = "WA999 Voucher AWE"
+        Assert.IsTrue .EffectiveDate = #1/4/1901#
+        Assert.IsTrue .EffectiveStatus = "A"
+        Assert.IsTrue .Stage = 30
+        Assert.IsTrue .Path = 1
+        Assert.IsTrue .Step = 1
+        Assert.IsTrue .Approvers = "CTC_UL_VCHR_AP_REVIEW"
+        Assert.IsTrue .StepCriteriaDescription = vbNullString
+        Assert.IsTrue .StepFieldName = vbNullString
+        Assert.IsTrue .ValueCount = 0
+    End With
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
 
