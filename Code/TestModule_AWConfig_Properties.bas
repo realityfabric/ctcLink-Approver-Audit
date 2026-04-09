@@ -16,7 +16,7 @@ Attribute VB_Name = "TestModule_AWConfig_Properties"
 '    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 '@TestModule
-'@Folder("Tests")
+'@Folder("Tests.Properties")
 
 
 Option Explicit
