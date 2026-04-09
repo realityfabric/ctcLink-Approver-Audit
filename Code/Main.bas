@@ -245,7 +245,7 @@ Public Sub Main()
         .Range("R:X") _
             .Columns.Delete
     End With
-    
+
     ' Prepare the Departments Overview sheet
     Set wsDepartmentsOverview = wbOutput.Sheets.Add(After:=wsApproverRolesOverview)
     With wsDepartmentsOverview
@@ -258,14 +258,14 @@ Public Sub Main()
 
         Dim MismatchedDepartments As DepartmentCollection
         Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovals)
-        
+
         .Range("A1:D1").Value2 = Array( _
             "DeptID", _
             "Description", _
             "ManagerID", _
             "Issues" _
         )
-        
+
         Dim Index As Long
         Dim RowIndex As Long
         Index = 1
@@ -280,10 +280,10 @@ Public Sub Main()
             RowIndex = RowIndex + 1
             Index = Index + 1
         Loop
-        
+
         Dim NoExApprDepartments As DepartmentCollection
         Set NoExApprDepartments = Departments.DepartmentsWithoutExpenseApproval(ExpenseApprovals)
-        
+
         Index = 1
         Do While Index <= NoExApprDepartments.Count
             .Range("A" & RowIndex & ":D" & RowIndex).Value2 = Array( _
@@ -295,6 +295,24 @@ Public Sub Main()
             RowIndex = RowIndex + 1
             Index = Index + 1
         Loop
+        Set NoExApprDepartments = Nothing
+
+        Dim NoVPApprDepartments As DepartmentCollection
+        Dim AWConfigs As AWConfigCollection
+        Set AWConfigs = New AWConfigCollection
+        AWConfigs.ReadFromWorksheet wsApprovalSetup, Departments, 2
+
+        Set NoVPApprDepartments = Departments.DepartmentsWithoutVPApproval(AWConfigs)
+
+        For Index = 1 To NoVPApprDepartments.Count
+            .Range("A" & RowIndex & ":D" & RowIndex).Value2 = Array( _
+                NoVPApprDepartments.Item(Index).DeptID, _
+                NoVPApprDepartments.Item(Index).Description, _
+                NoVPApprDepartments.Item(Index).ManagerID, _
+                "Department has no VP Approver!" _
+            )
+            RowIndex = RowIndex + 1
+        Next Index
     End With
 End Sub
 
