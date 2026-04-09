@@ -127,3 +127,28 @@ Attribute DepartmentsWithoutExpenseApproval.VB_Description = "Return a Departmen
     
     ' Return DepartmentsWithoutExpenseApproval
 End Function
+
+Public Function DepartmentsWithoutVPApproval(ByVal AWConfigs As AWConfigCollection) As DepartmentCollection
+    Dim FilteredAWConf As AWConfigCollection
+    Dim AWIndex As Long
+    Dim DeptIndex As Long
+    Dim HasApproval As Boolean
+    Set DepartmentsWithoutVPApproval = New DepartmentCollection
+    Set FilteredAWConf = AWConfigs _
+        .Filter(Approvers:="*_PO_EXEC_LEVEL_*", _
+                StepFieldName:="DEPTID")
+    
+    For DeptIndex = 1 To Count()
+        HasApproval = False ' default to false for each department
+        For AWIndex = 1 To FilteredAWConf.Count()
+            If FilteredAWConf.Item(AWIndex).IncludesDepartment(Item(DeptIndex)) Then
+                HasApproval = True
+                Exit For
+            End If
+        Next AWIndex
+        If Not HasApproval Then DepartmentsWithoutVPApproval.Add Item(DeptIndex)
+    Next DeptIndex
+    
+    ' Returns DepartmentsWithoutVPApproval
+End Function
+

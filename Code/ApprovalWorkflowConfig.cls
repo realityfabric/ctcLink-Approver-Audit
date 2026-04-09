@@ -209,4 +209,15 @@ Public Sub ReadFrom_QFS_SEC_EOAW_APPROVAL_SETUP_sheet(ByVal ws As Worksheet, ByV
     End With
 End Sub
 
+Public Function IncludesDepartment(ByVal Dept As Department) As Boolean
+    Dim Index As Long
+    IncludesDepartment = False ' False by default
+    For Index = 1 To ValueCount()
+        If StepFieldName = "DEPTID" And _
+           Value(Index) = Dept.DeptID Then
+           IncludesDepartment = True
+           Exit Function
+        End If
+    Next Index
+End Function
 
