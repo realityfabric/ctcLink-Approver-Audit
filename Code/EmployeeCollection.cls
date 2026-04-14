@@ -71,7 +71,9 @@ Public Function Item(ByVal Index As Long) As Employee
     Set Item = this.Employees.Item(Index)
 End Function
 
+'@Description "Add Employee objects created from the output of PSQuery QFS_SEC_USER_ROLES_BY_UNIT"
 Public Sub ReadFromWorksheet(ByVal QFS_SEC_USER_ROLES_BY_UNIT As Worksheet)
+Attribute ReadFromWorksheet.VB_Description = "Add Employee objects created from the output of PSQuery QFS_SEC_USER_ROLES_BY_UNIT"
     Dim Emp As Employee
     Dim Index As Long
     ' First non-header row is 3
