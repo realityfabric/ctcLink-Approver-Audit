@@ -250,3 +250,61 @@ TestFail:
     Resume TestExit
 End Sub
 
+'@TestMethod("No Fail")
+Private Sub Set_Departments_DefaultCollectionToEmptyCollection()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim Emp As Employee
+    Dim DC_Replacement As DepartmentCollection
+    
+    Set Emp = New Employee
+    Set DC_Replacement = New DepartmentCollection
+    
+    'Act:
+    Set Emp.Departments = DC_Replacement
+    
+    'Assert:
+    Assert.Succeed
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("No Fail")
+Private Sub Set_Departments_DefaultCollectionToPopulatedCollection()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim Emp As Employee
+    Dim DC_Replacement As DepartmentCollection
+    Dim Dept As Department
+    
+    Set Emp = New Employee
+    Set DC_Replacement = New DepartmentCollection
+    Set Dept = New Department
+    Dept.DeptID = "1"
+    DC_Replacement.Add Dept
+
+    'Act:
+    Set Emp.Departments = DC_Replacement
+    
+    'Assert:
+    Assert.IsTrue Emp.Department(1).DeptID = "1"
+    Assert.IsTrue Emp.DepartmentCount = 1
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub

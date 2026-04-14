@@ -138,3 +138,10 @@ Public Function HasRole(ByVal Role As String) As Boolean
         End If
     Next Index
 End Function
+
+'@Description "Replace this Employee's DepartmentCollection with a different DepartmentCollection."
+'@Ignore WriteOnlyProperty
+Public Property Set Departments(ByVal DCollection As DepartmentCollection)
+Attribute Departments.VB_Description = "Replace this Employee's DepartmentCollection with a different DepartmentCollection."
+    Set this.Departments = DCollection
+End Property
