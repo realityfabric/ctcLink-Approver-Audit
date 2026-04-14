@@ -16,7 +16,7 @@ Attribute VB_Name = "TestModule_EACollection"
 '    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 '@TestModule
-'@Folder("Tests.T&E")
+'@Folder("Tests")
 
 Option Explicit
 Option Private Module

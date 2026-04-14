@@ -16,7 +16,7 @@ Attribute VB_Name = "TestModule_DepartmentCollection"
 '    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 '@TestModule
-'@Folder("Tests.GL")
+'@Folder("Tests")
 
 Option Explicit
 Option Private Module
