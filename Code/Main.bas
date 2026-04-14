@@ -48,13 +48,6 @@ Public Sub Main()
 
     Dim wbOutput As Workbook
 
-    Dim wbApprovalSetup As Workbook
-    Dim wbDepartments As Workbook
-    Dim wbExpenseApprovers As Workbook
-    Dim wbSecurityRoles As Workbook
-
-    '@Ignore UseMeaningfulName
-    Dim ws As Worksheet
     Dim wsApprovalSetup As Worksheet
     Dim wsDepartments As Worksheet
     Dim wsExpenseApprovers As Worksheet
@@ -77,67 +70,10 @@ Public Sub Main()
         .SaveAs Filename:="ApproverValidation_" & GetTimestampStr()
     End With
 
-    ' Copy Approval Setup into Output Workbook
-    Set wbApprovalSetup = Workbooks.Open( _
-        Filename:=Sesh.fApprovalSetup _
-        , ReadOnly:=True _
-    )
-
-    Set ws = wbApprovalSetup.Sheets.Item(1)
-
-    With wbOutput
-        ws.Copy After:=.Sheets.Item(.Sheets.Count)
-        Set wsApprovalSetup = .Sheets.Item(.Sheets.Count)
-        wsApprovalSetup.Name = "Approval Setup"
-    End With
-    Set ws = Nothing
-    wbApprovalSetup.Close
-
-    ' Copy Departments into Output Workbook
-    Set wbDepartments = Workbooks.Open( _
-        Filename:=Sesh.fDepartments _
-        , ReadOnly:=True _
-    )
-
-    Set ws = wbDepartments.Sheets.Item(1)
-
-    With wbOutput
-        ws.Copy After:=.Sheets.Item(.Sheets.Count)
-        Set wsDepartments = .Sheets.Item(.Sheets.Count)
-        wsDepartments.Name = "Departments"
-    End With
-    Set ws = Nothing
-    wbDepartments.Close
-
-    ' Copy Expense Approvers into Output Workbook
-    Set wbExpenseApprovers = Workbooks.Open( _
-        Filename:=Sesh.fExpenseApprovers _
-        , ReadOnly:=True _
-    )
-
-    Set ws = wbExpenseApprovers.Sheets.Item(1)
-
-    With wbOutput
-        ws.Copy After:=.Sheets.Item(.Sheets.Count)
-        Set wsExpenseApprovers = .Sheets.Item(.Sheets.Count)
-        wsExpenseApprovers.Name = "Expense Approvers"
-    End With
-    Set ws = Nothing
-    wbExpenseApprovers.Close
-
-    ' Copy User Roles into Output Workbook
-    Set wbSecurityRoles = Workbooks.Open( _
-        Filename:=Sesh.fUserRoles _
-        , ReadOnly:=True _
-    )
-    Set ws = wbSecurityRoles.Sheets.Item(1)
-    With wbOutput
-        ws.Copy After:=.Sheets.Item(.Sheets.Count)
-        Set wsSecurityRoles = .Sheets.Item(.Sheets.Count)
-        wsSecurityRoles.Name = "User Roles"
-    End With
-    Set ws = Nothing
-    wbSecurityRoles.Close
+    Set wsApprovalSetup = CopyWorkbookSheet(Sesh.fApprovalSetup, wbOutput, 1, "Approval Setup")
+    Set wsDepartments = CopyWorkbookSheet(Sesh.fDepartments, wbOutput, 1, "Departments")
+    Set wsExpenseApprovers = CopyWorkbookSheet(Sesh.fExpenseApprovers, wbOutput, 1, "Expense Approvers")
+    Set wsSecurityRoles = CopyWorkbookSheet(Sesh.fUserRoles, wbOutput, 1, "User Roles")
 
     ' Prepare the Approver Roles Overview sheet
     Set wsApproverRolesOverview = wbOutput.Sheets.Item("sheet1")
@@ -315,4 +251,23 @@ Public Sub Main()
         Next Index
     End With
 End Sub
+
+Private Function CopyWorkbookSheet( _
+        ByVal wbFromPath As String, _
+        ByVal wbTo As Workbook, _
+        ByVal SheetIndex As Long, _
+        ByVal Name As String _
+    ) As Worksheet
+    Dim wbFrom As Workbook
+    Set wbFrom = Workbooks.Open( _
+        Filename:=wbFromPath _
+        , ReadOnly:=True _
+    )
+    With wbTo
+        wbFrom.Sheets.Item(SheetIndex).Copy After:=.Sheets.Item(.Sheets.Count)
+        Set CopyWorkbookSheet = .Sheets.Item(.Sheets.Count)
+        CopyWorkbookSheet.Name = Name
+    End With
+    wbFrom.Close
+End Function
 
