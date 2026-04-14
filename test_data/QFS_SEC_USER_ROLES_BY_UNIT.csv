@@ -1,0 +1,22 @@
+﻿Job Company Unit Prompt w Role,20,,,,,,,,,,
+Company,HR Unit,ID,Name,JobCode Descr,Supervisor Name,Role Name,Descr,Prim Perm List,Row Sec Prm Lst,HR Status,FS Pillar Account Locked?
+999,HR999,100000000,"Buffet, Jimmy",Singer,"Jackson, Alan",ZZ Purchasing Approval,PO: ZZ Purchasing Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,100000000,"Buffet, Jimmy",Singer,"Jackson, Alan",ZZ Requisition Approval,PO: ZZ Requisition Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,100000000,"Buffet, Jimmy",Singer,"Jackson, Alan",ZZ Voucher Approval,AP: ZZ Voucher Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,100000000,"Buffet, Jimmy",Singer,"Jackson, Alan",ZZ Delegation,DE: ZZ Delegation,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,100000000,"Buffet, Jimmy",Singer,"Jackson, Alan",ZZ PeopleSoft User,PT: ZZ PeopleSoft User,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,200000000,"Jackson, Alan",Singer,"Mercury, Fred",ZZ Expenses Approval,EX: ZZ Expenses Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,200000000,"Jackson, Alan",Singer,"Mercury, Fred",ZZ Purchasing Approval,PO: ZZ Purchasing Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,200000000,"Jackson, Alan",Singer,"Mercury, Fred",ZZ Requisition Approval,PO: ZZ Requisition Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,200000000,"Jackson, Alan",Singer,"Mercury, Fred",ZZ Voucher Approval,AP: ZZ Voucher Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,200000000,"Jackson, Alan",Singer,"Mercury, Fred",ZZ Delegation,DE: ZZ Delegation,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,200000000,"Jackson, Alan",Singer,"Mercury, Fred",ZZ PeopleSoft User,PT: ZZ PeopleSoft User,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Music,"Gordon, Flash",ZZ PeopleSoft User,PT: ZZ PeopleSoft User,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Music,"Gordon, Flash",ZZ Expenses Approval,EX: ZZ Expenses Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Music,"Gordon, Flash",ZZ Purchasing Approval,PO: ZZ Purchasing Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Music,"Gordon, Flash",ZZ Requisition Approval,PO: ZZ Requisition Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Music,"Gordon, Flash",ZZ Voucher Approval,AP: ZZ Voucher Approval,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Music,"Gordon, Flash",ZZ Delegation,DE: ZZ Delegation,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,300000000,"Mercury, Fred",VP of Communications,"Gordon, Flash",ZZ_AW_EXEC_LEVEL_10,AW: ZZ_AW_EXEC_LEVEL_10,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,400000000,"Neutron, Jimmy",VP of Instruction,"Gordon, Flash",ZZ PeopleSoft User,PT: ZZ PeopleSoft User,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
+999,HR999,400000000,"Neutron, Jimmy",VP of Instruction,"Gordon, Flash",ZZ_AW_EXEC_LEVEL_11,AW: ZZ_AW_EXEC_LEVEL_11,CTC_PT_WA999_ACCESS,CTC_PT_WA999_ACCESS,A,N
