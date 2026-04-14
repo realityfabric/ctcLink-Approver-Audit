@@ -23,7 +23,7 @@ Attribute VB_Exposed = False
 '    You should have received a copy of the GNU General Public License
 '    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-'@Folder("ApproverValidation")
+'@Folder("ctcLinkApproverAudit")
 Option Explicit
 
 Private Type TSession
