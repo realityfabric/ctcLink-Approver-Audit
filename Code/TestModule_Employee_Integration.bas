@@ -190,7 +190,7 @@ TestFail:
     Resume TestExit
 End Sub
 
-'@TestMethod("Uncategorized")
+'@TestMethod("No Fail")
 Private Sub GetDepartment_DeptExists_NoFail()
     On Error GoTo TestFail
     
@@ -203,6 +203,7 @@ Private Sub GetDepartment_DeptExists_NoFail()
     ActiveEmployee.AddDepartment Dept
     
     'Act:
+    '@Ignore FunctionReturnValueDiscarded
     ActiveEmployee.Department 1
     
     'Assert:
