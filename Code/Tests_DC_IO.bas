@@ -1,4 +1,4 @@
-Attribute VB_Name = "TestModule_DC_IO"
+Attribute VB_Name = "Tests_DC_IO"
 ' Audit security roles and configurations for Approvals in ctcLink.
 '    Copyright (C) 2026 Jessica Fairchild aka Jessica Jones-Copeland
 '

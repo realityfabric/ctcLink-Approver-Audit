@@ -1,4 +1,4 @@
-Attribute VB_Name = "TestModule_DC_AWE"
+Attribute VB_Name = "Tests_DC_Integration"
 ' Audit security roles and configurations for Approvals in ctcLink.
 '    Copyright (C) 2026 Jessica Fairchild aka Jessica Jones-Copeland
 '
@@ -16,7 +16,7 @@ Attribute VB_Name = "TestModule_DC_AWE"
 '    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 '@TestModule
-'@Folder("Tests")
+'@Folder("Tests.Integrations")
 
 Option Explicit
 Option Private Module
