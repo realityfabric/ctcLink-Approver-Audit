@@ -51,13 +51,17 @@ Public Function Item(ByVal Index As Variant) As Department
     Set Item = this.Departments.Item(Index)
 End Function
 
-Public Function Filter(Optional ByVal EmplID As String = vbNullString) As DepartmentCollection
+Public Function Filter( _
+        Optional ByVal EmplID As String = vbNullString, _
+        Optional ByVal DeptID As String = vbNullString _
+    ) As DepartmentCollection
     Dim FilteredDepartmentCollection As DepartmentCollection
     Dim Dept As Variant ' to be used in for each loop
     Set FilteredDepartmentCollection = New DepartmentCollection
 
     For Each Dept In this.Departments
-        If (EmplID = vbNullString Or Dept.ManagerID = EmplID) Then
+        If (EmplID = vbNullString Or Dept.ManagerID = EmplID) And _
+           (DeptID = vbNullString Or Dept.DeptID = DeptID) Then
             FilteredDepartmentCollection.Add Dept
         End If
     Next Dept
