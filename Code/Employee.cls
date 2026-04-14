@@ -145,3 +145,10 @@ Public Property Set Departments(ByVal DCollection As DepartmentCollection)
 Attribute Departments.VB_Description = "Replace this Employee's DepartmentCollection with a different DepartmentCollection."
     Set this.Departments = DCollection
 End Property
+
+'@Description "Replace this Employee's ExpenseApprovalCollection with a different ExpenseApprovalCollection."
+'@Ignore WriteOnlyProperty
+Public Property Set ExpenseApprovals(ByVal EACollection As ExpenseApprovalCollection)
+Attribute ExpenseApprovals.VB_Description = "Replace this Employee's ExpenseApprovalCollection with a different ExpenseApprovalCollection."
+    Set this.ExpenseApprovals = EACollection
+End Property

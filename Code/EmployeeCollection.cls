@@ -99,3 +99,14 @@ Attribute SetEmployeeDepartments.VB_Description = "Set DepartmentCollections for
         End With
     Next Index
 End Sub
+
+'@Description "Set ExpenseApprovalCollection for each Employee"
+Public Sub SetEmployeeExpenseApprovals(ByVal ExpenseApprovals As ExpenseApprovalCollection)
+Attribute SetEmployeeExpenseApprovals.VB_Description = "Set ExpenseApprovalCollection for each Employee"
+    Dim Index As Long
+    For Index = 1 To Count()
+        With Item(Index)
+            Set .ExpenseApprovals = ExpenseApprovals.Filter(EmplID:=.EmplID)
+        End With
+    Next Index
+End Sub
