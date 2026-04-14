@@ -88,3 +88,14 @@ Attribute ReadFromWorksheet.VB_Description = "Add Employee objects created from 
         Next Index
     End With
 End Sub
+
+'@Description "Set DepartmentCollections for each Employee"
+Public Sub SetEmployeeDepartments(ByVal Departments As DepartmentCollection)
+Attribute SetEmployeeDepartments.VB_Description = "Set DepartmentCollections for each Employee"
+    Dim Index As Long
+    For Index = 1 To Count()
+        With Item(Index)
+            Set .Departments = Departments.Filter(EmplID:=.EmplID)
+        End With
+    Next Index
+End Sub
