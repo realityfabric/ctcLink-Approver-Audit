@@ -152,3 +152,5 @@ Public Property Set ExpenseApprovals(ByVal EACollection As ExpenseApprovalCollec
 Attribute ExpenseApprovals.VB_Description = "Replace this Employee's ExpenseApprovalCollection with a different ExpenseApprovalCollection."
     Set this.ExpenseApprovals = EACollection
 End Property
+
+' TODO: Return whether employee has an AWE routing role
