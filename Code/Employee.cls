@@ -72,8 +72,11 @@ Attribute IsActive.VB_Description = "Check if HRStatus is 'A'"
     IsActive = (HRStatus = "A")
 End Function
 
+'@Description "If the Employee does not already have the role, add the role to SecurityRoles
 Public Sub AddRole(ByVal Role As String)
-    this.SecurityRoles.Add Role
+    If Not HasRole(Role) Then
+        this.SecurityRoles.Add Role
+    End If
 End Sub
 
 Public Sub RemoveRole(ByVal Index As Long)
@@ -124,4 +127,14 @@ End Sub
 Public Function ExpenseApprovalCount() As Long
 Attribute ExpenseApprovalCount.VB_Description = "Return the count of ExpenseApprovals"
     ExpenseApprovalCount = this.ExpenseApprovals.Count
+End Function
+
+Public Function HasRole(ByVal Role As String) As Boolean
+    Dim Index As Long
+    HasRole = False
+    For Index = 1 To this.SecurityRoles.Count
+        If this.SecurityRoles.Item(Index) = Role Then
+            HasRole = True
+        End If
+    Next Index
 End Function
