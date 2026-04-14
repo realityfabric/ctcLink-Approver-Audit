@@ -305,3 +305,146 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+'@TestMethod("Sets")
+Private Sub Difference_EmptyCollections()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim A As DepartmentCollection
+    '@Ignore UseMeaningfulName
+    Dim B As DepartmentCollection
+    Dim Diff As DepartmentCollection
+    Set A = New DepartmentCollection
+    Set B = New DepartmentCollection
+    
+    'Act:
+    Set Diff = A.Difference(B)
+    
+    'Assert:
+    Assert.IsTrue Diff.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Sets")
+Private Sub Difference_APopulatedBEmpty()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim A As DepartmentCollection
+    '@Ignore UseMeaningfulName
+    Dim B As DepartmentCollection
+    Dim Diff As DepartmentCollection
+    Dim Dept As Department
+    
+    Set A = New DepartmentCollection
+    Set B = New DepartmentCollection
+    Set Dept = New Department
+    
+    Dept.DeptID = "1"
+    Dept.ManagerID = "10"
+    
+    A.Add Dept
+    
+    'Act:
+    Set Diff = A.Difference(B)
+    
+    'Assert:
+    Assert.IsTrue Diff.Count = 1
+    Assert.IsTrue Diff.Item(1).DeptID = "1"
+    Assert.IsTrue Diff.Item(1).ManagerID = "10"
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Sets")
+Private Sub Difference_APopulatedBPopulated_NoDiff()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim A As DepartmentCollection
+    '@Ignore UseMeaningfulName
+    Dim B As DepartmentCollection
+    Dim Diff As DepartmentCollection
+    Dim Dept As Department
+    
+    Set A = New DepartmentCollection
+    Set B = New DepartmentCollection
+    Set Dept = New Department
+    
+    Dept.DeptID = "1"
+    Dept.ManagerID = "10"
+    
+    A.Add Dept
+    B.Add Dept
+    
+    'Act:
+    Set Diff = A.Difference(B)
+    
+    'Assert:
+    Assert.IsTrue Diff.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Sets")
+Private Sub Difference_AEmptyBPopulated()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    '@Ignore UseMeaningfulName
+    Dim A As DepartmentCollection
+    '@Ignore UseMeaningfulName
+    Dim B As DepartmentCollection
+    Dim Diff As DepartmentCollection
+    Dim Dept As Department
+    
+    Set A = New DepartmentCollection
+    Set B = New DepartmentCollection
+    Set Dept = New Department
+    
+    Dept.DeptID = "1"
+    Dept.ManagerID = "10"
+    
+    B.Add Dept
+    
+    'Act:
+    Set Diff = A.Difference(B)
+    
+    'Assert:
+    Assert.IsTrue Diff.Count = 0
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub

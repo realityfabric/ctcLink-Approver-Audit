@@ -156,3 +156,13 @@ Public Function DepartmentsWithoutVPApproval(ByVal AWConfigs As AWConfigCollecti
     ' Returns DepartmentsWithoutVPApproval
 End Function
 
+'@Ignore UseMeaningfulName
+Public Function Difference(ByVal B As DepartmentCollection) As DepartmentCollection
+    Set Difference = New DepartmentCollection
+    Dim Index As Long
+    For Index = 1 To Count()
+        If B.Filter(DeptID:=Item(Index).DeptID).Count = 0 Then
+            Difference.Add Item(Index)
+        End If
+    Next Index
+End Function
