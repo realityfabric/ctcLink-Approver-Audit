@@ -82,6 +82,7 @@ Attribute ReadFromWorksheet.VB_Description = "Add Employee objects created from 
             Set Emp = New Employee
             Emp.EmplID = .Range("C" & Index).Value2
             Emp.Name = .Range("D" & Index).Value2
+            Emp.HRStatus = .Range("K" & Index).Value2
             Emp.AddRole .Range("G" & Index).Value2
             Add Emp
         Next Index
