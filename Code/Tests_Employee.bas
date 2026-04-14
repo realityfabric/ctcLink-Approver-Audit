@@ -1,4 +1,4 @@
-Attribute VB_Name = "TestModule_Employee"
+Attribute VB_Name = "Tests_Employee"
 '@TestModule
 '@Folder("Tests")
 

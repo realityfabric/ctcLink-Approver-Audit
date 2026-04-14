@@ -786,3 +786,141 @@ TestFail:
     Resume TestExit
 End Sub
 
+'@TestMethod("Integration")
+'@Ignore UseMeaningfulName
+Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_Range1()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EA1 As ExpenseApproval
+    Dim Dept As Department
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set EA1 = New ExpenseApproval
+    Set Dept = New Department
+    
+    EA1.ApproverType = "EXAPPROVER"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "1"
+    Dept.DeptID = "1"
+    
+    ExpenseApprovers.Add EA1
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Dept.DepartmentHasEXApproverInCollection(ExpenseApprovers)
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Integration")
+Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_FromChartfield()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EA1 As ExpenseApproval
+    Dim Dept As Department
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set EA1 = New ExpenseApproval
+    Set Dept = New Department
+    
+    EA1.ApproverType = "EXAPPROVER"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "2"
+    Dept.DeptID = "1"
+    
+    ExpenseApprovers.Add EA1
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Dept.DepartmentHasEXApproverInCollection(ExpenseApprovers)
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Integration")
+Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_ToChartfield()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EA1 As ExpenseApproval
+    Dim Dept As Department
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set EA1 = New ExpenseApproval
+    Set Dept = New Department
+    
+    EA1.ApproverType = "EXAPPROVER"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "2"
+    Dept.DeptID = "2"
+    
+    ExpenseApprovers.Add EA1
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Dept.DepartmentHasEXApproverInCollection(ExpenseApprovers)
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+
+'@TestMethod("Integration")
+'@Ignore UseMeaningfulName
+Private Sub TestMethod_DepartmentHasVPApprover_OneEA_Range1()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ExpenseApprovers As ExpenseApprovalCollection
+    '@Ignore UseMeaningfulName
+    Dim EA1 As ExpenseApproval
+    Dim Dept As Department
+    Set ExpenseApprovers = New ExpenseApprovalCollection
+    Set EA1 = New ExpenseApproval
+    Set Dept = New Department
+    
+    EA1.ApproverType = "VPAPPROVER"
+    EA1.FromChartfield = "1"
+    EA1.ToChartfield = "1"
+    Dept.DeptID = "1"
+    
+    ExpenseApprovers.Add EA1
+    
+    'Act:
+    'Assert:
+    Assert.IsTrue Dept.DepartmentHasVPApproverInCollection(ExpenseApprovers)
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
