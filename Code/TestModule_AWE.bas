@@ -26,13 +26,11 @@ Private wbAWE As Workbook
 
 '@ModuleInitialize
 Private Sub ModuleInitialize()
-    'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
 End Sub
 
 '@ModuleCleanup
 Private Sub ModuleCleanup()
-    'this method runs once per module.
     Set Assert = Nothing
     Set wbAWE = Nothing
 End Sub

@@ -27,7 +27,6 @@ Private TestWorksheet As Worksheet
 
 '@ModuleInitialize
 Private Sub ModuleInitialize()
-    'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
 
     Set TestWorksheet = ThisWorkbook.Sheets.Add
@@ -35,7 +34,6 @@ End Sub
 
 '@ModuleCleanup
 Private Sub ModuleCleanup()
-    'this method runs once per module.
     Dim DisplayAlerts As Boolean
 
     Set Assert = Nothing

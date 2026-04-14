@@ -32,19 +32,16 @@ Private Dept3 As Department
 
 '@ModuleInitialize
 Private Sub ModuleInitialize()
-    'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
 End Sub
 
 '@ModuleCleanup
 Private Sub ModuleCleanup()
-    'this method runs once per module.
     Set Assert = Nothing
 End Sub
 
 '@TestInitialize
 Private Sub TestInitialize()
-    'This method runs before every test in the module..
     Set Dept1 = New Department
     Set Dept2 = New Department
     Set Dept3 = New Department
@@ -64,8 +61,6 @@ End Sub
 
 '@TestCleanup
 Private Sub TestCleanup()
-    'this method runs after every test in the module.
-    
     Set Dept1 = Nothing
     Set Dept2 = Nothing
     Set Dept3 = Nothing

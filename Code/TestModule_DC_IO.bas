@@ -28,7 +28,6 @@ Private TestDataFolderPath As String
 
 '@ModuleInitialize
 Private Sub ModuleInitialize()
-    'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
 
     TestDataFolderPath = ThisWorkbook.Path & "/test_data"

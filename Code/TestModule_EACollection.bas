@@ -37,19 +37,16 @@ Private EA5 As ExpenseApproval
 
 '@ModuleInitialize
 Private Sub ModuleInitialize()
-    'this method runs once per module.
     Set Assert = CreateObject("Rubberduck.AssertClass")
 End Sub
 
 '@ModuleCleanup
 Private Sub ModuleCleanup()
-    'this method runs once per module.
     Set Assert = Nothing
 End Sub
 
 '@TestInitialize
 Private Sub TestInitialize()
-    'This method runs before every test in the module..
     Set EA1 = New ExpenseApproval
     Set EA2 = New ExpenseApproval
     Set EA3 = New ExpenseApproval
@@ -104,7 +101,6 @@ End Sub
 
 '@TestCleanup
 Private Sub TestCleanup()
-    'this method runs after every test in the module.
     Set EA1 = Nothing
     Set EA2 = Nothing
     Set EA3 = Nothing
