@@ -1,4 +1,4 @@
-Attribute VB_Name = "TestModule_EAC_DC"
+Attribute VB_Name = "Tests_EACollection_Integration"
 ' Audit security roles and configurations for Approvals in ctcLink.
 '    Copyright (C) 2026 Jessica Fairchild aka Jessica Jones-Copeland
 '
