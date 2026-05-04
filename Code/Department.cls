@@ -38,9 +38,14 @@ Public Property Let DeptID(ByVal Value As String)
     this.DeptID = Trim$(Value)
 End Property
 
-'@Ignore ProcedureNotUsed
+'@Description("Gets the DeptID and returns it as a string, adding leading zeroes if the ID is numeric.")
 Public Property Get DeptID() As String
-    DeptID = this.DeptID
+Attribute DeptID.VB_Description = "Gets the DeptID and returns it as a string, adding leading zeroes if the ID is numeric."
+    If IsNumeric(this.DeptID) Then
+        DeptID = Format$(this.DeptID, "00000")
+    Else
+        DeptID = this.DeptID
+    End If
 End Property
 
 '@Ignore ProcedureNotUsed
@@ -77,47 +82,47 @@ End Sub
 '@Description "Check if a Department has at least one EXAPPROVER.
 '@Ignore ProcedureNotUsed
 Public Function DepartmentHasEXApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
-    Dim flag As Boolean
+    Dim Flag As Boolean
     Dim Index As Long
     Index = 1
 
     ' Default to false
-    flag = False
+    Flag = False
     Do While Index <= ExpenseApprovers.Count
         With ExpenseApprovers.Item(Index)
             If "EXAPPROVER" = .ApproverType And _
                 .DepartmentInRange(DeptID) Then
-                flag = True
+                Flag = True
             End If
         End With
         Index = Index + 1
     Loop
 
-    DepartmentHasEXApproverInCollection = flag
+    DepartmentHasEXApproverInCollection = Flag
 End Function
 
 '@Description "Check if a Department has at least one VPAPPROVER"
 '@Ignore ProcedureNotUsed
 Public Function DepartmentHasVPApproverInCollection(ByVal ExpenseApprovers As ExpenseApprovalCollection) As Boolean
 Attribute DepartmentHasVPApproverInCollection.VB_Description = "Check if a Department has at least one VPAPPROVER"
-    Dim flag As Boolean
+    Dim Flag As Boolean
     Dim Index As Long
     Index = 1
 
     'Default to false
-    flag = False
+    Flag = False
 
     Do While Index <= ExpenseApprovers.Count
         With ExpenseApprovers.Item(Index)
             If "VPAPPROVER" = .ApproverType And _
                 .DepartmentInRange(DeptID) Then
-                flag = True
+                Flag = True
             End If
         End With
         Index = Index + 1
     Loop
 
-    DepartmentHasVPApproverInCollection = flag
+    DepartmentHasVPApproverInCollection = Flag
 End Function
 
 Public Function HasManager() As Boolean
