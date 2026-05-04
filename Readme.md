@@ -7,6 +7,7 @@ Purchasing Approvers match Expense Approvers 1:1. i.e.:
 - The VP approver for XXXXX will also be the VP Expense Approver for XXXXX.
 - Department Managers and VPs may need to approve Requisitions, Purchase Orders, and Vouchers.
 - ZZ Expense Approval is dynamically applied to Expense Approvers.
+- Departments which are numeric include leading zeroes (Format: "00000")
 
 ## Preparation
 
