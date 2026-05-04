@@ -143,7 +143,15 @@ Public Property Get Values() As Collection
 End Property
 
 Public Function Value(ByVal Index As Long) As String
-    Value = this.Values.Item(Index)
+    '@Ignore UseMeaningfulName
+    Dim V As String
+    V = this.Values.Item(Index)
+    
+    If this.StepFieldName = "DEPTID" And IsNumeric(V) Then
+        Value = Format$(V, "00000")
+    Else
+        Value = V
+    End If
 End Function
 
 Public Sub AddValue(ByVal Value As String)
@@ -222,3 +230,5 @@ Public Function IncludesDepartment(ByVal Dept As Department) As Boolean
 End Function
 
 ' TODO: Return security role used for approval routing
+
+
