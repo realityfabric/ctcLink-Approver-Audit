@@ -79,3 +79,44 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+'@TestMethod("Check")
+Private Sub ReadFromWorksheet_DepartmentWithLeadingZeroes()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim ws As Worksheet
+    Set ws = ThisWorkbook.Sheets.Add()
+    With ws
+        .Range("A1").Value2 = "WA000" ' Business Unit
+        .Range("B1").Value2 = "00001" ' Department ID
+        .Range("E1").Value2 = "Leading 0s" ' Description
+        .Range("H1").Value2 = "123456789" ' Manager ID
+    End With
+    
+    Dim Dept As Department
+    Set Dept = New Department
+    Dept.ReadFromWorksheet ws, 1
+    
+    'Act:
+    'Assert:
+    'Assert.IsTrue Dept.DeptID = "00001"
+    Assert.AreEqual "00001", Dept.DeptID
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    ' Record Value of DisplayAlerts, then disable DisplayAlerts
+    ' Delete Worksheet, then set DisplayAlerts to previous value
+    Dim DisplayAlerts As Boolean
+    DisplayAlerts = Application.DisplayAlerts
+    Application.DisplayAlerts = False
+    ws.Delete
+    Application.DisplayAlerts = DisplayAlerts
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
