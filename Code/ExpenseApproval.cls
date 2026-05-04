@@ -143,7 +143,7 @@ End Sub
 
 '@Ignore ProcedureNotUsed
 Public Function DepartmentInRange(ByVal DeptID As String) As Boolean
-    DepartmentInRange = DeptID >= this.FromChartfield And DeptID <= this.ToChartfield
+    DepartmentInRange = DeptID >= FromChartfield() And DeptID <= ToChartfield()
 End Function
 
 '@Description "Compare a Department instance to this and determine if the approvers are not the same."
