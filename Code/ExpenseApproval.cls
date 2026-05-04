@@ -85,7 +85,11 @@ End Property
 
 '@Ignore ProcedureNotUsed
 Public Property Get FromChartfield() As String
-    FromChartfield = this.FromChartfield
+    '@Ignore UseMeaningfulName
+    Dim V As String
+    V = this.FromChartfield
+    If IsNumeric(V) Then V = Format$(V, "00000")
+    FromChartfield = V
 End Property
 
 '@Ignore ProcedureNotUsed
@@ -95,7 +99,11 @@ End Property
 
 '@Ignore ProcedureNotUsed
 Public Property Get ToChartfield() As String
-    ToChartfield = this.ToChartfield
+    '@Ignore UseMeaningfulName
+    Dim V As String
+    V = this.ToChartfield
+    If IsNumeric(V) Then V = Format$(V, "00000")
+    ToChartfield = V
 End Property
 
 '@Ignore ProcedureNotUsed
