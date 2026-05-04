@@ -40,7 +40,7 @@ Private Sub TestMethod_DepartmentHasManagerID()
     'Arrange:
     Dim Dept As Department
     Set Dept = New Department
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.ManagerID = "10"
     
     'Act:
@@ -64,7 +64,7 @@ Private Sub TestMethod_DepartmentDoesNotHaveManagerID()
     'Arrange:
     Dim Dept As Department
     Set Dept = New Department
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     
     'Act:
     'Assert:

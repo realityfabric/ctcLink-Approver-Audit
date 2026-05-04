@@ -111,7 +111,7 @@ Private Sub SetEmployeeDepartments_OneEmployeesOneDepartments_NoMatch()
     Emp.EmplID = "1"
     Employees.Add Emp
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.ManagerID = "2"
     
     'Act:
@@ -149,7 +149,7 @@ Private Sub SetEmployeeDepartments_OneEmployeesOneDepartments()
     Emp.EmplID = "1"
     Employees.Add Emp
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.ManagerID = "1"
     
     'Act:
@@ -192,8 +192,8 @@ Private Sub SetEmployeeDepartments_ExistingDepartments()
     Dept_Original.ManagerID = "1"
     Dept_Replacement.ManagerID = "1"
     
-    Dept_Original.DeptID = "0"
-    Dept_Replacement.DeptID = "2"
+    Dept_Original.DeptID = "00000"
+    Dept_Replacement.DeptID = "00002"
     
     Emp.AddDepartment Dept_Original
     Employees.Add Emp
@@ -206,7 +206,7 @@ Private Sub SetEmployeeDepartments_ExistingDepartments()
     'Assert:
     With Employees.Item(1)
         Assert.IsTrue .DepartmentCount = 1
-        Assert.IsTrue .Department(1).DeptID = "2"
+        Assert.IsTrue .Department(1).DeptID = "00002"
     End With
 
 TestExit:

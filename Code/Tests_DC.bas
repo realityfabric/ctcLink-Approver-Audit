@@ -262,8 +262,8 @@ Private Sub TestMethod_Add3_FilterTo2_ManagerID1()
     Assert.IsTrue DCFiltered.Count = 2
     Assert.IsTrue DCFiltered.Item(1).ManagerID = "1"
     Assert.IsTrue DCFiltered.Item(2).ManagerID = "1"
-    Assert.IsTrue DCFiltered.Item(1).DeptID = "1"
-    Assert.IsTrue DCFiltered.Item(2).DeptID = "2"
+    Assert.IsTrue DCFiltered.Item(1).DeptID = "00001"
+    Assert.IsTrue DCFiltered.Item(2).DeptID = "00002"
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
@@ -294,7 +294,7 @@ Private Sub TestMethod_Add3_FilterToOne_DeptID3()
     Set DCFiltered = DC.Filter(EmplID:="2")
     
     'Assert:
-    Assert.IsTrue "3" = DCFiltered.Item(1).DeptID
+    Assert.IsTrue "00003" = DCFiltered.Item(1).DeptID
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
@@ -361,7 +361,7 @@ Private Sub Difference_APopulatedBEmpty()
     
     'Assert:
     Assert.IsTrue Diff.Count = 1
-    Assert.IsTrue Diff.Item(1).DeptID = "1"
+    Assert.IsTrue Diff.Item(1).DeptID = "00001"
     Assert.IsTrue Diff.Item(1).ManagerID = "10"
 
 TestExit:

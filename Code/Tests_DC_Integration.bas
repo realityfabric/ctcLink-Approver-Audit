@@ -187,7 +187,7 @@ Private Sub DepartmentsWithoutVPApproval_OneDepartments_CountCorrect0()
         Configs.Add Conf(Index)
     Next Index
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.Description = "Test 1"
     Dept.ManagerID = "1"
     
@@ -241,7 +241,7 @@ Private Sub DepartmentsWithoutVPApproval_OneDepartments_CountCorrect1()
         Configs.Add Conf(Index)
     Next Index
     
-    Dept.DeptID = "1000"
+    Dept.DeptID = "01000"
     Dept.Description = "Test 1"
     Dept.ManagerID = "1"
     

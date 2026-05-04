@@ -289,14 +289,14 @@ Private Sub Set_Departments_DefaultCollectionToPopulatedCollection()
     Set Emp = New Employee
     Set DC_Replacement = New DepartmentCollection
     Set Dept = New Department
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     DC_Replacement.Add Dept
 
     'Act:
     Set Emp.Departments = DC_Replacement
     
     'Assert:
-    Assert.IsTrue Emp.Department(1).DeptID = "1"
+    Assert.IsTrue Emp.Department(1).DeptID = "00001"
     Assert.IsTrue Emp.DepartmentCount = 1
 
 TestExit:

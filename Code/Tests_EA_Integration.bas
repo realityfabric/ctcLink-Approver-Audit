@@ -51,7 +51,7 @@ Private Sub TestMethod_EAMatchesDept_NotFromOrToField()
     EA.FromChartfield = "1"
     EA.ToChartfield = "5"
     Dept.ManagerID = "1"
-    Dept.DeptID = "3"
+    Dept.DeptID = "00003"
     
     'Act:
     'Assert:
@@ -85,7 +85,7 @@ Private Sub TestMethod_EADeptMismatch_NotFromOrToField()
     EA.FromChartfield = "1"
     EA.ToChartfield = "5"
     Dept.ManagerID = "2"
-    Dept.DeptID = "3"
+    Dept.DeptID = "00003"
     
     'Act:
     'Assert:
@@ -118,7 +118,7 @@ Private Sub TestMethod_EADeptMismatch_FromField()
     EA.FromChartfield = "1"
     EA.ToChartfield = "5"
     Dept.ManagerID = "2"
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     
     'Act:
     'Assert:

@@ -50,7 +50,7 @@ Private Sub TestMethod_OneMismatch_CorrectCount()
     Set Dept = New Department
     Set EA = New ExpenseApproval
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.ManagerID = "2"
     EA.ApproverType = "EXAPPROVER"
     EA.FromChartfield = "1"
@@ -89,7 +89,7 @@ Private Sub TestMethod_OneDepartment_NoExpenseApprovals_NoFail()
     Set Departments = New DepartmentCollection
     Set Dept = New Department
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.Description = "Test"
     Dept.ManagerID = "1"
     
@@ -126,7 +126,7 @@ Private Sub TestMethod_OneDepartment_NoExpenseApprovals_ZeroCount()
     Set Departments = New DepartmentCollection
     Set Dept = New Department
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     Dept.Description = "Test"
     Dept.ManagerID = "1"
     
@@ -264,16 +264,16 @@ Private Sub TestMethod_TenDepts_TenExpenseApprovers_NoMismatch()
     Set EA8 = New ExpenseApproval
     Set EA9 = New ExpenseApproval
     
-    D0.DeptID = "0"
-    D1.DeptID = "1"
-    D2.DeptID = "2"
-    D3.DeptID = "3"
-    D4.DeptID = "4"
-    D5.DeptID = "5"
-    D6.DeptID = "6"
-    D7.DeptID = "7"
-    D8.DeptID = "8"
-    D9.DeptID = "9"
+    D0.DeptID = "00000"
+    D1.DeptID = "00001"
+    D2.DeptID = "00002"
+    D3.DeptID = "00003"
+    D4.DeptID = "00004"
+    D5.DeptID = "00005"
+    D6.DeptID = "00006"
+    D7.DeptID = "00007"
+    D8.DeptID = "00008"
+    D9.DeptID = "00009"
     D0.ManagerID = "0"
     D1.ManagerID = "1"
     D2.ManagerID = "2"
@@ -419,16 +419,16 @@ Private Sub TestMethod_TenDepts_TenExpenseApprovers_NoFail()
     Set EA8 = New ExpenseApproval
     Set EA9 = New ExpenseApproval
     
-    D0.DeptID = "0"
-    D1.DeptID = "1"
-    D2.DeptID = "2"
-    D3.DeptID = "3"
-    D4.DeptID = "4"
-    D5.DeptID = "5"
-    D6.DeptID = "6"
-    D7.DeptID = "7"
-    D8.DeptID = "8"
-    D9.DeptID = "9"
+    D0.DeptID = "00000"
+    D1.DeptID = "00001"
+    D2.DeptID = "00002"
+    D3.DeptID = "00003"
+    D4.DeptID = "00004"
+    D5.DeptID = "00005"
+    D6.DeptID = "00006"
+    D7.DeptID = "00007"
+    D8.DeptID = "00008"
+    D9.DeptID = "00009"
     D0.ManagerID = "0"
     D1.ManagerID = "1"
     D2.ManagerID = "2"
@@ -574,16 +574,16 @@ Private Sub TestMethod_TenDepts_TenExpenseApprovers_OneMismatch()
     Set EA8 = New ExpenseApproval
     Set EA9 = New ExpenseApproval
     
-    D0.DeptID = "0"
-    D1.DeptID = "1"
-    D2.DeptID = "2"
-    D3.DeptID = "3"
-    D4.DeptID = "4"
-    D5.DeptID = "5"
-    D6.DeptID = "6"
-    D7.DeptID = "7"
-    D8.DeptID = "8"
-    D9.DeptID = "9"
+    D0.DeptID = "00000"
+    D1.DeptID = "00001"
+    D2.DeptID = "00002"
+    D3.DeptID = "00003"
+    D4.DeptID = "00004"
+    D5.DeptID = "00005"
+    D6.DeptID = "00006"
+    D7.DeptID = "00007"
+    D8.DeptID = "00008"
+    D9.DeptID = "00009"
     D0.ManagerID = "0"
     D1.ManagerID = "1"
     D2.ManagerID = "2"
@@ -691,7 +691,7 @@ Private Sub TestMethod_DepartmentsWithoutExpenseApproval_NoMatches_OneDeptOneEA(
     Set Dept = New Department
     Set ExAppr = New ExpenseApproval
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     ExAppr.ApproverType = "EXAPPROVER"
     ExAppr.FromChartfield = "1"
     ExAppr.ToChartfield = "1"
@@ -728,7 +728,7 @@ Private Sub TestMethod_DepartmentsWithoutExpenseApproval_OneMatches_OneDeptOneEA
     Set Dept = New Department
     Set ExAppr = New ExpenseApproval
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     ExAppr.ApproverType = "EXAPPROVER"
     ExAppr.FromChartfield = "2"
     ExAppr.ToChartfield = "2"
@@ -765,7 +765,7 @@ Private Sub TestMethod_DepartmentsWithoutExpenseApproval_OneMatches_OneDeptOneEA
     Set Dept = New Department
     Set ExAppr = New ExpenseApproval
     
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     ExAppr.ApproverType = "EXAPPROVER"
     ExAppr.FromChartfield = "2"
     ExAppr.ToChartfield = "2"
@@ -774,7 +774,7 @@ Private Sub TestMethod_DepartmentsWithoutExpenseApproval_OneMatches_OneDeptOneEA
     
     'Act:
     'Assert:
-    Assert.IsTrue Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Item(1).DeptID = "1"
+    Assert.IsTrue Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Item(1).DeptID = "00001"
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
@@ -803,7 +803,7 @@ Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_Range1()
     EA1.ApproverType = "EXAPPROVER"
     EA1.FromChartfield = "1"
     EA1.ToChartfield = "1"
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     
     ExpenseApprovers.Add EA1
     
@@ -837,7 +837,7 @@ Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_FromChartfield(
     EA1.ApproverType = "EXAPPROVER"
     EA1.FromChartfield = "1"
     EA1.ToChartfield = "2"
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     
     ExpenseApprovers.Add EA1
     
@@ -871,7 +871,7 @@ Private Sub TestMethod_DepartmentHasEXApprover_OneEAInCollection_ToChartfield()
     EA1.ApproverType = "EXAPPROVER"
     EA1.FromChartfield = "1"
     EA1.ToChartfield = "2"
-    Dept.DeptID = "2"
+    Dept.DeptID = "00002"
     
     ExpenseApprovers.Add EA1
     
@@ -907,7 +907,7 @@ Private Sub TestMethod_DepartmentHasVPApprover_OneEA_Range1()
     EA1.ApproverType = "VPAPPROVER"
     EA1.FromChartfield = "1"
     EA1.ToChartfield = "1"
-    Dept.DeptID = "1"
+    Dept.DeptID = "00001"
     
     ExpenseApprovers.Add EA1
     
