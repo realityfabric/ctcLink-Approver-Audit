@@ -195,7 +195,7 @@ Private Sub DepartmentsWithoutVPApproval_OneDepartments_CountCorrect0()
     
     'Act:
     'Assert:
-    Assert.IsTrue 0 = Departments.DepartmentsWithoutVPApproval(Configs).Count
+    Assert.AreEqual CLng(0), Departments.DepartmentsWithoutVPApproval(Configs).Count()
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext

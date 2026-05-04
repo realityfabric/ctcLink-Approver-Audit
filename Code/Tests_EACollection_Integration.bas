@@ -64,7 +64,7 @@ Private Sub TestMethod_OneMismatch_CorrectCount()
     Set DCMismatched = DC.DepartmentsWithExpenseApproverMismatch(EAC)
     
     'Assert:
-    Assert.IsTrue 1 = DCMismatched.Count
+    Assert.AreEqual CLng(1), DCMismatched.Count()
     
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
@@ -663,7 +663,7 @@ Private Sub TestMethod_TenDepts_TenExpenseApprovers_OneMismatch()
     Set MismatchedDepartments = Departments.DepartmentsWithExpenseApproverMismatch(ExpenseApprovers)
     
     'Assert:
-    Assert.IsTrue MismatchedDepartments.Count = 1
+    Assert.AreEqual CLng(1), MismatchedDepartments.Count()
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
@@ -700,7 +700,7 @@ Private Sub TestMethod_DepartmentsWithoutExpenseApproval_NoMatches_OneDeptOneEA(
     
     'Act:
     'Assert:
-    Assert.IsTrue Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Count = 0
+    Assert.AreEqual CLng(0), Departments.DepartmentsWithoutExpenseApproval(ExApprovals).Count()
 
 TestExit:
     '@Ignore UnhandledOnErrorResumeNext
