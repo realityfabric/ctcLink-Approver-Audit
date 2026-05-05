@@ -38,52 +38,42 @@ Private Type TExpenseApproval
 End Type
 Private this As TExpenseApproval
 
-'@Ignore ProcedureNotUsed
 Public Property Let BusinessUnit(ByVal Value As String)
     this.BusinessUnit = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get BusinessUnit() As String
     BusinessUnit = this.BusinessUnit
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let ApproverType(ByVal Value As String)
     this.ApproverType = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get ApproverType() As String
     ApproverType = this.ApproverType
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let EmplID(ByVal Value As String)
     this.EmplID = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get EmplID() As String
     EmplID = this.EmplID
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let DeptDesc(ByVal Value As String)
     this.DeptDesc = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get DeptDesc() As String
     DeptDesc = this.DeptDesc
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let FromChartfield(ByVal Value As String)
     this.FromChartfield = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get FromChartfield() As String
     '@Ignore UseMeaningfulName
     Dim V As String
@@ -92,12 +82,10 @@ Public Property Get FromChartfield() As String
     FromChartfield = V
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let ToChartfield(ByVal Value As String)
     this.ToChartfield = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get ToChartfield() As String
     '@Ignore UseMeaningfulName
     Dim V As String
@@ -106,27 +94,23 @@ Public Property Get ToChartfield() As String
     ToChartfield = V
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let LastName(ByVal Value As String)
     this.LastName = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get LastName() As String
     LastName = this.LastName
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Let FirstName(ByVal Value As String)
     this.FirstName = Value
 End Property
 
-'@Ignore ProcedureNotUsed
 Public Property Get FirstName() As String
     FirstName = this.FirstName
 End Property
 
-'@Ignore UseMeaningfulName, ProcedureNotUsed
+'@Ignore UseMeaningfulName
 Public Sub ReadExpenseApprovalFromWorksheet(ByVal ws As Worksheet, ByVal Row As Long)
     Dim DataArray As Variant
     DataArray = ws.Range("A" & Row & ":H" & Row).Value2
@@ -141,13 +125,11 @@ Public Sub ReadExpenseApprovalFromWorksheet(ByVal ws As Worksheet, ByVal Row As 
     FirstName = DataArray(1, 8)
 End Sub
 
-'@Ignore ProcedureNotUsed
 Public Function DepartmentInRange(ByVal DeptID As String) As Boolean
     DepartmentInRange = DeptID >= FromChartfield() And DeptID <= ToChartfield()
 End Function
 
 '@Description "Compare a Department instance to this and determine if the approvers are not the same."
-'@Ignore ProcedureNotUsed
 Public Function DepartmentManagerMismatch(ByVal Dept As Department) As Boolean
 Attribute DepartmentManagerMismatch.VB_Description = "Compare a Department instance to this and determine if the approvers are not the same."
     DepartmentManagerMismatch = _
