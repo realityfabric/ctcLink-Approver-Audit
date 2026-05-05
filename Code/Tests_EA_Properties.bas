@@ -112,3 +112,99 @@ TestFail:
     Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
     Resume TestExit
 End Sub
+
+'@TestMethod("Properties")
+Private Sub FirstName()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+    
+    'Act:
+    EA.FirstName = "John"
+    
+    'Assert:
+    Assert.AreEqual "John", EA.FirstName
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Properties")
+Private Sub LastName()
+    On Error GoTo TestFail
+    
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+    
+    'Act:
+    EA.LastName = "Doe"
+    
+    'Assert:
+    Assert.AreEqual "Doe", EA.LastName
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Properties")
+Private Sub DeptDesc()
+On Error GoTo TestFail
+    
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+    
+    'Act:
+    EA.DeptDesc = "Test Department Description"
+    
+    'Assert:
+    Assert.AreEqual "Test Department Description", EA.DeptDesc
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
+
+'@TestMethod("Properties")
+Private Sub BusinessUnit()
+On Error GoTo TestFail
+    
+    'Arrange:
+    Dim EA As ExpenseApproval
+    Set EA = New ExpenseApproval
+    
+    'Act:
+    EA.BusinessUnit = "WA000"
+    
+    'Assert:
+    Assert.AreEqual "WA000", EA.BusinessUnit
+
+TestExit:
+    '@Ignore UnhandledOnErrorResumeNext
+    On Error Resume Next
+    
+    Exit Sub
+TestFail:
+    Assert.Fail "Test raised an error: #" & Err.Number & " - " & Err.Description
+    Resume TestExit
+End Sub
